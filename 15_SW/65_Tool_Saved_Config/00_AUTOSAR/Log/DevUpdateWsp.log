@@ -1,0 +1,28 @@
+﻿26 Apr 2024 10:32:42 - Opening workspace 'C:\Users\54072\AppData\Local\Temp\DaVinci\Cfg-8547968\Workflow\1714098706001-0\Config\Developer\ATOM_VCU.dcf'...
+26 Apr 2024 10:32:48 - Loading file PlatformTypes_AR4.arxml (C:\Users\54072\AppData\Local\Temp\DaVinci\Cfg-8547968\Workflow\1714098706001-0\Config\AUTOSAR\PlatformTypes_AR4.arxml)
+26 Apr 2024 10:32:48 - Loading file ComM_swc.arxml (C:\Users\54072\AppData\Local\Temp\DaVinci\Cfg-8547968\Workflow\1714098706001-0\Config\ServiceComponents\ComM_swc.arxml)
+26 Apr 2024 10:32:48 - Loading file Dem_swc.arxml (C:\Users\54072\AppData\Local\Temp\DaVinci\Cfg-8547968\Workflow\1714098706001-0\Config\ServiceComponents\Dem_swc.arxml)
+26 Apr 2024 10:32:48 - Loading file Det_swc.arxml (C:\Users\54072\AppData\Local\Temp\DaVinci\Cfg-8547968\Workflow\1714098706001-0\Config\ServiceComponents\Det_swc.arxml)
+26 Apr 2024 10:32:48 - Loading file EcuM_swc.arxml (C:\Users\54072\AppData\Local\Temp\DaVinci\Cfg-8547968\Workflow\1714098706001-0\Config\ServiceComponents\EcuM_swc.arxml)
+26 Apr 2024 10:32:48 - Loading file Os_swc.arxml (C:\Users\54072\AppData\Local\Temp\DaVinci\Cfg-8547968\Workflow\1714098706001-0\Config\ServiceComponents\Os_swc.arxml)
+26 Apr 2024 10:32:48 - Loading file Communication.arxml (C:\Users\54072\AppData\Local\Temp\DaVinci\Cfg-8547968\Workflow\1714098706001-0\Update\DevData\Communication.arxml)
+26 Apr 2024 10:32:49 - Loading file ATOM_VCU.arxml (C:\Users\54072\AppData\Local\Temp\DaVinci\Cfg-8547968\Workflow\1714098706001-0\Config\Developer\ATOM_VCU.arxml)
+26 Apr 2024 10:32:49 - Loading file DataTypes.arxml (C:\Users\54072\AppData\Local\Temp\DaVinci\Cfg-8547968\Workflow\1714098706001-0\Config\Developer\DataTypes.arxml)
+26 Apr 2024 10:32:49 - Loading file Packages.arxml (C:\Users\54072\AppData\Local\Temp\DaVinci\Cfg-8547968\Workflow\1714098706001-0\Config\Developer\Packages.arxml)
+26 Apr 2024 10:32:49 - Loading file PortInterfaces.arxml (C:\Users\54072\AppData\Local\Temp\DaVinci\Cfg-8547968\Workflow\1714098706001-0\Config\Developer\PortInterfaces.arxml)
+26 Apr 2024 10:32:50 - Opened workspace 'C:\Users\54072\AppData\Local\Temp\DaVinci\Cfg-8547968\Workflow\1714098706001-0\Config\Developer\ATOM_VCU.dcf' successfully.
+26 Apr 2024 10:32:51 - Start import
+26 Apr 2024 10:32:51 - Importing file (C:\Users\54072\AppData\Local\Temp\DaVinci\Cfg-8547968\Workflow\1714098706001-0\Config\System\SystemExtract.arxml).
+26 Apr 2024 10:32:51 - Merging imported data
+26 Apr 2024 10:32:52 - ShortName of item '/DataType/Unit/U_Km' is invalid or exists already, it will be replaced with 'U_Km'.
+26 Apr 2024 10:32:52 - ShortName of item '/DataType/Unit/U_kW' is invalid or exists already, it will be replaced with 'U_kW'.
+26 Apr 2024 10:32:52 - ShortName of item '/DataType/Unit/U_kWh' is invalid or exists already, it will be replaced with 'U_kWh'.
+26 Apr 2024 10:32:52 - ShortName of item '/DataType/Unit/U_NM' is invalid or exists already, it will be replaced with 'U_NM'.
+26 Apr 2024 10:32:52 - ShortName of item '/DataType/Constraint/DC_TCU_ambientTemperature' is invalid or exists already, it will be replaced with 'DC_TCU_ambientTemperature'.
+26 Apr 2024 10:32:52 - ShortName of item '/DataType/Semantics/CM_TCU_ambientTemperature' is invalid or exists already, it will be replaced with 'CM_TCU_ambientTemperature'.
+26 Apr 2024 10:32:53 - Finished import
+26 Apr 2024 10:32:53 - Saving workspace 'C:\Users\54072\AppData\Local\Temp\DaVinci\Cfg-8547968\Workflow\1714098706001-0\Config\Developer\ATOM_VCU.dcf'...
+26 Apr 2024 10:32:53 - Saving file DataTypes.arxml (C:\Users\54072\AppData\Local\Temp\DaVinci\Cfg-8547968\Workflow\1714098706001-0\Config\Developer\DataTypes.arxml)
+26 Apr 2024 10:32:53 - Saved workspace 'C:\Users\54072\AppData\Local\Temp\DaVinci\Cfg-8547968\Workflow\1714098706001-0\Config\Developer\ATOM_VCU.dcf' successfully.
+26 Apr 2024 10:32:53 - Closing workspace 'C:\Users\54072\AppData\Local\Temp\DaVinci\Cfg-8547968\Workflow\1714098706001-0\Config\Developer\ATOM_VCU.dcf'...
+26 Apr 2024 10:32:53 - Closed workspace 'C:\Users\54072\AppData\Local\Temp\DaVinci\Cfg-8547968\Workflow\1714098706001-0\Config\Developer\ATOM_VCU.dcf' successfully.

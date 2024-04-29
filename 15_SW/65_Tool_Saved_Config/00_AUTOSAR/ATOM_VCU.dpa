@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ProjectAssistant Version="5.24.40 SP2">
+    <General>
+        <Name>ATOM_VCU</Name>
+        <Version>1.0</Version>
+        <Author>Winter She</Author>
+    </General>
+    <Environment>
+        <Platform>Canoeemu</Platform>
+        <Derivative UUID="D3FC3AD7-D44D-4CD4-99E0-D5F117D1FF44">TC377T</Derivative>
+        <Compiler UUID="8DB6C5C5-6807-4601-B7B7-68A4A5B277F6">Tasking</Compiler>
+        <SipIds>
+            <SipId>CBD2101138_D00</SipId>
+        </SipIds>
+        <TargetType>Real Target</TargetType>
+        <UseCases/>
+        <PostBuildLoadableSupport>false</PostBuildLoadableSupport>
+        <PostBuildSelectableSupport>false</PostBuildSelectableSupport>
+        <ModuleSpecificDerivatives/>
+        <ProjectType>
+            <Type>Standard</Type>
+        </ProjectType>
+    </Environment>
+    <Folders>
+        <ECUC>.\Config\ECUC</ECUC>
+        <GenData>.\Appl\GenData</GenData>
+        <GenDataVtt>.\Appl\GenDataVtt</GenDataVtt>
+        <Source>.\Appl\Source</Source>
+        <ServiceComponents>.\Config\ServiceComponents</ServiceComponents>
+        <Logs>.\Log</Logs>
+        <SIP>.\..\..\..\..\..\..\..\Vector\CBD2100764_D00</SIP>
+        <StartMenu></StartMenu>
+        <ApplicationComponentFolders>
+            <ApplicationComponentFolder>.\Config\ApplicationComponents</ApplicationComponentFolder>
+        </ApplicationComponentFolders>
+        <BswInternalBehaviour>.\Config\InternalBehavior</BswInternalBehaviour>
+        <McData>.\Config\McData</McData>
+        <DefinitionRestriction>.\DefRestrict</DefinitionRestriction>
+        <AUTOSAR>.\Config\AUTOSAR</AUTOSAR>
+    </Folders>
+    <Tools>
+        <DEV>C:\Program Files (x86)\Vector DaVinci Developer 4.6\Bin\DaVinciDEV.exe</DEV>
+        <LegacyConverter Version="1.8.62.0"/>
+        <DDM Version="20.3.0.9"/>
+    </Tools>
+    <Input>
+        <ECUEX>Config\System\SystemExtract.arxml</ECUEX>
+        <Options>
+            <IgnoreUuidsSystemDescriptionFiles>false</IgnoreUuidsSystemDescriptionFiles>
+            <IgnoreUuidsStandardConfigurationFiles>false</IgnoreUuidsStandardConfigurationFiles>
+            <GenerateUpdateReport>true</GenerateUpdateReport>
+            <GenerateXmlUpdateReport>false</GenerateXmlUpdateReport>
+        </Options>
+    </Input>
+    <References>
+        <DVWorkspace>.\Config\Developer\ATOM_VCU.dcf</DVWorkspace>
+        <FlatMap>Config\System\FlatMap.arxml</FlatMap>
+        <FlatECUEX>Config\System\FlatExtract.arxml</FlatECUEX>
+        <OEMCommunicationExtract>Config\System\Communication.arxml</OEMCommunicationExtract>
+        <EcucFileReferences/>
+        <DiagECUC>Config\System\DiagnosticsDescriptionData.arxml</DiagECUC>
+    </References>
+    <EcucSplitter>
+        <Configuration>Config\ECUC\ATOM_VCU.ecuc.arxml</Configuration>
+        <Splitter File=".\Config\ECUC\ATOM_VCU_BswM_BswM_ecuc.arxml">
+            <Module Name="BswM"/>
+        </Splitter>
+        <Splitter File=".\Config\ECUC\ATOM_VCU_EcuM_EcuM_ecuc.arxml">
+            <Module Name="EcuM"/>
+        </Splitter>
+        <Splitter File=".\Config\ECUC\ATOM_VCU_CanIf_CanIf_ecuc.arxml">
+            <Module Name="CanIf"/>
+        </Splitter>
+        <Splitter File=".\Config\ECUC\ATOM_VCU_PduR_PduR_ecuc.arxml">
+            <Module Name="PduR"/>
+        </Splitter>
+        <Splitter File=".\Config\ECUC\ATOM_VCU_Rte_Rte_ecuc.arxml">
+            <Module Name="Rte"/>
+        </Splitter>
+        <Splitter File=".\Config\ECUC\ATOM_VCU_vSet_vSet_ecuc.arxml">
+            <Module Name="vSet"/>
+        </Splitter>
+        <Splitter File=".\Config\ECUC\ATOM_VCU_Can_Can_ecuc.arxml">
+            <Module Name="Can"/>
+        </Splitter>
+        <Splitter File=".\Config\ECUC\ATOM_VCU_Os_Os_ecuc.arxml">
+            <Module Name="Os"/>
+        </Splitter>
+        <Splitter File=".\Config\ECUC\ATOM_VCU_Det_Det_ecuc.arxml">
+            <Module Name="Det"/>
+        </Splitter>
+        <Splitter File=".\Config\ECUC\ATOM_VCU_Com_Com_ecuc.arxml">
+            <Module Name="Com"/>
+        </Splitter>
+        <Splitter File=".\Config\ECUC\ATOM_VCU_ComM_ComM_ecuc.arxml">
+            <Module Name="ComM"/>
+        </Splitter>
+        <Splitter File=".\Config\ECUC\ATOM_VCU_EcuC_EcuC_ecuc.arxml">
+            <Module Name="EcuC"/>
+        </Splitter>
+        <Splitter File=".\Config\ECUC\ATOM_VCU_CanSM_CanSM_ecuc.arxml">
+            <Module Name="CanSM"/>
+        </Splitter>
+        <Splitter File=".\Config\ECUC\ATOM_VCU_MemMap_MemMap_ecuc.arxml">
+            <Module Name="MemMap"/>
+        </Splitter>
+        <Splitter File=".\Config\ECUC\ATOM_VCU_Dcm_Dcm_ecuc.arxml">
+            <Module Name="Dcm"/>
+        </Splitter>
+        <Splitter File=".\Config\ECUC\ATOM_VCU_Dem_Dem_ecuc.arxml">
+            <Module Name="Dem"/>
+        </Splitter>
+        <Splitter File=".\Config\ECUC\ATOM_VCU_CanTp_CanTp_ecuc.arxml">
+            <Module Name="CanTp"/>
+        </Splitter>
+        <OwnFolderForEachSplitter>false</OwnFolderForEachSplitter>
+        <OwnFileForEachInstance>true</OwnFileForEachInstance>
+    </EcucSplitter>
+    <Display LastVersion="5.24.40 SP2">
+        <FileSet Id="" CS="74efa391">
+            <File Order="0" EcuInstance="VCU" Hash="e1d9bbac1f5c9b52125f96d4c2b22834" FileCategory="legacy_communication_data">C:\Users\54072\Desktop\test\AUTOSAR\Input\KAMA_FP_EPSChassis1_0303.dbc</File>
+            <File Order="1" EcuInstance="VCU" Hash="3067ed68535488565189d4c496b30868" FileCategory="legacy_communication_data">C:\Users\54072\Desktop\test\AUTOSAR\Input\KAMA_FP_EPT_0409.dbc</File>
+            <Diagnostic>
+                <Description Order="2" Hash="657e3771c52c512bc68aa8513350008b">C:\Users\54072\Desktop\test\AUTOSAR\Input\VCU1.0(11.0).cdd</Description>
+                <Ecu>VCU</Ecu>
+                <Variant>Base_Variant</Variant>
+                <UseLegacySignalImport>false</UseLegacySignalImport>
+                <UseGenericImport>false</UseGenericImport>
+            </Diagnostic>
+        </FileSet>
+        <Merge>
+            <Path Id="ECU-INSTANCE" ARPath="/ECU/VCU"/>
+            <Path Id="SYSTEM" ARPath="/VehicleProject/System"/>
+        </Merge>
+        <SelectiveUpdate Active="false" CS="ecd6502d"/>
+    </Display>
+    <ECUC>
+        <Active RootPackageName="/ActiveEcuC/ActiveEcuC">Config\ECUC\ATOM_VCU.ecuc.arxml</Active>
+        <Derived RootPackageName="/InitialEcuC/InitialEcuC">Config\ECUC\ATOM_VCU.ecuc.Initial.arxml</Derived>
+    </ECUC>
+    <PostBuildLoadable RTEDataFreezeChecksum="" CurrentConfigurationPhase="PRE_COMPILE"/>
+    <DEVSettings>
+        <SelectiveImport>All</SelectiveImport>
+        <ObjectLocking>true</ObjectLocking>
+        <ImportModePreset>true</ImportModePreset>
+    </DEVSettings>
+    <ToolSettings>
+        <Generators>
+            <Settings Name="com.vector.cfg.gen.core.genusersettings">
+                <Settings Name="com.vector.cfg.gen.Tresos_proxy">
+                    <Settings Name="General">
+                        <Setting Value="System" Name="forcearchitecture"/>
+                        <Setting Value="1648,1055,1072" Name="ignoretresosmsgids"/>
+                        <Setting Value="true" Name="performanceoptimization"/>
+                        <Setting Value="false" Name="tresosverification"/>
+                    </Settings>
+                </Settings>
+            </Settings>
+        </Generators>
+        <Misc>
+            <Settings Name="com.vector.cfg.gen.core.bswmdmigration.internal.service.BswImplVersionPersistor">
+                <Settings Name="|MICROSAR|BswM">
+                    <Setting Value="14.0.0" Name="BswImplSwVersion"/>
+                </Settings>
+                <Settings Name="|MICROSAR|CanIf">
+                    <Setting Value="8.3.0" Name="BswImplSwVersion"/>
+                </Settings>
+                <Settings Name="|MICROSAR|CanNm">
+                    <Setting Value="10.0.1" Name="BswImplSwVersion"/>
+                </Settings>
+                <Settings Name="|MICROSAR|CanSM">
+                    <Setting Value="4.0.0" Name="BswImplSwVersion"/>
+                </Settings>
+                <Settings Name="|MICROSAR|CanTp">
+                    <Setting Value="5.0.0" Name="BswImplSwVersion"/>
+                </Settings>
+                <Settings Name="|MICROSAR|CanTrcv_Tja1040|CanTrcv">
+                    <Setting Value="4.3.0" Name="BswImplSwVersion"/>
+                </Settings>
+                <Settings Name="|MICROSAR|CanTrcv_Tja1043|CanTrcv">
+                    <Setting Value="4.4.0" Name="BswImplSwVersion"/>
+                </Settings>
+                <Settings Name="|MICROSAR|Can_Mpc5700Mcan|Can">
+                    <Setting Value="5.9.0" Name="BswImplSwVersion"/>
+                </Settings>
+                <Settings Name="|MICROSAR|Com">
+                    <Setting Value="22.2.1" Name="BswImplSwVersion"/>
+                </Settings>
+                <Settings Name="|MICROSAR|ComM">
+                    <Setting Value="14.1.1" Name="BswImplSwVersion"/>
+                </Settings>
+                <Settings Name="|MICROSAR|Crc">
+                    <Setting Value="6.0.1" Name="BswImplSwVersion"/>
+                </Settings>
+                <Settings Name="|MICROSAR|Dcm">
+                    <Setting Value="16.5.0" Name="BswImplSwVersion"/>
+                </Settings>
+                <Settings Name="|MICROSAR|Dem">
+                    <Setting Value="21.5.0" Name="BswImplSwVersion"/>
+                </Settings>
+                <Settings Name="|MICROSAR|Det">
+                    <Setting Value="13.0.0" Name="BswImplSwVersion"/>
+                </Settings>
+                <Settings Name="|MICROSAR|DiagXf">
+                    <Setting Value="1.14.0" Name="BswImplSwVersion"/>
+                </Settings>
+                <Settings Name="|MICROSAR|E2EPW">
+                    <Setting Value="1.0.0" Name="BswImplSwVersion"/>
+                </Settings>
+                <Settings Name="|MICROSAR|EcuC">
+                    <Setting Value="2.0.0" Name="BswImplSwVersion"/>
+                </Settings>
+                <Settings Name="|MICROSAR|EcuM">
+                    <Setting Value="11.0.1" Name="BswImplSwVersion"/>
+                </Settings>
+                <Settings Name="|MICROSAR|EthTrcv_Tja1100|EthTrcv">
+                    <Setting Value="5.0.1" Name="BswImplSwVersion"/>
+                </Settings>
+                <Settings Name="|MICROSAR|Eth_Tc3xx|Eth">
+                    <Setting Value="6.4.0" Name="BswImplSwVersion"/>
+                </Settings>
+                <Settings Name="|MICROSAR|IoHwAb">
+                    <Setting Value="3.0.0" Name="BswImplSwVersion"/>
+                </Settings>
+                <Settings Name="|MICROSAR|IpduM">
+                    <Setting Value="11.2.0" Name="BswImplSwVersion"/>
+                </Settings>
+                <Settings Name="|MICROSAR|MemIf">
+                    <Setting Value="3.4.0" Name="BswImplSwVersion"/>
+                </Settings>
+                <Settings Name="|MICROSAR|MemMap">
+                    <Setting Value="1.3.0" Name="BswImplSwVersion"/>
+                </Settings>
+                <Settings Name="|MICROSAR|Nm">
+                    <Setting Value="14.1.0" Name="BswImplSwVersion"/>
+                </Settings>
+                <Settings Name="|MICROSAR|NvM">
+                    <Setting Value="9.1.0" Name="BswImplSwVersion"/>
+                </Settings>
+                <Settings Name="|MICROSAR|Os">
+                    <Setting Value="2.52.0" Name="BswImplSwVersion"/>
+                </Settings>
+                <Settings Name="|MICROSAR|PduR">
+                    <Setting Value="17.2.0" Name="BswImplSwVersion"/>
+                </Settings>
+                <Settings Name="|MICROSAR|Rte">
+                    <Setting Value="4.26.0" Name="BswImplSwVersion"/>
+                </Settings>
+                <Settings Name="|MICROSAR|Rtm">
+                    <Setting Value="6.2.0" Name="BswImplSwVersion"/>
+                </Settings>
+                <Settings Name="|MICROSAR|WdgIf">
+                    <Setting Value="5.5.0" Name="BswImplSwVersion"/>
+                </Settings>
+                <Settings Name="|MICROSAR|WdgM">
+                    <Setting Value="6.0.0" Name="BswImplSwVersion"/>
+                </Settings>
+                <Settings Name="|MICROSAR|Xcp">
+                    <Setting Value="7.0.0" Name="BswImplSwVersion"/>
+                </Settings>
+                <Settings Name="|MICROSAR|vBRS">
+                    <Setting Value="1.0.0" Name="BswImplSwVersion"/>
+                </Settings>
+                <Settings Name="|MICROSAR|vBaseEnv">
+                    <Setting Value="1.0.0" Name="BswImplSwVersion"/>
+                </Settings>
+                <Settings Name="|MICROSAR|vDem42">
+                    <Setting Value="1.2.0" Name="BswImplSwVersion"/>
+                </Settings>
+                <Settings Name="|MICROSAR|vLinkGen">
+                    <Setting Value="2.3.2" Name="BswImplSwVersion"/>
+                </Settings>
+            </Settings>
+        </Misc>
+    </ToolSettings>
+    <TopDownServiceConfiguration>
+        <NvM>true</NvM>
+    </TopDownServiceConfiguration>
+    <Miscellaneous>
+        <AmdGenerateDebugData>false</AmdGenerateDebugData>
+        <AutomaticSyncSystemDescription>false</AutomaticSyncSystemDescription>
+    </Miscellaneous>
+    <SwctGeneration/>
+</ProjectAssistant>
