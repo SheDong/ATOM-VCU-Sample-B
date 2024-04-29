@@ -1,0 +1,3555 @@
+2024-04-26 - 10:31:37
+10:31:37 - Workflow Step 'Update workflow' started.
+Using DaVinci Configurator  5.24.40 SP2 (x86_64).
+10:31:37 - Workflow Step 'Validate workflow environment' started.
+10:31:37 - Workflow Step 'Validate dpa file' started.
+10:31:38 - Workflow Step 'Validate dpa file' finished.
+10:31:38 - Workflow Step 'SLP conformance check' started.
+10:31:38 - Workflow Step 'SLP conformance check' finished.
+10:31:38 - Workflow Step 'Validate workflow environment' finished.
+10:31:38 - Workflow Step 'Input File Pre-Processing' started.
+10:31:38 - Workflow Step 'Converting legacy file(s) to AUTOSAR files' started.
+              [WARNING] Legacy Converter finished with warnings.
+Convert legacy file(s) to System Description
+Used executable: C:\Vector\CBD2100764_D00\Misc\LegacyDb2SystemDescrConverter\Application\LegacyDb2SystemDescrConverter.exe
+Arguments: C:\Users\54072\Desktop\test\AUTOSAR\Input\KAMA_FP_EPSChassis1_0303.dbc C:\Users\54072\Desktop\test\AUTOSAR\Input\KAMA_FP_EPT_0409.dbc -o "C:\Users\54072\AppData\Local\Temp\DaVinci\Cfg-8547968\LegacyConverterResults\1714098698383-0\ConvertedLegacy" -r 00048 -e -v 19
+Vector Legacy Database Converter
+Version: 1.8.62.0
+Copyright (c) 2018 Vector Informatik GmbH.
+SIP License found as C:\Vector\CBD2100764_D00\DaVinciConfigurator\ComponentLicense_DaVinciConfigurator.lic
+Command line: C:\Vector\CBD2100764_D00\Misc\LegacyDb2SystemDescrConverter\Application\LegacyDb2SystemDescrConverter.exe C:\Users\54072\Desktop\test\AUTOSAR\Input\KAMA_FP_EPSChassis1_0303.dbc C:\Users\54072\Desktop\test\AUTOSAR\Input\KAMA_FP_EPT_0409.dbc -o "C:\Users\54072\AppData\Local\Temp\DaVinci\Cfg-8547968\LegacyConverterResults\1714098698383-0\ConvertedLegacy" -r 00048 -e -v 19
+Converting DBC file C:\Users\54072\Desktop\test\AUTOSAR\Input\KAMA_FP_EPSChassis1_0303.dbc
+              [WARNING] 16-bit signal IBS_ESCLateralAccle has invalid value range [0,65567.5039246468]
+==> The value range is reduced to [0,65535]
+              [WARNING] 16-bit signal IBS_ESCLateralAccle has invalid value range [0,65567.5039246468]
+==> The value range is reduced to [0,65535]
+              [WARNING] 16-bit signal IBS_ESCLongitudinalAccle has invalid value range [0,65567.5039246468]
+==> The value range is reduced to [0,65535]
+              [WARNING] 16-bit signal IBS_ESCLongitudinalAccle has invalid value range [0,65567.5039246468]
+==> The value range is reduced to [0,65535]
+              [WARNING] 16-bit signal IBS_TorqueRBSReq has invalid value range [0,65536]
+==> The value range is reduced to [0,65535]
+              [WARNING] 16-bit signal IBS_TorqueRBSReq has invalid value range [0,65536]
+==> The value range is reduced to [0,65535]
+              [WARNING] 16-bit signal YRS_Ay has invalid value range [0,65567.5039246468]
+==> The value range is reduced to [0,65535]
+              [WARNING] 16-bit signal YRS_Ay has invalid value range [0,65567.5039246468]
+==> The value range is reduced to [0,65535]
+              [WARNING] 16-bit signal YRS_Ax has invalid value range [0,65567.5039246468]
+==> The value range is reduced to [0,65535]
+              [WARNING] 16-bit signal YRS_Ax has invalid value range [0,65567.5039246468]
+==> The value range is reduced to [0,65535]
+              [WARNING] Signal VCU_InvldGearSel already has a constant 'EPB?T?����|_?T����1����?P�̦�' for its value '2'
+==> Cannot create CompuConst Cx2_ss_Oe_D_ for constant '?��??_3��?��1y??_???1?D??D�̦�'
+              [WARNING] Signal VCU_InvldGearSel already has a constant 'P�̦�?D???D_??2��???��' for its value '1'
+==> Cannot create CompuConst Cx1_Ue_Oe_ for constant '??��2����㨹��???2��???��'
+              [WARNING] Signal VCU_InvldGearSel already has a constant '3�̨�??��?��D��_???1?D??DD��?�̦�' for its value '0'
+==> Cannot create CompuConst Cx0_Norma for constant 'Norma'
+              [WARNING] 1-bit signal VCU_faultChrgMultPlugs has invalid value range [0,3]
+==> The value range is reduced to [0,1]
+              [WARNING] 8-bit signal VCU_HVBatTargetSoC has invalid value range [0,400]
+==> The value range is reduced to [0,255]
+              [WARNING] 8-bit signal VCU_HVBatTargetSoC has invalid value range [0,400]
+==> The value range is reduced to [0,255]
+              [WARNING] 16-bit signal AEB_TargetDecel_ReqValue has invalid value range [0,65573.7704918033]
+==> The value range is reduced to [0,65535]
+              [WARNING] 16-bit signal AEB_TargetDecel_ReqValue has invalid value range [0,65573.7704918033]
+==> The value range is reduced to [0,65535]
+              [WARNING] ECU VCU is both sending and receiving DBC message VCU_chassis
+              [WARNING] ECU VCU is both sending and receiving DBC message VCU_AccPedal
+              [WARNING] ECU VCU is both sending and receiving DBC message VCU_PwrtrainRequests
+              [WARNING] ECU VCU is both sending and receiving DBC message VCU_HMIsignals
+              [WARNING] ECU VCU is both sending and receiving DBC message VCU_HVbattStatus1
+              [WARNING] ECU VCU is both sending and receiving DBC message VCU_PlugInChrgInfo2
+              [WARNING] ECU VCU is both sending and receiving DBC message VCU_PlugInChrgInfo1
+              [WARNING] ECU VCU is both sending and receiving DBC message VCU_PwrtrainHVbattStatus2
+              [WARNING] ECU VCU is both sending and receiving DBC message VCU_OdometerInfo
+              [WARNING] ECU VCU is both sending and receiving DBC message VCU_MCU_7A
+Converting DBC file C:\Users\54072\Desktop\test\AUTOSAR\Input\KAMA_FP_EPT_0409.dbc
+              [WARNING] 8-bit signal TCU_HVCHHighVoltage has invalid value range [0,508]
+==> The value range is reduced to [0,255]
+              [WARNING] 2-bit signal TCU_HVACACState has invalid value range [0,4]
+==> The value range is reduced to [0,3]
+              [WARNING] 1-bit signal TCU_CompEnable has invalid value range [0,1]
+==> The value range is reduced to [0,0]
+              [WARNING] 13-bit signal TCU_CompTargetSpeed has invalid value range [0,8191]
+==> The value range is reduced to [0,4095]
+              [WARNING] 8-bit signal TCU_CompMaxAllowPwrCmsp has invalid value range [0,254]
+==> The value range is reduced to [0,127]
+              [WARNING] 8-bit signal TCU_CompMaxAllowPwrCmsp has invalid value range [0,254]
+==> The value range is reduced to [0,127]
+              [WARNING] 4-bit signal MessageCounter_2C1 has invalid value range [0,15]
+==> The value range is reduced to [0,7]
+              [WARNING] 8-bit signal Checksum_2C1 has invalid value range [0,255]
+==> The value range is reduced to [0,127]
+              [WARNING] 11-bit signal APTC_HVBusVoltage has invalid value range [0,20400]
+==> The value range is reduced to [0,2047]
+              [WARNING] 11-bit signal APTC_HVBusVoltage has invalid value range [0,20400]
+==> The value range is reduced to [0,2047]
+              [WARNING] 8-bit signal VCU_TCUPowerAllowed has invalid value range [0,1600]
+==> The value range is reduced to [0,255]
+              [WARNING] 8-bit signal VCU_TCUPowerAllowed has invalid value range [0,1600]
+==> The value range is reduced to [0,255]
+              [WARNING] 16-bit signal BMS_PackVoltage has invalid value range [0,655350]
+==> The value range is reduced to [0,65535]
+              [WARNING] 16-bit signal BMS_PackVoltage has invalid value range [0,655350]
+==> The value range is reduced to [0,65535]
+              [WARNING] 16-bit signal BMS_LinkVoltage has invalid value range [0,655350]
+==> The value range is reduced to [0,65535]
+              [WARNING] 16-bit signal BMS_LinkVoltage has invalid value range [0,655350]
+==> The value range is reduced to [0,65535]
+              [WARNING] 4-bit signal BMS_BatType has invalid value range [0,255]
+==> The value range is reduced to [0,15]
+              [WARNING] 4-bit signal BMS_BatSupName has invalid value range [0,4294967295]
+==> The value range is reduced to [0,15]
+              [WARNING] 24-bit signal BMS_SumChgkwh has invalid value range [0,16777216]
+==> The value range is reduced to [0,16777215]
+              [WARNING] 24-bit signal BMS_SumDisChgkwh has invalid value range [0,16777216]
+==> The value range is reduced to [0,16777215]
+              [WARNING] 3-bit signal BMS_HeatCommand has invalid value range [0,8]
+==> The value range is reduced to [0,7]
+              [WARNING] 3-bit signal BMS_CoolCommand has invalid value range [0,8]
+==> The value range is reduced to [0,7]
+              [WARNING] 1-bit signal BMS_ErrorBSUOffline has invalid value range [0,3]
+==> The value range is reduced to [0,1]
+              [WARNING] 1-bit signal BMS_ErrorHallOffline has invalid value range [0,3]
+==> The value range is reduced to [0,1]
+              [WARNING] 1-bit signal BMS_ErrorCellVoltOffline has invalid value range [0,3]
+==> The value range is reduced to [0,1]
+              [WARNING] 1-bit signal BMS_ErrorCellTempOffline has invalid value range [0,3]
+==> The value range is reduced to [0,1]
+              [WARNING] 1-bit signal BMS_ErrorPreChaFailed has invalid value range [0,3]
+==> The value range is reduced to [0,1]
+              [WARNING] 1-bit signal BMS_ErrorRelay has invalid value range [0,3]
+==> The value range is reduced to [0,1]
+              [WARNING] 1-bit signal BMS_ErrorBSUBalance has invalid value range [0,3]
+==> The value range is reduced to [0,1]
+              [WARNING] 1-bit signal BMS_ErrorHighSoc has invalid value range [0,3]
+==> The value range is reduced to [0,1]
+              [WARNING] 1-bit signal BMS_ErrorSoCJump_RM has invalid value range [0,3]
+==> The value range is reduced to [0,1]
+              [WARNING] 1-bit signal BMS_ErrorHVIL has invalid value range [0,3]
+==> The value range is reduced to [0,1]
+              [WARNING] 1-bit signal BMS_ErrorEmergencyOffCrash has invalid value range [0,3]
+==> The value range is reduced to [0,1]
+              [WARNING] 1-bit signal BMS_ErrorSystemsMatch has invalid value range [0,3]
+==> The value range is reduced to [0,1]
+              [WARNING] 1-bit signal BMS_ErrorSmoke has invalid value range [0,3]
+==> The value range is reduced to [0,1]
+              [WARNING] 1-bit signal BMS_ErrorLeakDet has invalid value range [0,3]
+==> The value range is reduced to [0,1]
+              [WARNING] 1-bit signal BMS_ThermalRunawayFault has invalid value range [0,3]
+==> The value range is reduced to [0,1]
+              [WARNING] 8-bit signal BMS_BatProDatYear has invalid value range [-1985,-1730]
+==> The value range is reduced to [0,-1730]
+              [WARNING] 8-bit signal BMS_BatProDatYear has invalid value range [-1985,-1730]
+==> The value range is reduced to [0,-1730]
+              [WARNING] 8-bit signal BCM_RLHSTempSensorValue has invalid value range [0,320]
+==> The value range is reduced to [0,255]
+              [WARNING] 8-bit signal BCM_RLHSTempSensorValue has invalid value range [0,320]
+==> The value range is reduced to [0,255]
+              [WARNING] 8-bit signal BMS_BatProDatYear has invalid init value '-1985'
+==> The init value is discarded
+              [WARNING] ECU VCU is both sending and receiving DBC message VCU_MCU01
+              [WARNING] ECU VCU is both sending and receiving DBC message VCU_MCU02
+              [WARNING] ECU VCU is both sending and receiving DBC message VCU_DCDC
+              [WARNING] ECU VCU is both sending and receiving DBC message VCU_POD
+              [WARNING] ECU VCU is both sending and receiving DBC message VCU_OBC
+              [WARNING] ECU VCU is both sending and receiving DBC message VCU_BMS
+              [WARNING] ECU VCU is both sending and receiving DBC message VCU_TCU
+Writing System Description...
+Writing 14 ECU Extracts...
+C:\Users\54072\AppData\Local\Temp\DaVinci\Cfg-8547968\LegacyConverterResults\1714098698383-0\ConvertedLegacy.arxml
+C:\Users\54072\AppData\Local\Temp\DaVinci\Cfg-8547968\LegacyConverterResults\1714098698383-0\ConvertedLegacy_ADCU.arxml
+C:\Users\54072\AppData\Local\Temp\DaVinci\Cfg-8547968\LegacyConverterResults\1714098698383-0\ConvertedLegacy_BMS.arxml
+C:\Users\54072\AppData\Local\Temp\DaVinci\Cfg-8547968\LegacyConverterResults\1714098698383-0\ConvertedLegacy_CCU.arxml
+C:\Users\54072\AppData\Local\Temp\DaVinci\Cfg-8547968\LegacyConverterResults\1714098698383-0\ConvertedLegacy_Diag.arxml
+C:\Users\54072\AppData\Local\Temp\DaVinci\Cfg-8547968\LegacyConverterResults\1714098698383-0\ConvertedLegacy_EVCOM.arxml
+C:\Users\54072\AppData\Local\Temp\DaVinci\Cfg-8547968\LegacyConverterResults\1714098698383-0\ConvertedLegacy_GW.arxml
+C:\Users\54072\AppData\Local\Temp\DaVinci\Cfg-8547968\LegacyConverterResults\1714098698383-0\ConvertedLegacy_IBS.arxml
+C:\Users\54072\AppData\Local\Temp\DaVinci\Cfg-8547968\LegacyConverterResults\1714098698383-0\ConvertedLegacy_MCU.arxml
+C:\Users\54072\AppData\Local\Temp\DaVinci\Cfg-8547968\LegacyConverterResults\1714098698383-0\ConvertedLegacy_OBDDiag.arxml
+C:\Users\54072\AppData\Local\Temp\DaVinci\Cfg-8547968\LegacyConverterResults\1714098698383-0\ConvertedLegacy_POD.arxml
+C:\Users\54072\AppData\Local\Temp\DaVinci\Cfg-8547968\LegacyConverterResults\1714098698383-0\ConvertedLegacy_PTC.arxml
+C:\Users\54072\AppData\Local\Temp\DaVinci\Cfg-8547968\LegacyConverterResults\1714098698383-0\ConvertedLegacy_TCU.arxml
+C:\Users\54072\AppData\Local\Temp\DaVinci\Cfg-8547968\LegacyConverterResults\1714098698383-0\ConvertedLegacy_VCU.arxml
+C:\Users\54072\AppData\Local\Temp\DaVinci\Cfg-8547968\LegacyConverterResults\1714098698383-0\ConvertedLegacy_YRS.arxml
+Elapsed time: 0.704 seconds
+0 Errors
+77 Warnings
+10:31:39 - Workflow Step 'Converting legacy file(s) to AUTOSAR files' finished.
+10:31:39 - Workflow Step 'Load arxml file after preprocessing' started.
+Load arxml file from path: C:\Users\54072\AppData\Local\Temp\DaVinci\Cfg-8547968\LegacyConverterResults\1714098698383-0\ConvertedLegacy_VCU.arxml
+10:31:40 - Workflow Step 'Load arxml file after preprocessing' finished.
+10:31:40 - Workflow Step 'Evaluate system extract paths' started.
+10:31:40 - Workflow Step 'Evaluate system extract paths' finished.
+10:31:40 - Workflow Step 'Converting legacy diagnostics file(s) to AUTOSAR files' started.
+----> Process of diagnostic specification
+DDM-Version: 20.3.0 (Release)
+Importing ODX file C:\Users\54072\Desktop\test\AUTOSAR\Input\VCU1.0(11.0).cdd, ECU: VCU, variant: Base_Variant
+Selecting ECU 'VCU'  Variant 'Base_Variant'.
+              [WARNING] [DTLDID] SERVICE [1] //VCU/Base_Variant/Query_supported_PID_0x01_0x20_Read_Supported_PID_OBD: No DIDs could be determined
+              [WARNING] [DTLDID] SERVICE [9] //VCU/Base_Variant/SupportedInfoTypes_Read_supported_InfoTypes_OBD: No DIDs could be determined
+              [WARNING] [DTLDID] SERVICE [19] //VCU/Base_Variant/FaultMemory_Read_snapshot_record: No DIDs could be determined
+Selecting Manufacturer 'GENERIC'.
+              [WARNING] 'GENERIC' was selected and 'Vector' was detected.
+Importing Database information.
+----> Importing Variants
+<---- Importing Variants
+----> Importing StateGroups
+Importing StateMachine information.
+<---- Importing StateGroups
+----> Importing Services
+Importing Service '0100'.
+Importing Service '0900'.
+Importing Service '0902'.
+Importing Service '1001'.
+Importing Service '1002'.
+Importing Service '1003'.
+Importing Service '1041'.
+Importing Service '1101'.
+Importing Service '1103'.
+Importing Service '14'.
+Importing Service '1901'.
+Importing Service '1902'.
+Importing Service '1903'.
+Importing Service '1904'.
+Importing Service '1906'.
+Importing Service '190A'.
+Importing Service '22016C'.
+Importing Service '221D01'.
+Importing Service '221D02'.
+Importing Service '221D03'.
+Importing Service '221D04'.
+Importing Service '221D05'.
+Importing Service '221D06'.
+Importing Service '221D07'.
+Importing Service '221D08'.
+Importing Service '221D09'.
+Importing Service '221D10'.
+Importing Service '221D11'.
+Importing Service '221D12'.
+Importing Service '22F011'.
+Importing Service '22F013'.
+Importing Service '22F015'.
+Importing Service '22F017'.
+Importing Service '22F101'.
+Importing Service '22F102'.
+Importing Service '22F104'.
+Importing Service '22F108'.
+Importing Service '22F10A'.
+Importing Service '22F10F'.
+Importing Service '22F186'.
+Importing Service '22F187'.
+Importing Service '22F18A'.
+Importing Service '22F18B'.
+Importing Service '22F18C'.
+Importing Service '22F190'.
+Importing Service '22F192'.
+Importing Service '22F1A0'.
+Importing Service '22F1A1'.
+Importing Service '22F1A2'.
+Importing Service '22F1A3'.
+Importing Service '22F1A4'.
+Importing Service '22F1A5'.
+Importing Service '22F1A6'.
+Importing Service '22F1A7'.
+Importing Service '2701'.
+Importing Service '2702'.
+Importing Service '2703'.
+Importing Service '2704'.
+Importing Service '2705'.
+Importing Service '2706'.
+Importing Service '2707'.
+Importing Service '2708'.
+Importing Service '2800'.
+Importing Service '2803'.
+Importing Service '2EF010'.
+Importing Service '2EF012'.
+Importing Service '2EF014'.
+Importing Service '2EF016'.
+Importing Service '2EF108'.
+Importing Service '2EF10A'.
+Importing Service '2EF10F'.
+Importing Service '2EF190'.
+Importing Service '31010102'.
+Importing Service '31010202'.
+Importing Service '31010203'.
+Importing Service '3101F000'.
+Importing Service '3101FF00'.
+Importing Service '3101FF01'.
+Importing Service '3102F000'.
+Importing Service '34'.
+Importing Service '36'.
+Importing Service '37'.
+Importing Service '38'.
+Importing Service '3E00'.
+Importing Service '8501'.
+Importing Service '8502'.
+<---- Importing Services
+----> Importing FaultMemory
+Importing FaultMemory.
+              [WARNING] Could not extract DTC format.
+<---- Importing FaultMemory
+----> Importing EnvironmentalConditions
+<---- Importing EnvironmentalConditions
+----> Importing FreezeFrame
+<---- Importing FreezeFrame
+----> Importing DiagSettings
+Importing DiagSettings
+<---- Importing DiagSettings
+----> Importing DataCompProps
+<---- Importing DataCompProps
+<<<<<<<<<<<<< ODX Import finished successfully after 0.563
+Shaping imported model for diagnostic OEM 'GENERIC'
+- Used Diagnostic OEM:  GENERIC
+- Microsar:             true
+- Meta-Ecuc-Export:     true
+>>>>>>>>>>>>> SHAPING preparation >>>>>>>>>>>>>
+<<<<<<<<<<<<< SHAPING ready after 0.016s (16ms) <<<<<<<<<<<<<
+>>>>>>>>>>>>> SHAPING started >>>>>>>>>>>>>
+>>>>>>>>>>>>> ShapingStep ServiceSelection >>>>>>>>>>>>>
+<<<<<<<<<<<<< ShapingStep ServiceSelection( completed in 0s (0ms) <<<<<<<<<<<<<
+>>>>>>>>>>>>> ShapingStep DataPreparation >>>>>>>>>>>>>
+At Ecu
+- Shape Data Comp Collections
+At Ecu
+- Shape Compu-Methods
+At Ecu
+- Fix Unsigned Boolean
+- Convert XInt24/XInt64 to Byte-Array
+At Ecu
+- Set Compu-Scale Symbols
+<<<<<<<<<<<<< ShapingStep DataPreparation( completed in 0.016s (16ms) <<<<<<<<<<<<<
+>>>>>>>>>>>>> ShapingStep ServiceDefinition >>>>>>>>>>>>>
+At Ecu
+- Finding duplicated services...
+Destroying duplicated services...
+At Connection 'CAN'
+- Set 'priority' to '4'
+At Service 0x85
+- Set 'control option record present' to 'false'
+At Service 0x22 SubService 0x16c
+- Applying service definition shaping to protocol component [RecordDataIdentifier]
+- Service has now new definition: 0x22 0x16c HV_Status_and_Charging_Status_Read
+- Applying service definition shaping to protocol component [RecordDataIdentifier]
+- Service has now new definition: 0x22 0x16c HV_Status_and_Charging_Status_Read
+At Service 0x22 SubService 0x1d01
+- Applying service definition shaping to protocol component [RecordDataIdentifier]
+- Service has now new definition: 0x22 0x1d01 VCU_AccPealparameter_Read
+- Applying service definition shaping to protocol component [RecordDataIdentifier]
+- Service has now new definition: 0x22 0x1d01 VCU_AccPealparameter_Read
+At Service 0x22 SubService 0x1d02
+- Applying service definition shaping to protocol component [RecordDataIdentifier]
+- Service has now new definition: 0x22 0x1d02 VCU_Torque_parameter_Read
+- Applying service definition shaping to protocol component [RecordDataIdentifier]
+- Service has now new definition: 0x22 0x1d02 VCU_Torque_parameter_Read
+At Service 0x22 SubService 0x1d03
+- Applying service definition shaping to protocol component [RecordDataIdentifier]
+- Service has now new definition: 0x22 0x1d03 Driver_Mode_Read
+- Applying service definition shaping to protocol component [RecordDataIdentifier]
+- Service has now new definition: 0x22 0x1d03 Driver_Mode_Read
+At Service 0x22 SubService 0x1d04
+- Applying service definition shaping to protocol component [RecordDataIdentifier]
+- Service has now new definition: 0x22 0x1d04 VCU_PowerMaxAllowed_parameter1_Read
+- Applying service definition shaping to protocol component [RecordDataIdentifier]
+- Service has now new definition: 0x22 0x1d04 VCU_PowerMaxAllowed_parameter1_Read
+At Service 0x22 SubService 0x1d05
+- Applying service definition shaping to protocol component [RecordDataIdentifier]
+- Service has now new definition: 0x22 0x1d05 AC_charging_parameter_Read
+- Applying service definition shaping to protocol component [RecordDataIdentifier]
+- Service has now new definition: 0x22 0x1d05 AC_charging_parameter_Read
+At Service 0x22 SubService 0x1d06
+- Applying service definition shaping to protocol component [RecordDataIdentifier]
+- Service has now new definition: 0x22 0x1d06 Chargestatus_Read
+- Applying service definition shaping to protocol component [RecordDataIdentifier]
+- Service has now new definition: 0x22 0x1d06 Chargestatus_Read
+At Service 0x22 SubService 0x1d07
+- Applying service definition shaping to protocol component [RecordDataIdentifier]
+- Service has now new definition: 0x22 0x1d07 Electronic_lock_state_Read
+- Applying service definition shaping to protocol component [RecordDataIdentifier]
+- Service has now new definition: 0x22 0x1d07 Electronic_lock_state_Read
+At Service 0x22 SubService 0x1d08
+- Applying service definition shaping to protocol component [RecordDataIdentifier]
+- Service has now new definition: 0x22 0x1d08 VCU_HV_InterLock_PWM_pfrequency_Read
+- Applying service definition shaping to protocol component [RecordDataIdentifier]
+- Service has now new definition: 0x22 0x1d08 VCU_HV_InterLock_PWM_pfrequency_Read
+At Service 0x22 SubService 0x1d09
+- Applying service definition shaping to protocol component [RecordDataIdentifier]
+- Service has now new definition: 0x22 0x1d09 S2_status_Read
+- Applying service definition shaping to protocol component [RecordDataIdentifier]
+- Service has now new definition: 0x22 0x1d09 S2_status_Read
+At Service 0x22 SubService 0x1d10
+- Applying service definition shaping to protocol component [RecordDataIdentifier]
+- Service has now new definition: 0x22 0x1d10 VCU_PowerMaxAllowed_parameter2_Read
+- Applying service definition shaping to protocol component [RecordDataIdentifier]
+- Service has now new definition: 0x22 0x1d10 VCU_PowerMaxAllowed_parameter2_Read
+At Service 0x22 SubService 0x1d11
+- Applying service definition shaping to protocol component [RecordDataIdentifier]
+- Service has now new definition: 0x22 0x1d11 VCU_control_main_relay_Read
+- Applying service definition shaping to protocol component [RecordDataIdentifier]
+- Service has now new definition: 0x22 0x1d11 VCU_control_main_relay_Read
+At Service 0x22 SubService 0x1d12
+- Applying service definition shaping to protocol component [RecordDataIdentifier]
+- Service has now new definition: 0x22 0x1d12 PWT_vehicle_fault_Level_Read
+- Applying service definition shaping to protocol component [RecordDataIdentifier]
+- Service has now new definition: 0x22 0x1d12 PWT_vehicle_fault_Level_Read
+At Service 0x22 SubService 0xf011
+- Applying service definition shaping to protocol component [RecordDataIdentifier]
+- Service has now new definition: 0x22 0xf011 Read_Level1_OEM_Key_written_status_Read
+- Applying service definition shaping to protocol component [RecordDataIdentifier]
+- Service has now new definition: 0x22 0xf011 Read_Level1_OEM_Key_written_status_Read
+At Service 0x22 SubService 0xf013
+- Applying service definition shaping to protocol component [RecordDataIdentifier]
+- Service has now new definition: 0x22 0xf013 Read_Level2_OEM_Key_written_status_Read
+- Applying service definition shaping to protocol component [RecordDataIdentifier]
+- Service has now new definition: 0x22 0xf013 Read_Level2_OEM_Key_written_status_Read
+At Service 0x22 SubService 0xf015
+- Applying service definition shaping to protocol component [RecordDataIdentifier]
+- Service has now new definition: 0x22 0xf015 Read_Level3_OEM_Key_written_status_Read
+- Applying service definition shaping to protocol component [RecordDataIdentifier]
+- Service has now new definition: 0x22 0xf015 Read_Level3_OEM_Key_written_status_Read
+At Service 0x22 SubService 0xf017
+- Applying service definition shaping to protocol component [RecordDataIdentifier]
+- Service has now new definition: 0x22 0xf017 Read_Level4_OEM_Key_written_status_Read
+- Applying service definition shaping to protocol component [RecordDataIdentifier]
+- Service has now new definition: 0x22 0xf017 Read_Level4_OEM_Key_written_status_Read
+At Service 0x22 SubService 0xf101
+- Applying service definition shaping to protocol component [RecordDataIdentifier]
+- Service has now new definition: 0x22 0xf101 Bootloader_version_number_Read
+- Applying service definition shaping to protocol component [RecordDataIdentifier]
+- Service has now new definition: 0x22 0xf101 Bootloader_version_number_Read
+At Service 0x22 SubService 0xf102
+- Applying service definition shaping to protocol component [RecordDataIdentifier]
+- Service has now new definition: 0x22 0xf102 EcuIdentification_Read
+- Applying service definition shaping to protocol component [RecordDataIdentifier]
+- Service has now new definition: 0x22 0xf102 EcuIdentification_Read
+At Service 0x22 SubService 0xf104
+- Applying service definition shaping to protocol component [RecordDataIdentifier]
+- Service has now new definition: 0x22 0xf104 ECU_application_software_ASW_part_number_Read
+- Applying service definition shaping to protocol component [RecordDataIdentifier]
+- Service has now new definition: 0x22 0xf104 ECU_application_software_ASW_part_number_Read
+At Service 0x22 SubService 0xf108
+- Applying service definition shaping to protocol component [RecordDataIdentifier]
+- Service has now new definition: 0x22 0xf108 Read_Write_coding_data_string_CDS_Read
+- Applying service definition shaping to protocol component [RecordDataIdentifier]
+- Service has now new definition: 0x22 0xf108 Read_Write_coding_data_string_CDS_Read
+At Service 0x22 SubService 0xf10a
+- Applying service definition shaping to protocol component [RecordDataIdentifier]
+- Service has now new definition: 0x22 0xf10a Coding_for_CDS_fingerprint_Read
+- Applying service definition shaping to protocol component [RecordDataIdentifier]
+- Service has now new definition: 0x22 0xf10a Coding_for_CDS_fingerprint_Read
+At Service 0x22 SubService 0xf10f
+- Applying service definition shaping to protocol component [RecordDataIdentifier]
+- Service has now new definition: 0x22 0xf10f Last_service_date_Read
+- Applying service definition shaping to protocol component [RecordDataIdentifier]
+- Service has now new definition: 0x22 0xf10f Last_service_date_Read
+At Service 0x22 SubService 0xf186
+- Applying service definition shaping to protocol component [RecordDataIdentifier]
+- Service has now new definition: 0x22 0xf186 Read_active_diagnostic_session_Read
+- Applying service definition shaping to protocol component [RecordDataIdentifier]
+- Service has now new definition: 0x22 0xf186 Read_active_diagnostic_session_Read
+At Service 0x22 SubService 0xf187
+- Applying service definition shaping to protocol component [RecordDataIdentifier]
+- Service has now new definition: 0x22 0xf187 Read_ECU_Part_Number_Read
+- Applying service definition shaping to protocol component [RecordDataIdentifier]
+- Service has now new definition: 0x22 0xf187 Read_ECU_Part_Number_Read
+At Service 0x22 SubService 0xf18a
+- Applying service definition shaping to protocol component [RecordDataIdentifier]
+- Service has now new definition: 0x22 0xf18a DevelopmentData_Read
+- Applying service definition shaping to protocol component [RecordDataIdentifier]
+- Service has now new definition: 0x22 0xf18a DevelopmentData_Read
+At Service 0x22 SubService 0xf18b
+- Applying service definition shaping to protocol component [RecordDataIdentifier]
+- Service has now new definition: 0x22 0xf18b Read_ECU_manufacturing_date_Read
+- Applying service definition shaping to protocol component [RecordDataIdentifier]
+- Service has now new definition: 0x22 0xf18b Read_ECU_manufacturing_date_Read
+At Service 0x22 SubService 0xf18c
+- Applying service definition shaping to protocol component [RecordDataIdentifier]
+- Service has now new definition: 0x22 0xf18c SerialNumber_Read
+- Applying service definition shaping to protocol component [RecordDataIdentifier]
+- Service has now new definition: 0x22 0xf18c SerialNumber_Read
+At Service 0x22 SubService 0xf190
+- Applying service definition shaping to protocol component [RecordDataIdentifier]
+- Service has now new definition: 0x22 0xf190 Read_Write_complete_VIN_Read
+- Applying service definition shaping to protocol component [RecordDataIdentifier]
+- Service has now new definition: 0x22 0xf190 Read_Write_complete_VIN_Read
+At Service 0x22 SubService 0xf192
+- Applying service definition shaping to protocol component [RecordDataIdentifier]
+- Service has now new definition: 0x22 0xf192 Supplier_ECU_hardware_part_number_Read
+- Applying service definition shaping to protocol component [RecordDataIdentifier]
+- Service has now new definition: 0x22 0xf192 Supplier_ECU_hardware_part_number_Read
+At Service 0x22 SubService 0xf1a0
+- Applying service definition shaping to protocol component [RecordDataIdentifier]
+- Service has now new definition: 0x22 0xf1a0 Ignition_Switch_Signal_Read
+- Applying service definition shaping to protocol component [RecordDataIdentifier]
+- Service has now new definition: 0x22 0xf1a0 Ignition_Switch_Signal_Read
+At Service 0x22 SubService 0xf1a1
+- Applying service definition shaping to protocol component [RecordDataIdentifier]
+- Service has now new definition: 0x22 0xf1a1 Battery_Voltage_Read
+- Applying service definition shaping to protocol component [RecordDataIdentifier]
+- Service has now new definition: 0x22 0xf1a1 Battery_Voltage_Read
+At Service 0x22 SubService 0xf1a2
+- Applying service definition shaping to protocol component [RecordDataIdentifier]
+- Service has now new definition: 0x22 0xf1a2 Total_Odometer_Read
+- Applying service definition shaping to protocol component [RecordDataIdentifier]
+- Service has now new definition: 0x22 0xf1a2 Total_Odometer_Read
+At Service 0x22 SubService 0xf1a3
+- Applying service definition shaping to protocol component [RecordDataIdentifier]
+- Service has now new definition: 0x22 0xf1a3 Vehicle_speed_Read
+- Applying service definition shaping to protocol component [RecordDataIdentifier]
+- Service has now new definition: 0x22 0xf1a3 Vehicle_speed_Read
+At Service 0x22 SubService 0xf1a4
+- Applying service definition shaping to protocol component [RecordDataIdentifier]
+- Service has now new definition: 0x22 0xf1a4 Date_And_Time_Read
+- Applying service definition shaping to protocol component [RecordDataIdentifier]
+- Service has now new definition: 0x22 0xf1a4 Date_And_Time_Read
+At Service 0x22 SubService 0xf1a5
+- Applying service definition shaping to protocol component [RecordDataIdentifier]
+- Service has now new definition: 0x22 0xf1a5 VCU_HVStatus_Read
+- Applying service definition shaping to protocol component [RecordDataIdentifier]
+- Service has now new definition: 0x22 0xf1a5 VCU_HVStatus_Read
+At Service 0x22 SubService 0xf1a6
+- Applying service definition shaping to protocol component [RecordDataIdentifier]
+- Service has now new definition: 0x22 0xf1a6 SOC_Read
+- Applying service definition shaping to protocol component [RecordDataIdentifier]
+- Service has now new definition: 0x22 0xf1a6 SOC_Read
+At Service 0x22 SubService 0xf1a7
+- Applying service definition shaping to protocol component [RecordDataIdentifier]
+- Service has now new definition: 0x22 0xf1a7 Gear_Read
+- Applying service definition shaping to protocol component [RecordDataIdentifier]
+- Service has now new definition: 0x22 0xf1a7 Gear_Read
+At Service 0x2e SubService 0xf010
+- Applying service definition shaping to protocol component [RecordDataIdentifier]
+- Service has now new definition: 0x2e 0xf010 Write_Level1_OEM_Key_Write
+- Applying service definition shaping to protocol component [RecordDataIdentifier]
+- Service has now new definition: 0x2e 0xf010 Write_Level1_OEM_Key_Write
+At Service 0x2e SubService 0xf012
+- Applying service definition shaping to protocol component [RecordDataIdentifier]
+- Service has now new definition: 0x2e 0xf012 Write_Level2_OEM_Key_Write
+- Applying service definition shaping to protocol component [RecordDataIdentifier]
+- Service has now new definition: 0x2e 0xf012 Write_Level2_OEM_Key_Write
+At Service 0x2e SubService 0xf014
+- Applying service definition shaping to protocol component [RecordDataIdentifier]
+- Service has now new definition: 0x2e 0xf014 Write_Level3_OEM_Key_Write
+- Applying service definition shaping to protocol component [RecordDataIdentifier]
+- Service has now new definition: 0x2e 0xf014 Write_Level3_OEM_Key_Write
+At Service 0x2e SubService 0xf016
+- Applying service definition shaping to protocol component [RecordDataIdentifier]
+- Service has now new definition: 0x2e 0xf016 Write_Level4_OEM_Key_Write
+- Applying service definition shaping to protocol component [RecordDataIdentifier]
+- Service has now new definition: 0x2e 0xf016 Write_Level4_OEM_Key_Write
+At Service 0x2e SubService 0xf108
+- Applying service definition shaping to protocol component [RecordDataIdentifier]
+- Service has now new definition: 0x2e 0xf108 Read_Write_coding_data_string_CDS_Write
+- Applying service definition shaping to protocol component [RecordDataIdentifier]
+- Service has now new definition: 0x2e 0xf108 Read_Write_coding_data_string_CDS_Write
+At Service 0x2e SubService 0xf10a
+- Applying service definition shaping to protocol component [RecordDataIdentifier]
+- Service has now new definition: 0x2e 0xf10a Coding_for_CDS_fingerprint_Write
+- Applying service definition shaping to protocol component [RecordDataIdentifier]
+- Service has now new definition: 0x2e 0xf10a Coding_for_CDS_fingerprint_Write
+At Service 0x2e SubService 0xf10f
+- Applying service definition shaping to protocol component [RecordDataIdentifier]
+- Service has now new definition: 0x2e 0xf10f Last_service_date_Write
+- Applying service definition shaping to protocol component [RecordDataIdentifier]
+- Service has now new definition: 0x2e 0xf10f Last_service_date_Write
+At Service 0x2e SubService 0xf190
+- Applying service definition shaping to protocol component [RecordDataIdentifier]
+- Service has now new definition: 0x2e 0xf190 Read_Write_complete_VIN_Write
+- Applying service definition shaping to protocol component [RecordDataIdentifier]
+- Service has now new definition: 0x2e 0xf190 Read_Write_complete_VIN_Write
+At Service 0x31 SubService 0x1
+- Applying service definition shaping to protocol component [RoutineIdentifier]
+- Service has now new definition: 0x31 0x1 0x102 CheckCodingState_Start
+- Applying service definition shaping to protocol component [RoutineIdentifier]
+- Service has now new definition: 0x31 0x1 0x102 CheckCodingState_Start
+At Service 0x31 SubService 0x1
+- Applying service definition shaping to protocol component [RoutineIdentifier]
+- Service has now new definition: 0x31 0x1 0x202 Check_Memory_Start
+- Applying service definition shaping to protocol component [RoutineIdentifier]
+- Service has now new definition: 0x31 0x1 0x202 Check_Memory_Start
+At Service 0x31 SubService 0x1
+- Applying service definition shaping to protocol component [RoutineIdentifier]
+- Service has now new definition: 0x31 0x1 0x203 CheckProgrammingPreCondition_Start
+- Applying service definition shaping to protocol component [RoutineIdentifier]
+- Service has now new definition: 0x31 0x1 0x203 CheckProgrammingPreCondition_Start
+At Service 0x31 SubService 0x1
+- Applying service definition shaping to protocol component [RoutineIdentifier]
+- Service has now new definition: 0x31 0x1 0xf000 Turn_Off_HV_Turn_Off_Charging_Start
+- Applying service definition shaping to protocol component [RoutineIdentifier]
+- Service has now new definition: 0x31 0x1 0xf000 Turn_Off_HV_Turn_Off_Charging_Start
+At Service 0x31 SubService 0x1
+- Applying service definition shaping to protocol component [RoutineIdentifier]
+- Service has now new definition: 0x31 0x1 0xff00 Erase_Memory_Start
+- Applying service definition shaping to protocol component [RoutineIdentifier]
+- Service has now new definition: 0x31 0x1 0xff00 Erase_Memory_Start
+At Service 0x31 SubService 0x1
+- Applying service definition shaping to protocol component [RoutineIdentifier]
+- Service has now new definition: 0x31 0x1 0xff01 CheckProgrammingDependencies_Start
+- Applying service definition shaping to protocol component [RoutineIdentifier]
+- Service has now new definition: 0x31 0x1 0xff01 CheckProgrammingDependencies_Start
+At Service 0x31 SubService 0x2
+- Applying service definition shaping to protocol component [RoutineIdentifier]
+- Service has now new definition: 0x31 0x2 0xf000 Turn_Off_HV_Turn_Off_Charging_Stop
+- Applying service definition shaping to protocol component [RoutineIdentifier]
+- Service has now new definition: 0x31 0x2 0xf000 Turn_Off_HV_Turn_Off_Charging_Stop
+At Service 0x9 SubService 0x0
+- Protocol REQ component [InfoType] has unknown specification. Specification set!
+- Service has now new definition: 0x9 0x0 SupportedInfoTypes_Read_supported_InfoTypes_OBD
+At Service 0x9 SubService 0x2
+- Protocol REQ component [InfoType] has unknown specification. Specification set!
+- Service has now new definition: 0x9 0x2 Vehicle_Identification_Number_Read_InfoType_Data_OBD
+At Service 0x9 SubService 0x2
+- Protocol POS component [InfoType] has unknown specification. Specification set!
+- Service has now new definition: 0x9 0x2 Vehicle_Identification_Number_Read_InfoType_Data_OBD
+At Service 0x9 SubService 0x0
+- Protocol POS component [InfoType] has unknown specification. Specification set!
+- Service has now new definition: 0x9 0x0 SupportedInfoTypes_Read_supported_InfoTypes_OBD
+At Ecu
+- Finding duplicated sub-services...
+<<<<<<<<<<<<< ShapingStep ServiceDefinition( completed in 0.062s (62ms) <<<<<<<<<<<<<
+>>>>>>>>>>>>> ShapingStep DataDefinition >>>>>>>>>>>>>
+Service: 0x2e 0xf108 Read_Write_coding_data_string_CDS_Write shared data components linked to: Service: 0x22 0xf108 Read_Write_coding_data_string_CDS_Read !!!
+Service: 0x2e 0xf10a Coding_for_CDS_fingerprint_Write shared data components linked to: Service: 0x22 0xf10a Coding_for_CDS_fingerprint_Read !!!
+Service: 0x2e 0xf10f Last_service_date_Write shared data components linked to: Service: 0x22 0xf10f Last_service_date_Read !!!
+Service: 0x2e 0xf190 Read_Write_complete_VIN_Write shared data components linked to: Service: 0x22 0xf190 Read_Write_complete_VIN_Read !!!
+At Ecu 'VCU'
+- Building Service Dids
+- Building Routines
+-  + Routine 'CheckCodingState' created
+-  + Routine 'Check_Memory' created
+-  + Routine 'CheckProgrammingPreCondition' created
+-  + Routine 'Turn_Off_HV_Turn_Off_Charging' created
+-  + Routine 'Erase_Memory' created
+-  + Routine 'CheckProgrammingDependencies' created
+At DtcStatusbyte
+- Trying to remove attribute 'FaultmemoryData'
+- Removeing attribute 'FaultmemoryData'
+At DtcStatusbyte
+- Trying to remove attribute 'FaultmemoryData'
+- Removeing attribute 'FaultmemoryData'
+At NumberofSuppoortedPID1
+- Trying to remove attribute 'FaultmemoryData'
+- Removeing attribute 'FaultmemoryData'
+At InfoTypeData
+- Trying to remove attribute 'FaultmemoryData'
+- Removeing attribute 'FaultmemoryData'
+At InfoTypeData
+- Trying to remove attribute 'FaultmemoryData'
+- Removeing attribute 'FaultmemoryData'
+At P2
+- Trying to remove attribute 'FaultmemoryData'
+- Removeing attribute 'FaultmemoryData'
+At P2Ex
+- Trying to remove attribute 'FaultmemoryData'
+- Removeing attribute 'FaultmemoryData'
+At P2
+- Trying to remove attribute 'FaultmemoryData'
+- Removeing attribute 'FaultmemoryData'
+At P2Ex
+- Trying to remove attribute 'FaultmemoryData'
+- Removeing attribute 'FaultmemoryData'
+At P2
+- Trying to remove attribute 'FaultmemoryData'
+- Removeing attribute 'FaultmemoryData'
+At P2Ex
+- Trying to remove attribute 'FaultmemoryData'
+- Removeing attribute 'FaultmemoryData'
+At P2
+- Trying to remove attribute 'FaultmemoryData'
+- Removeing attribute 'FaultmemoryData'
+At P2Ex
+- Trying to remove attribute 'FaultmemoryData'
+- Removeing attribute 'FaultmemoryData'
+At DtcStatusbyte
+- Trying to remove attribute 'FaultmemoryData'
+- Removeing attribute 'FaultmemoryData'
+At DtcStatusbyte
+- Trying to remove attribute 'FaultmemoryData'
+- Removeing attribute 'FaultmemoryData'
+At DtcFormatIdentifier
+- Trying to remove attribute 'FaultmemoryData'
+- Removeing attribute 'FaultmemoryData'
+At DTCCount
+- Trying to remove attribute 'FaultmemoryData'
+- Removeing attribute 'FaultmemoryData'
+At DtcStatusbyte
+- Trying to remove attribute 'FaultmemoryData'
+- Removeing attribute 'FaultmemoryData'
+At DtcStatusbyte
+- Trying to remove attribute 'FaultmemoryData'
+- Removeing attribute 'FaultmemoryData'
+At DtcStatusbyte
+- Trying to remove attribute 'FaultmemoryData'
+- Removeing attribute 'FaultmemoryData'
+At HV_status_and_charging_status
+- Trying to remove attribute 'FaultmemoryData'
+- Removeing attribute 'FaultmemoryData'
+At VCU_VehicleSpeed
+- Trying to remove attribute 'FaultmemoryData'
+- Removeing attribute 'FaultmemoryData'
+At Accelerator_pedal_sensor_1_voltage
+- Trying to remove attribute 'FaultmemoryData'
+- Removeing attribute 'FaultmemoryData'
+At Accelerator_pedal_sensor_2_voltage
+- Trying to remove attribute 'FaultmemoryData'
+- Removeing attribute 'FaultmemoryData'
+At VCU_AccelerationPedal
+- Trying to remove attribute 'FaultmemoryData'
+- Removeing attribute 'FaultmemoryData'
+At VCU_MCUDesiredTorque
+- Trying to remove attribute 'FaultmemoryData'
+- Removeing attribute 'FaultmemoryData'
+At Torque_MaxAllowed
+- Trying to remove attribute 'FaultmemoryData'
+- Removeing attribute 'FaultmemoryData'
+At Torque_MinAllowed
+- Trying to remove attribute 'FaultmemoryData'
+- Removeing attribute 'FaultmemoryData'
+At VCU_RegenTorqueCap
+- Trying to remove attribute 'FaultmemoryData'
+- Removeing attribute 'FaultmemoryData'
+At Driver_Mode
+- Trying to remove attribute 'FaultmemoryData'
+- Removeing attribute 'FaultmemoryData'
+At VCU_TCUPowerAllowed
+- Trying to remove attribute 'FaultmemoryData'
+- Removeing attribute 'FaultmemoryData'
+At VCU_DCDCPowerLimit
+- Trying to remove attribute 'FaultmemoryData'
+- Removeing attribute 'FaultmemoryData'
+At MCUPowerLimit
+- Trying to remove attribute 'FaultmemoryData'
+- Removeing attribute 'FaultmemoryData'
+At VCU_A2LPowerMaxAllowed
+- Trying to remove attribute 'FaultmemoryData'
+- Removeing attribute 'FaultmemoryData'
+At POD_OBC_InputACVoltage
+- Trying to remove attribute 'FaultmemoryData'
+- Removeing attribute 'FaultmemoryData'
+At VCU_OBC_ChargeCurrentCommand
+- Trying to remove attribute 'FaultmemoryData'
+- Removeing attribute 'FaultmemoryData'
+At POD_OBC_OutputDCChargeCurrent
+- Trying to remove attribute 'FaultmemoryData'
+- Removeing attribute 'FaultmemoryData'
+At POD_OBC_OutputDCChargeVoltage
+- Trying to remove attribute 'FaultmemoryData'
+- Removeing attribute 'FaultmemoryData'
+At Chargestatus
+- Trying to remove attribute 'FaultmemoryData'
+- Removeing attribute 'FaultmemoryData'
+At Electronic_lock_state
+- Trying to remove attribute 'FaultmemoryData'
+- Removeing attribute 'FaultmemoryData'
+At VCU_HVIL
+- Trying to remove attribute 'FaultmemoryData'
+- Removeing attribute 'FaultmemoryData'
+At New_Bit_Field
+- Trying to remove attribute 'FaultmemoryData'
+- Removeing attribute 'FaultmemoryData'
+At VCU_DCDCPowerLimit
+- Trying to remove attribute 'FaultmemoryData'
+- Removeing attribute 'FaultmemoryData'
+At MCUPowerLimit
+- Trying to remove attribute 'FaultmemoryData'
+- Removeing attribute 'FaultmemoryData'
+At Mainrealy1
+- Trying to remove attribute 'FaultmemoryData'
+- Removeing attribute 'FaultmemoryData'
+At Mainrelay2
+- Trying to remove attribute 'FaultmemoryData'
+- Removeing attribute 'FaultmemoryData'
+At PWT_ErrorLevel
+- Trying to remove attribute 'FaultmemoryData'
+- Removeing attribute 'FaultmemoryData'
+At OEM_Key_Write_state
+- Trying to remove attribute 'FaultmemoryData'
+- Removeing attribute 'FaultmemoryData'
+At OEM_Key_Write_state
+- Trying to remove attribute 'FaultmemoryData'
+- Removeing attribute 'FaultmemoryData'
+At OEM_Key_Write_state
+- Trying to remove attribute 'FaultmemoryData'
+- Removeing attribute 'FaultmemoryData'
+At OEM_Key_Write_state
+- Trying to remove attribute 'FaultmemoryData'
+- Removeing attribute 'FaultmemoryData'
+At Major_release
+- Trying to remove attribute 'FaultmemoryData'
+- Removeing attribute 'FaultmemoryData'
+At Minor_release
+- Trying to remove attribute 'FaultmemoryData'
+- Removeing attribute 'FaultmemoryData'
+At No_functional_content_change
+- Trying to remove attribute 'FaultmemoryData'
+- Removeing attribute 'FaultmemoryData'
+At Specific_Vehicle_Code_WMI
+- Trying to remove attribute 'FaultmemoryData'
+- Removeing attribute 'FaultmemoryData'
+At Group
+- Trying to remove attribute 'FaultmemoryData'
+- Removeing attribute 'FaultmemoryData'
+At Subgroup
+- Trying to remove attribute 'FaultmemoryData'
+- Removeing attribute 'FaultmemoryData'
+At Detail_Code
+- Trying to remove attribute 'FaultmemoryData'
+- Removeing attribute 'FaultmemoryData'
+At Execution_Package
+- Trying to remove attribute 'FaultmemoryData'
+- Removeing attribute 'FaultmemoryData'
+At Major_release
+- Trying to remove attribute 'FaultmemoryData'
+- Removeing attribute 'FaultmemoryData'
+At Minor_release
+- Trying to remove attribute 'FaultmemoryData'
+- Removeing attribute 'FaultmemoryData'
+At No_functional_content_change
+- Trying to remove attribute 'FaultmemoryData'
+- Removeing attribute 'FaultmemoryData'
+At Version_Byte_0
+- Trying to remove attribute 'FaultmemoryData'
+- Removeing attribute 'FaultmemoryData'
+At Version_Byte_1
+- Trying to remove attribute 'FaultmemoryData'
+- Removeing attribute 'FaultmemoryData'
+At CDS_Short_VIN_High_Byte_0
+- Trying to remove attribute 'FaultmemoryData'
+- Removeing attribute 'FaultmemoryData'
+At CDS_Short_VIN_High_Byte_1
+- Trying to remove attribute 'FaultmemoryData'
+- Removeing attribute 'FaultmemoryData'
+At CDS_Short_VIN_High_Byte_2
+- Trying to remove attribute 'FaultmemoryData'
+- Removeing attribute 'FaultmemoryData'
+At CDS_Short_VIN_High_Byte_3
+- Trying to remove attribute 'FaultmemoryData'
+- Removeing attribute 'FaultmemoryData'
+At CDS_Short_VIN_High_Byte_4
+- Trying to remove attribute 'FaultmemoryData'
+- Removeing attribute 'FaultmemoryData'
+At CDS_Short_VIN_High_Byte_5
+- Trying to remove attribute 'FaultmemoryData'
+- Removeing attribute 'FaultmemoryData'
+At CDS_Short_VIN_High_Byte_7
+- Trying to remove attribute 'FaultmemoryData'
+- Removeing attribute 'FaultmemoryData'
+At CDS_Format_Byte_High_Byte_0
+- Trying to remove attribute 'FaultmemoryData'
+- Removeing attribute 'FaultmemoryData'
+At CDS_Format_Byte_High_Byte_1
+- Trying to remove attribute 'FaultmemoryData'
+- Removeing attribute 'FaultmemoryData'
+At Configuration1
+- Trying to remove attribute 'FaultmemoryData'
+- Removeing attribute 'FaultmemoryData'
+At Configuration2
+- Trying to remove attribute 'FaultmemoryData'
+- Removeing attribute 'FaultmemoryData'
+At CDS_CRC
+- Trying to remove attribute 'FaultmemoryData'
+- Removeing attribute 'FaultmemoryData'
+At codingDate_byte_1_YY
+- Trying to remove attribute 'FaultmemoryData'
+- Removeing attribute 'FaultmemoryData'
+At codingDate_byte_2_MM
+- Trying to remove attribute 'FaultmemoryData'
+- Removeing attribute 'FaultmemoryData'
+At codingDate_byte_3_DD
+- Trying to remove attribute 'FaultmemoryData'
+- Removeing attribute 'FaultmemoryData'
+At repairShopCodeorTesterSerialNumber_byte_1_27_MSB
+- Trying to remove attribute 'FaultmemoryData'
+- Removeing attribute 'FaultmemoryData'
+At Year
+- Trying to remove attribute 'FaultmemoryData'
+- Removeing attribute 'FaultmemoryData'
+At Month
+- Trying to remove attribute 'FaultmemoryData'
+- Removeing attribute 'FaultmemoryData'
+At Day
+- Trying to remove attribute 'FaultmemoryData'
+- Removeing attribute 'FaultmemoryData'
+At Active_diagnostic_session
+- Trying to remove attribute 'FaultmemoryData'
+- Removeing attribute 'FaultmemoryData'
+At Specific_Vehicle_Code_WMI
+- Trying to remove attribute 'FaultmemoryData'
+- Removeing attribute 'FaultmemoryData'
+At Group
+- Trying to remove attribute 'FaultmemoryData'
+- Removeing attribute 'FaultmemoryData'
+At Subgroup
+- Trying to remove attribute 'FaultmemoryData'
+- Removeing attribute 'FaultmemoryData'
+At Detail_Code
+- Trying to remove attribute 'FaultmemoryData'
+- Removeing attribute 'FaultmemoryData'
+At Execution_Package
+- Trying to remove attribute 'FaultmemoryData'
+- Removeing attribute 'FaultmemoryData'
+At OperatingSystemVersion
+- Trying to remove attribute 'FaultmemoryData'
+- Removeing attribute 'FaultmemoryData'
+At CanDriverVersion
+- Trying to remove attribute 'FaultmemoryData'
+- Removeing attribute 'FaultmemoryData'
+At NmVersion
+- Trying to remove attribute 'FaultmemoryData'
+- Removeing attribute 'FaultmemoryData'
+At ECU_Manufacturing_Date_Year
+- Trying to remove attribute 'FaultmemoryData'
+- Removeing attribute 'FaultmemoryData'
+At ECU_Manufacturing_Date_Month
+- Trying to remove attribute 'FaultmemoryData'
+- Removeing attribute 'FaultmemoryData'
+At ECU_Manufacturing_Date_Day
+- Trying to remove attribute 'FaultmemoryData'
+- Removeing attribute 'FaultmemoryData'
+At ECU_Name
+- Trying to remove attribute 'FaultmemoryData'
+- Removeing attribute 'FaultmemoryData'
+At Supplier_name
+- Trying to remove attribute 'FaultmemoryData'
+- Removeing attribute 'FaultmemoryData'
+At ECU_production_date_in_DD_MM_YY_format
+- Trying to remove attribute 'FaultmemoryData'
+- Removeing attribute 'FaultmemoryData'
+At ECU_index_number
+- Trying to remove attribute 'FaultmemoryData'
+- Removeing attribute 'FaultmemoryData'
+At World_Manufacturers_Identification
+- Trying to remove attribute 'FaultmemoryData'
+- Removeing attribute 'FaultmemoryData'
+At Vehicle_Description_Section
+- Trying to remove attribute 'FaultmemoryData'
+- Removeing attribute 'FaultmemoryData'
+At Vehicle_Identification_Section
+- Trying to remove attribute 'FaultmemoryData'
+- Removeing attribute 'FaultmemoryData'
+At Major_release
+- Trying to remove attribute 'FaultmemoryData'
+- Removeing attribute 'FaultmemoryData'
+At Changes_in_electronic_components_level
+- Trying to remove attribute 'FaultmemoryData'
+- Removeing attribute 'FaultmemoryData'
+At Ignition_Switch_Signal
+- Trying to remove attribute 'FaultmemoryData'
+- Removeing attribute 'FaultmemoryData'
+At Battery_Voltage
+- Trying to remove attribute 'FaultmemoryData'
+- Removeing attribute 'FaultmemoryData'
+At Total_Odometer
+- Trying to remove attribute 'FaultmemoryData'
+- Removeing attribute 'FaultmemoryData'
+At Vehicle_speed
+- Trying to remove attribute 'FaultmemoryData'
+- Removeing attribute 'FaultmemoryData'
+At Date_And_Time_Second
+- Trying to remove attribute 'FaultmemoryData'
+- Removeing attribute 'FaultmemoryData'
+At Date_And_Time_Minute
+- Trying to remove attribute 'FaultmemoryData'
+- Removeing attribute 'FaultmemoryData'
+At Date_And_Time_Hour
+- Trying to remove attribute 'FaultmemoryData'
+- Removeing attribute 'FaultmemoryData'
+At Date_And_Time_Day
+- Trying to remove attribute 'FaultmemoryData'
+- Removeing attribute 'FaultmemoryData'
+At Date_And_Time_Month
+- Trying to remove attribute 'FaultmemoryData'
+- Removeing attribute 'FaultmemoryData'
+At Date_And_Time_Year
+- Trying to remove attribute 'FaultmemoryData'
+- Removeing attribute 'FaultmemoryData'
+At VCU_HVStatus
+- Trying to remove attribute 'FaultmemoryData'
+- Removeing attribute 'FaultmemoryData'
+At SOC
+- Trying to remove attribute 'FaultmemoryData'
+- Removeing attribute 'FaultmemoryData'
+At Gear
+- Trying to remove attribute 'FaultmemoryData'
+- Removeing attribute 'FaultmemoryData'
+At SecuritySeed
+- Trying to remove attribute 'FaultmemoryData'
+- Removeing attribute 'FaultmemoryData'
+At SecurityKey
+- Trying to remove attribute 'FaultmemoryData'
+- Removeing attribute 'FaultmemoryData'
+At SecuritySeed
+- Trying to remove attribute 'FaultmemoryData'
+- Removeing attribute 'FaultmemoryData'
+At SecurityKey
+- Trying to remove attribute 'FaultmemoryData'
+- Removeing attribute 'FaultmemoryData'
+At SecuritySeed
+- Trying to remove attribute 'FaultmemoryData'
+- Removeing attribute 'FaultmemoryData'
+At SecurityKey
+- Trying to remove attribute 'FaultmemoryData'
+- Removeing attribute 'FaultmemoryData'
+At SecuritySeed
+- Trying to remove attribute 'FaultmemoryData'
+- Removeing attribute 'FaultmemoryData'
+At SecurityKey
+- Trying to remove attribute 'FaultmemoryData'
+- Removeing attribute 'FaultmemoryData'
+At Communciation_Type
+- Trying to remove attribute 'FaultmemoryData'
+- Removeing attribute 'FaultmemoryData'
+At Communciation_Type
+- Trying to remove attribute 'FaultmemoryData'
+- Removeing attribute 'FaultmemoryData'
+At OEM_Key_Value
+- Trying to remove attribute 'FaultmemoryData'
+- Removeing attribute 'FaultmemoryData'
+At OEM_Key_Value
+- Trying to remove attribute 'FaultmemoryData'
+- Removeing attribute 'FaultmemoryData'
+At OEM_Key_Value
+- Trying to remove attribute 'FaultmemoryData'
+- Removeing attribute 'FaultmemoryData'
+At OEM_Key_Value
+- Trying to remove attribute 'FaultmemoryData'
+- Removeing attribute 'FaultmemoryData'
+At routineResult
+- Trying to remove attribute 'FaultmemoryData'
+- Removeing attribute 'FaultmemoryData'
+At checksum
+- Trying to remove attribute 'FaultmemoryData'
+- Removeing attribute 'FaultmemoryData'
+At routineResult
+- Trying to remove attribute 'FaultmemoryData'
+- Removeing attribute 'FaultmemoryData'
+At programmingPreConditionList
+- Trying to remove attribute 'FaultmemoryData'
+- Removeing attribute 'FaultmemoryData'
+At routineResult
+- Trying to remove attribute 'FaultmemoryData'
+- Removeing attribute 'FaultmemoryData'
+At addressAndLengthFormatIdentifier
+- Trying to remove attribute 'FaultmemoryData'
+- Removeing attribute 'FaultmemoryData'
+At memoryAddress
+- Trying to remove attribute 'FaultmemoryData'
+- Removeing attribute 'FaultmemoryData'
+At memorySize
+- Trying to remove attribute 'FaultmemoryData'
+- Removeing attribute 'FaultmemoryData'
+At routineResult
+- Trying to remove attribute 'FaultmemoryData'
+- Removeing attribute 'FaultmemoryData'
+At routineResult
+- Trying to remove attribute 'FaultmemoryData'
+- Removeing attribute 'FaultmemoryData'
+At DFI_
+- Trying to remove attribute 'FaultmemoryData'
+- Removeing attribute 'FaultmemoryData'
+At LFID
+- Trying to remove attribute 'FaultmemoryData'
+- Removeing attribute 'FaultmemoryData'
+At MNROB_
+- Trying to remove attribute 'FaultmemoryData'
+- Removeing attribute 'FaultmemoryData'
+At Fault_Ocurrence_Counter
+- Trying to remove attribute 'FaultmemoryData'
+- Removeing attribute 'FaultmemoryData'
+At Fault_Aged_Counter
+- Trying to remove attribute 'FaultmemoryData'
+- Removeing attribute 'FaultmemoryData'
+At Fault_Aging_Counter
+- Trying to remove attribute 'FaultmemoryData'
+- Removeing attribute 'FaultmemoryData'
+At Ecu
+- Shape Routine Parameter Names
+<<<<<<<<<<<<< ShapingStep DataDefinition( completed in 0.063s (63ms) <<<<<<<<<<<<<
+>>>>>>>>>>>>> ShapingStep DataIdentifier >>>>>>>>>>>>>
+At Did 0xf190 - 'Read_Write_complete_VIN'
+- Set DID property 'IsVIN' to 'true'
+<<<<<<<<<<<<< ShapingStep DataIdentifier( completed in 0s (0ms) <<<<<<<<<<<<<
+>>>>>>>>>>>>> ShapingStep Service >>>>>>>>>>>>>
+At Ecu
+- Building Diagnostic Event Memories
+- Checking Diagnostic Event Memories
+At Service 0x10
+- Qualifier changed from 'DefaultSession_Start' to 'DiagSessionControl'
+- Service action qualifier set to 'SessionControl'
+At Service 0x10 SubService 0x1
+- SubService action qualifier set to 'StartSession'
+At Service 0x10 SubService 0x2
+- SubService action qualifier set to 'StartSession'
+At Service 0x10 SubService 0x3
+- SubService action qualifier set to 'StartSession'
+At Service 0x10 SubService 0x41
+- SubService action qualifier set to 'StartSession'
+At Service 0x10 SubService 0x1
+- Qualifier changed from 'DefaultSession_Start' to 'Default'
+At Service 0x10 SubService 0x2
+- Qualifier changed from 'ProgrammingSession_Start' to 'Programming'
+At Service 0x10 SubService 0x3
+- Qualifier changed from 'ExtendedDiagnosticSession_Start' to 'Extended'
+At Service 0x11
+- Qualifier changed from 'Hard_Reset_Reset' to 'EcuReset'
+At Service 0x11 SubService 0x1
+- SubService action qualifier set to 'EcuReset'
+At Service 0x11 SubService 0x3
+- SubService action qualifier set to 'EcuReset'
+At Service 0x11 SubService 0x1
+- Qualifier changed from 'Hard_Reset_Reset' to 'Hard'
+At Service 0x11 SubService 0x3
+- Qualifier changed from 'Soft_Reset_Reset' to 'Soft'
+At Service 0x14
+- Qualifier changed from 'FaultMemory_Clear' to 'ClearDiagInfo'
+At Service 0x14 SubService
+- SubService action qualifier set to 'Clear'
+- Qualifier changed from 'FaultMemory_Clear' to 'ClearDiagInfo'
+At Service 0x19
+- Qualifier changed from 'FaultMemory_ReadAllIdentified' to 'ReadDtcInfo'
+At Service 0x19 SubService 0x2
+- SubService action qualifier set to 'ReadDtc'
+At Service 0x19 SubService 0x1
+- SubService action qualifier set to 'ReadDtc'
+At Service 0x19 SubService 0x3
+- SubService action qualifier set to 'ReadDtc'
+At Service 0x19 SubService 0x4
+- SubService action qualifier set to 'ReadDtc'
+At Service 0x19 SubService 0x6
+- SubService action qualifier set to 'ReadDtc'
+At Service 0x19 SubService 0xa
+- SubService action qualifier set to 'ReadDtc'
+At Service 0x19 SubService 0x1
+- Qualifier changed from 'FaultMemory_ReadNumber' to 'RNODTCBSM'
+At Service 0x19 SubService 0x2
+- Qualifier changed from 'FaultMemory_ReadAllIdentified' to 'RDTCBSM'
+At Service 0x19 SubService 0x3
+- Qualifier changed from 'FaultMemory_Read_snapshot_ID' to 'RDTCSSI'
+At Service 0x19 SubService 0x4
+- Qualifier changed from 'FaultMemory_Read_snapshot_record' to 'RDTCSSBDTC'
+At Service 0x19 SubService 0x6
+- Qualifier changed from 'FaultMemory_Read_extended_data_record' to 'RDTCEDRBDN'
+At Service 0x19 SubService 0xa
+- Qualifier changed from 'FaultMemory_ReadAllSupported' to 'RSUPDTC'
+At Service 0x22
+- Qualifier changed from 'HV_Status_and_Charging_Status_Read' to 'ReadDataById'
+- Service action qualifier set to 'Read'
+At Service 0x22 SubService 0x16c
+- SubService action qualifier set to 'ReadDid'
+At Service 0x22 SubService 0x1d01
+- SubService action qualifier set to 'ReadDid'
+At Service 0x22 SubService 0x1d02
+- SubService action qualifier set to 'ReadDid'
+At Service 0x22 SubService 0x1d03
+- SubService action qualifier set to 'ReadDid'
+At Service 0x22 SubService 0x1d04
+- SubService action qualifier set to 'ReadDid'
+At Service 0x22 SubService 0x1d05
+- SubService action qualifier set to 'ReadDid'
+At Service 0x22 SubService 0x1d06
+- SubService action qualifier set to 'ReadDid'
+At Service 0x22 SubService 0x1d07
+- SubService action qualifier set to 'ReadDid'
+At Service 0x22 SubService 0x1d08
+- SubService action qualifier set to 'ReadDid'
+At Service 0x22 SubService 0x1d09
+- SubService action qualifier set to 'ReadDid'
+At Service 0x22 SubService 0x1d10
+- SubService action qualifier set to 'ReadDid'
+At Service 0x22 SubService 0x1d11
+- SubService action qualifier set to 'ReadDid'
+At Service 0x22 SubService 0x1d12
+- SubService action qualifier set to 'ReadDid'
+At Service 0x22 SubService 0xf011
+- SubService action qualifier set to 'ReadDid'
+At Service 0x22 SubService 0xf013
+- SubService action qualifier set to 'ReadDid'
+At Service 0x22 SubService 0xf015
+- SubService action qualifier set to 'ReadDid'
+At Service 0x22 SubService 0xf017
+- SubService action qualifier set to 'ReadDid'
+At Service 0x22 SubService 0xf101
+- SubService action qualifier set to 'ReadDid'
+At Service 0x22 SubService 0xf102
+- SubService action qualifier set to 'ReadDid'
+At Service 0x22 SubService 0xf104
+- SubService action qualifier set to 'ReadDid'
+At Service 0x22 SubService 0xf108
+- SubService action qualifier set to 'ReadDid'
+At Service 0x22 SubService 0xf10a
+- SubService action qualifier set to 'ReadDid'
+At Service 0x22 SubService 0xf10f
+- SubService action qualifier set to 'ReadDid'
+At Service 0x22 SubService 0xf186
+- SubService action qualifier set to 'ReadDid'
+At Service 0x22 SubService 0xf187
+- SubService action qualifier set to 'ReadDid'
+At Service 0x22 SubService 0xf18a
+- SubService action qualifier set to 'ReadDid'
+At Service 0x22 SubService 0xf18b
+- SubService action qualifier set to 'ReadDid'
+At Service 0x22 SubService 0xf18c
+- SubService action qualifier set to 'ReadDid'
+At Service 0x22 SubService 0xf190
+- SubService action qualifier set to 'ReadDid'
+At Service 0x22 SubService 0xf192
+- SubService action qualifier set to 'ReadDid'
+At Service 0x22 SubService 0xf1a0
+- SubService action qualifier set to 'ReadDid'
+At Service 0x22 SubService 0xf1a1
+- SubService action qualifier set to 'ReadDid'
+At Service 0x22 SubService 0xf1a2
+- SubService action qualifier set to 'ReadDid'
+At Service 0x22 SubService 0xf1a3
+- SubService action qualifier set to 'ReadDid'
+At Service 0x22 SubService 0xf1a4
+- SubService action qualifier set to 'ReadDid'
+At Service 0x22 SubService 0xf1a5
+- SubService action qualifier set to 'ReadDid'
+At Service 0x22 SubService 0xf1a6
+- SubService action qualifier set to 'ReadDid'
+At Service 0x22 SubService 0xf1a7
+- SubService action qualifier set to 'ReadDid'
+At Service 0x27
+- Qualifier changed from 'SeedLevel1_Request' to 'SecurityAccess'
+- Service action qualifier set to 'SecurityAccess'
+At Service 0x27 SubService 0x2
+- SubService action qualifier set to 'SendKey'
+At Service 0x27 SubService 0x4
+- SubService action qualifier set to 'SendKey'
+At Service 0x27 SubService 0x6
+- SubService action qualifier set to 'SendKey'
+At Service 0x27 SubService 0x8
+- SubService action qualifier set to 'SendKey'
+At Service 0x27 SubService 0x1
+- SubService action qualifier set to 'GetSeed'
+At Service 0x27 SubService 0x3
+- SubService action qualifier set to 'GetSeed'
+At Service 0x27 SubService 0x5
+- SubService action qualifier set to 'GetSeed'
+At Service 0x27 SubService 0x7
+- SubService action qualifier set to 'GetSeed'
+At Service 0x28
+- Qualifier changed from 'EnableRxAndEnableTx_Control' to 'CommunicationControl'
+At Service 0x28 SubService 0x0
+- SubService action qualifier set to 'CommCtrl'
+At Service 0x28 SubService 0x3
+- SubService action qualifier set to 'CommCtrl'
+At Service 0x28 SubService 0x0
+- Qualifier changed from 'EnableRxAndEnableTx_Control' to 'EnableRxAndTx'
+At Service 0x28 SubService 0x3
+- Qualifier changed from 'DisableRxAndDisableTx_Control' to 'DisableRxAndTx'
+At Service 0x2e
+- Qualifier changed from 'Write_Level1_OEM_Key_Write' to 'WriteDataById'
+- Service action qualifier set to 'Write'
+At Service 0x2e SubService 0xf010
+- SubService action qualifier set to 'WriteDid'
+At Service 0x2e SubService 0xf012
+- SubService action qualifier set to 'WriteDid'
+At Service 0x2e SubService 0xf014
+- SubService action qualifier set to 'WriteDid'
+At Service 0x2e SubService 0xf016
+- SubService action qualifier set to 'WriteDid'
+At Service 0x2e SubService 0xf108
+- SubService action qualifier set to 'WriteDid'
+At Service 0x2e SubService 0xf10a
+- SubService action qualifier set to 'WriteDid'
+At Service 0x2e SubService 0xf10f
+- SubService action qualifier set to 'WriteDid'
+At Service 0x2e SubService 0xf190
+- SubService action qualifier set to 'WriteDid'
+At Service 0x31
+- Qualifier changed from 'CheckCodingState_Start' to 'RoutineControl'
+At Service 0x31 SubService 0x1
+- SubService action qualifier set to 'RtnCtrlStart'
+At Service 0x31 SubService 0x1
+- SubService action qualifier set to 'RtnCtrlStart'
+At Service 0x31 SubService 0x1
+- SubService action qualifier set to 'RtnCtrlStart'
+At Service 0x31 SubService 0x1
+- SubService action qualifier set to 'RtnCtrlStart'
+At Service 0x31 SubService 0x1
+- SubService action qualifier set to 'RtnCtrlStart'
+At Service 0x31 SubService 0x1
+- SubService action qualifier set to 'RtnCtrlStart'
+At Service 0x31 SubService 0x2
+- SubService action qualifier set to 'RtnCtrlStop'
+At Service 0x34
+- Qualifier changed from 'Upload_Download_RequestDownload' to 'RequestDownload'
+At Service 0x34 SubService
+- SubService action qualifier set to 'RequestDownload'
+At Service 0x36
+- Qualifier changed from 'Upload_Download_Transmit' to 'TransferData'
+At Service 0x36 SubService
+- SubService action qualifier set to 'TransferData'
+At Service 0x37
+- Qualifier changed from 'Upload_Download_Stop' to 'RequestTransferExit'
+At Service 0x37 SubService
+- SubService action qualifier set to 'RequestTransferExit'
+At Service 0x3e
+- Qualifier changed from 'TesterPresent_Send' to 'TesterPresent'
+At Service 0x3e SubService 0x0
+- SubService action qualifier set to 'Send'
+- Qualifier changed from 'TesterPresent_Send' to 'TesterPresent'
+At Service 0x85
+- Spec changed from '12' to 'FaultMemory'(2)
+- Qualifier changed from 'ControlDTCSetting_On' to 'ControlDtcSetting'
+At Service 0x85 SubService 0x1
+- SubService action qualifier set to 'ControlDtcSetting'
+At Service 0x85 SubService 0x2
+- SubService action qualifier set to 'ControlDtcSetting'
+At Service 0x85 SubService 0x1
+- Qualifier changed from 'ControlDTCSetting_On' to 'Enable'
+At Service 0x85 SubService 0x2
+- Qualifier changed from 'ControlDTCSetting_Off' to 'Disable'
+At Service 0x1
+- Spec changed from '9' to 'Obd'(7)
+- Qualifier changed from 'Query_supported_PID_0x01_0x20_Read_Supported_PID_OBD' to 'ProcessOBDService01'
+At Service 0x1 SubService 0x0
+- SubService action qualifier set to 'ReadDataPid'
+At Service 0x9
+- Spec changed from '12' to 'Obd'(7)
+- Qualifier changed from 'SupportedInfoTypes_Read_supported_InfoTypes_OBD' to 'ProcessOBDService09'
+At Service 0x9 SubService 0x0
+- SubService action qualifier set to 'ReadObdVid'
+At Service 0x9 SubService 0x2
+- SubService action qualifier set to 'ReadObdVid'
+<<<<<<<<<<<<< ShapingStep Service( completed in 0.047s (47ms) <<<<<<<<<<<<<
+>>>>>>>>>>>>> ShapingStep StateMachine >>>>>>>>>>>>>
+At Ecu
+- Merging Environmental Modes
+- Merging Environmental Dids
+- Merging Environmental Rules
+- Merging Access Conditions
+- Building Diagnostic Sessions
+-  + Session 'Default' created
+-  + Session 'Programming' created
+-  + Session 'Extended' created
+-  + Session 'Coding_Session' created
+              [WARNING] - Service 0x27 0x2 has a transition to its own state 'UnlockedL1'
+- The self-transition for this SecurityAccess state will be removed
+              [WARNING] - Service 0x27 0x4 has a transition to its own state 'Unlocked_Level_2'
+- The self-transition for this SecurityAccess state will be removed
+              [WARNING] - Service 0x27 0x6 has a transition to its own state 'Unlocked_Level_3'
+- The self-transition for this SecurityAccess state will be removed
+              [WARNING] - Service 0x27 0x8 has a transition to its own state 'Unlocked_Level_4'
+- The self-transition for this SecurityAccess state will be removed
+- Building Diagnostic Securities
+-  + Security 'UnlockedL1' created
+-  + Security 'Unlocked_Level_2' created
+-  + Security 'Unlocked_Level_3' created
+-  + Security 'Unlocked_Level_4' created
+- Building Authorizations
+- Building Environmental Conditions
+- Building Access Conditions
+-  + Access Cond 'S01;S03;S41|' created
+-  + Access Cond '|' created
+-  + Access Cond 'S02;S03|' created
+-  + Access Cond 'S03;S41|' created
+-  + Access Cond 'S02;S03;S41|' created
+-  + Access Cond 'S03|' created
+-  + Access Cond 'S41|' created
+-  + Access Cond 'S02|' created
+-  + Access Cond 'S03|T01' created
+-  + Access Cond 'S03|T02' created
+-  + Access Cond 'S41|T03' created
+-  + Access Cond 'S02|T04' created
+-  + Access Cond 'S03|T01;T02' created
+              [ERROR] - Access permission of sub-service 'CheckProgrammingPreCondition_Start' uses invalid security combination containing security-level 'Locked'. Security of sub-service was deleted.
+At Ecu
+-  + Access Cond 'S02;S03;S41|T01;T02;T03;T04' created for service
+At Ecu
+- Building Access Conditions - finshed
+<<<<<<<<<<<<< ShapingStep StateMachine( completed in 0s (0ms) <<<<<<<<<<<<<
+>>>>>>>>>>>>> ShapingStep StateMachine2 >>>>>>>>>>>>>
+              [WARNING] At Session 0x1 [stateAttr(JumpToBoot): exists]
+              [WARNING] - Invalid value 'N/A' for session property 'JumpToBoot' in rule/attr 'JumpToBoot'
+              [WARNING] At Session 0x2 [stateAttr(JumpToBoot): exists]
+              [WARNING] - Invalid value 'N/A' for session property 'JumpToBoot' in rule/attr 'JumpToBoot'
+              [WARNING] At Session 0x3 [stateAttr(JumpToBoot): exists]
+              [WARNING] - Invalid value 'N/A' for session property 'JumpToBoot' in rule/attr 'JumpToBoot'
+              [WARNING] At Session 0x41 [stateAttr(JumpToBoot): exists]
+              [WARNING] - Invalid value 'N/A' for session property 'JumpToBoot' in rule/attr 'JumpToBoot'
+At Security 0x1 [serviceAttr(MaxAttemptsToDelay):  exists]
+- Set property 'NumFailed' to '3'
+At Security 0x1 [serviceAttr(DelayTimeMs):  exists]
+- Set property 'DelayTime' to '10000'
+At Security 0x1 [serviceAttr(DelayTimeOnPowerOnMs):  exists]
+- Set property 'BootDelayTime' to '0'
+At Security 0x2 [serviceAttr(MaxAttemptsToDelay):  exists]
+- Set property 'NumFailed' to '3'
+At Security 0x2 [serviceAttr(DelayTimeMs):  exists]
+- Set property 'DelayTime' to '10000'
+At Security 0x3 [serviceAttr(MaxAttemptsToDelay):  exists]
+- Set property 'NumFailed' to '3'
+At Security 0x3 [serviceAttr(DelayTimeMs):  exists]
+- Set property 'DelayTime' to '10000'
+At Security 0x4 [serviceAttr(MaxAttemptsToDelay):  exists]
+- Set property 'NumFailed' to '3'
+At Security 0x4 [serviceAttr(DelayTimeMs):  exists]
+- Set property 'DelayTime' to '10000'
+<<<<<<<<<<<<< ShapingStep StateMachine2( completed in 0.015s (15ms) <<<<<<<<<<<<<
+>>>>>>>>>>>>> ShapingStep StateMachine3 >>>>>>>>>>>>>
+At Session 0x1 [P2Time is Null]
+- Set property 'P2Time' to '50'
+At Session 0x1 [P2ExTime is Null]
+- Set property 'P2ExTime' to '5000'
+At Session 0x2 [P2Time is Null]
+- Set property 'P2Time' to '50'
+At Session 0x2 [P2ExTime is Null]
+- Set property 'P2ExTime' to '5000'
+At Session 0x3 [P2Time is Null]
+- Set property 'P2Time' to '50'
+At Session 0x3 [P2ExTime is Null]
+- Set property 'P2ExTime' to '5000'
+At Session 0x41 [P2Time is Null]
+- Set property 'P2Time' to '50'
+At Session 0x41 [P2ExTime is Null]
+- Set property 'P2ExTime' to '5000'
+At Session 0x1 [JumpToBoot is Null]
+- Set property 'JumpToBoot' to 'noBoot'
+- Set Reset-to-FBL to false
+At Session 0x3 [JumpToBoot is Null]
+- Set property 'JumpToBoot' to 'noBoot'
+<<<<<<<<<<<<< ShapingStep StateMachine3( completed in 0s (0ms) <<<<<<<<<<<<<
+>>>>>>>>>>>>> ShapingStep Settings >>>>>>>>>>>>>
+At Ecu 'VCU'
+- Set 'periodic rate slow' to '1000'
+- Set 'periodic rate medium' to '100'
+- Set 'periodic rate fast' to '20'
+- Set 'maximum number of dynamically defined dids' to '5'
+- Set 'storage of dynamically defined dids' to 'volatile'
+- Set 'check access of dynamically defined dids' to 'false'
+At Ecu 'VCU' Obd2 (DEM): false
+- Set ecu property 'ObdSupport' to 'none'
+<<<<<<<<<<<<< ShapingStep Settings( completed in 0s (0ms) <<<<<<<<<<<<<
+>>>>>>>>>>>>> ShapingStep FaultMemory >>>>>>>>>>>>>
+              [ERROR] At DTC 0x110012
+              [ERROR] - No value found for DTC property 'Qualifier' in attr(s) 'DTC_SHORTNAME'
+- Set DTC-Prop 'Qualifier' to 'DTC_0x110012'
+- Set DTC-Prop 'DtcType' to default 'Fault'
+- Set DTC-Prop 'Priority' to '2'
+- Set DTC-Prop 'AgingCycle' to 'DEM_POWER'
+- Set DTC-Prop 'AgingCount' to '40'
+At DTC 0x110012
+- Set DTC-Prop 'AgingAllowed' to 'true'
+- Set DTC-Prop 'Severity' to '0'
+              [ERROR] At DTC 0x110112
+              [ERROR] - No value found for DTC property 'Qualifier' in attr(s) 'DTC_SHORTNAME'
+- Set DTC-Prop 'Qualifier' to 'DTC_0x110112'
+- Set DTC-Prop 'DtcType' to default 'Fault'
+- Set DTC-Prop 'Priority' to '2'
+- Set DTC-Prop 'AgingCycle' to 'DEM_POWER'
+- Set DTC-Prop 'AgingCount' to '40'
+At DTC 0x110112
+- Set DTC-Prop 'AgingAllowed' to 'true'
+- Set DTC-Prop 'Severity' to '0'
+              [ERROR] At DTC 0x110211
+              [ERROR] - No value found for DTC property 'Qualifier' in attr(s) 'DTC_SHORTNAME'
+- Set DTC-Prop 'Qualifier' to 'DTC_0x110211'
+- Set DTC-Prop 'DtcType' to default 'Fault'
+- Set DTC-Prop 'Priority' to '2'
+- Set DTC-Prop 'AgingCycle' to 'DEM_POWER'
+- Set DTC-Prop 'AgingCount' to '40'
+At DTC 0x110211
+- Set DTC-Prop 'AgingAllowed' to 'true'
+- Set DTC-Prop 'Severity' to '0'
+              [ERROR] At DTC 0x110311
+              [ERROR] - No value found for DTC property 'Qualifier' in attr(s) 'DTC_SHORTNAME'
+- Set DTC-Prop 'Qualifier' to 'DTC_0x110311'
+- Set DTC-Prop 'DtcType' to default 'Fault'
+- Set DTC-Prop 'Priority' to '2'
+- Set DTC-Prop 'AgingCycle' to 'DEM_POWER'
+- Set DTC-Prop 'AgingCount' to '40'
+At DTC 0x110311
+- Set DTC-Prop 'AgingAllowed' to 'true'
+- Set DTC-Prop 'Severity' to '0'
+              [ERROR] At DTC 0x11041e
+              [ERROR] - No value found for DTC property 'Qualifier' in attr(s) 'DTC_SHORTNAME'
+- Set DTC-Prop 'Qualifier' to 'DTC_0x11041e'
+- Set DTC-Prop 'DtcType' to default 'Fault'
+- Set DTC-Prop 'Priority' to '2'
+- Set DTC-Prop 'AgingCycle' to 'DEM_POWER'
+- Set DTC-Prop 'AgingCount' to '40'
+At DTC 0x11041e
+- Set DTC-Prop 'AgingAllowed' to 'true'
+- Set DTC-Prop 'Severity' to '0'
+              [ERROR] At DTC 0x110a1e
+              [ERROR] - No value found for DTC property 'Qualifier' in attr(s) 'DTC_SHORTNAME'
+- Set DTC-Prop 'Qualifier' to 'DTC_0x110a1e'
+- Set DTC-Prop 'DtcType' to default 'Fault'
+- Set DTC-Prop 'Priority' to '2'
+- Set DTC-Prop 'AgingCycle' to 'DEM_POWER'
+- Set DTC-Prop 'AgingCount' to '40'
+At DTC 0x110a1e
+- Set DTC-Prop 'AgingAllowed' to 'true'
+- Set DTC-Prop 'Severity' to '0'
+              [ERROR] At DTC 0x110b1e
+              [ERROR] - No value found for DTC property 'Qualifier' in attr(s) 'DTC_SHORTNAME'
+- Set DTC-Prop 'Qualifier' to 'DTC_0x110b1e'
+- Set DTC-Prop 'DtcType' to default 'Fault'
+- Set DTC-Prop 'Priority' to '2'
+- Set DTC-Prop 'AgingCycle' to 'DEM_POWER'
+- Set DTC-Prop 'AgingCount' to '40'
+At DTC 0x110b1e
+- Set DTC-Prop 'AgingAllowed' to 'true'
+- Set DTC-Prop 'Severity' to '0'
+              [ERROR] At DTC 0x111152
+              [ERROR] - No value found for DTC property 'Qualifier' in attr(s) 'DTC_SHORTNAME'
+- Set DTC-Prop 'Qualifier' to 'DTC_0x111152'
+- Set DTC-Prop 'DtcType' to default 'Fault'
+- Set DTC-Prop 'Priority' to '2'
+- Set DTC-Prop 'AgingCycle' to 'DEM_POWER'
+- Set DTC-Prop 'AgingCount' to '40'
+At DTC 0x111152
+- Set DTC-Prop 'AgingAllowed' to 'true'
+- Set DTC-Prop 'Severity' to '0'
+              [ERROR] At DTC 0x111252
+              [ERROR] - No value found for DTC property 'Qualifier' in attr(s) 'DTC_SHORTNAME'
+- Set DTC-Prop 'Qualifier' to 'DTC_0x111252'
+- Set DTC-Prop 'DtcType' to default 'Fault'
+- Set DTC-Prop 'Priority' to '2'
+- Set DTC-Prop 'AgingCycle' to 'DEM_POWER'
+- Set DTC-Prop 'AgingCount' to '40'
+At DTC 0x111252
+- Set DTC-Prop 'AgingAllowed' to 'true'
+- Set DTC-Prop 'Severity' to '0'
+              [ERROR] At DTC 0x111352
+              [ERROR] - No value found for DTC property 'Qualifier' in attr(s) 'DTC_SHORTNAME'
+- Set DTC-Prop 'Qualifier' to 'DTC_0x111352'
+- Set DTC-Prop 'DtcType' to default 'Fault'
+- Set DTC-Prop 'Priority' to '2'
+- Set DTC-Prop 'AgingCycle' to 'DEM_POWER'
+- Set DTC-Prop 'AgingCount' to '40'
+At DTC 0x111352
+- Set DTC-Prop 'AgingAllowed' to 'true'
+- Set DTC-Prop 'Severity' to '0'
+              [ERROR] At DTC 0x111e71
+              [ERROR] - No value found for DTC property 'Qualifier' in attr(s) 'DTC_SHORTNAME'
+- Set DTC-Prop 'Qualifier' to 'DTC_0x111e71'
+- Set DTC-Prop 'DtcType' to default 'Fault'
+- Set DTC-Prop 'Priority' to '2'
+- Set DTC-Prop 'AgingCycle' to 'DEM_POWER'
+- Set DTC-Prop 'AgingCount' to '40'
+At DTC 0x111e71
+- Set DTC-Prop 'AgingAllowed' to 'true'
+- Set DTC-Prop 'Severity' to '0'
+              [ERROR] At DTC 0x111f16
+              [ERROR] - No value found for DTC property 'Qualifier' in attr(s) 'DTC_SHORTNAME'
+- Set DTC-Prop 'Qualifier' to 'DTC_0x111f16'
+- Set DTC-Prop 'DtcType' to default 'Fault'
+- Set DTC-Prop 'Priority' to '2'
+- Set DTC-Prop 'AgingCycle' to 'DEM_POWER'
+- Set DTC-Prop 'AgingCount' to '40'
+At DTC 0x111f16
+- Set DTC-Prop 'AgingAllowed' to 'true'
+- Set DTC-Prop 'Severity' to '0'
+              [ERROR] At DTC 0x11281e
+              [ERROR] - No value found for DTC property 'Qualifier' in attr(s) 'DTC_SHORTNAME'
+- Set DTC-Prop 'Qualifier' to 'DTC_0x11281e'
+- Set DTC-Prop 'DtcType' to default 'Fault'
+- Set DTC-Prop 'Priority' to '2'
+- Set DTC-Prop 'AgingCycle' to 'DEM_POWER'
+- Set DTC-Prop 'AgingCount' to '40'
+At DTC 0x11281e
+- Set DTC-Prop 'AgingAllowed' to 'true'
+- Set DTC-Prop 'Severity' to '0'
+              [ERROR] At DTC 0x11291c
+              [ERROR] - No value found for DTC property 'Qualifier' in attr(s) 'DTC_SHORTNAME'
+- Set DTC-Prop 'Qualifier' to 'DTC_0x11291c'
+- Set DTC-Prop 'DtcType' to default 'Fault'
+- Set DTC-Prop 'Priority' to '2'
+- Set DTC-Prop 'AgingCycle' to 'DEM_POWER'
+- Set DTC-Prop 'AgingCount' to '40'
+At DTC 0x11291c
+- Set DTC-Prop 'AgingAllowed' to 'true'
+- Set DTC-Prop 'Severity' to '0'
+              [ERROR] At DTC 0x11309a
+              [ERROR] - No value found for DTC property 'Qualifier' in attr(s) 'DTC_SHORTNAME'
+- Set DTC-Prop 'Qualifier' to 'DTC_0x11309a'
+- Set DTC-Prop 'DtcType' to default 'Fault'
+- Set DTC-Prop 'Priority' to '2'
+- Set DTC-Prop 'AgingCycle' to 'DEM_POWER'
+- Set DTC-Prop 'AgingCount' to '40'
+At DTC 0x11309a
+- Set DTC-Prop 'AgingAllowed' to 'true'
+- Set DTC-Prop 'Severity' to '0'
+              [ERROR] At DTC 0x113197
+              [ERROR] - No value found for DTC property 'Qualifier' in attr(s) 'DTC_SHORTNAME'
+- Set DTC-Prop 'Qualifier' to 'DTC_0x113197'
+- Set DTC-Prop 'DtcType' to default 'Fault'
+- Set DTC-Prop 'Priority' to '2'
+- Set DTC-Prop 'AgingCycle' to 'DEM_POWER'
+- Set DTC-Prop 'AgingCount' to '40'
+At DTC 0x113197
+- Set DTC-Prop 'AgingAllowed' to 'true'
+- Set DTC-Prop 'Severity' to '0'
+              [ERROR] At DTC 0x113297
+              [ERROR] - No value found for DTC property 'Qualifier' in attr(s) 'DTC_SHORTNAME'
+- Set DTC-Prop 'Qualifier' to 'DTC_0x113297'
+- Set DTC-Prop 'DtcType' to default 'Fault'
+- Set DTC-Prop 'Priority' to '2'
+- Set DTC-Prop 'AgingCycle' to 'DEM_POWER'
+- Set DTC-Prop 'AgingCount' to '40'
+At DTC 0x113297
+- Set DTC-Prop 'AgingAllowed' to 'true'
+- Set DTC-Prop 'Severity' to '0'
+              [ERROR] At DTC 0x113397
+              [ERROR] - No value found for DTC property 'Qualifier' in attr(s) 'DTC_SHORTNAME'
+- Set DTC-Prop 'Qualifier' to 'DTC_0x113397'
+- Set DTC-Prop 'DtcType' to default 'Fault'
+- Set DTC-Prop 'Priority' to '2'
+- Set DTC-Prop 'AgingCycle' to 'DEM_POWER'
+- Set DTC-Prop 'AgingCount' to '40'
+At DTC 0x113397
+- Set DTC-Prop 'AgingAllowed' to 'true'
+- Set DTC-Prop 'Severity' to '0'
+              [ERROR] At DTC 0x113497
+              [ERROR] - No value found for DTC property 'Qualifier' in attr(s) 'DTC_SHORTNAME'
+- Set DTC-Prop 'Qualifier' to 'DTC_0x113497'
+- Set DTC-Prop 'DtcType' to default 'Fault'
+- Set DTC-Prop 'Priority' to '2'
+- Set DTC-Prop 'AgingCycle' to 'DEM_POWER'
+- Set DTC-Prop 'AgingCount' to '40'
+At DTC 0x113497
+- Set DTC-Prop 'AgingAllowed' to 'true'
+- Set DTC-Prop 'Severity' to '0'
+              [ERROR] At DTC 0x113597
+              [ERROR] - No value found for DTC property 'Qualifier' in attr(s) 'DTC_SHORTNAME'
+- Set DTC-Prop 'Qualifier' to 'DTC_0x113597'
+- Set DTC-Prop 'DtcType' to default 'Fault'
+- Set DTC-Prop 'Priority' to '2'
+- Set DTC-Prop 'AgingCycle' to 'DEM_POWER'
+- Set DTC-Prop 'AgingCount' to '40'
+At DTC 0x113597
+- Set DTC-Prop 'AgingAllowed' to 'true'
+- Set DTC-Prop 'Severity' to '0'
+              [ERROR] At DTC 0x113697
+              [ERROR] - No value found for DTC property 'Qualifier' in attr(s) 'DTC_SHORTNAME'
+- Set DTC-Prop 'Qualifier' to 'DTC_0x113697'
+- Set DTC-Prop 'DtcType' to default 'Fault'
+- Set DTC-Prop 'Priority' to '2'
+- Set DTC-Prop 'AgingCycle' to 'DEM_POWER'
+- Set DTC-Prop 'AgingCount' to '40'
+At DTC 0x113697
+- Set DTC-Prop 'AgingAllowed' to 'true'
+- Set DTC-Prop 'Severity' to '0'
+              [ERROR] At DTC 0x113797
+              [ERROR] - No value found for DTC property 'Qualifier' in attr(s) 'DTC_SHORTNAME'
+- Set DTC-Prop 'Qualifier' to 'DTC_0x113797'
+- Set DTC-Prop 'DtcType' to default 'Fault'
+- Set DTC-Prop 'Priority' to '2'
+- Set DTC-Prop 'AgingCycle' to 'DEM_POWER'
+- Set DTC-Prop 'AgingCount' to '40'
+At DTC 0x113797
+- Set DTC-Prop 'AgingAllowed' to 'true'
+- Set DTC-Prop 'Severity' to '0'
+              [ERROR] At DTC 0x113897
+              [ERROR] - No value found for DTC property 'Qualifier' in attr(s) 'DTC_SHORTNAME'
+- Set DTC-Prop 'Qualifier' to 'DTC_0x113897'
+- Set DTC-Prop 'DtcType' to default 'Fault'
+- Set DTC-Prop 'Priority' to '2'
+- Set DTC-Prop 'AgingCycle' to 'DEM_POWER'
+- Set DTC-Prop 'AgingCount' to '40'
+At DTC 0x113897
+- Set DTC-Prop 'AgingAllowed' to 'true'
+- Set DTC-Prop 'Severity' to '0'
+              [ERROR] At DTC 0x113997
+              [ERROR] - No value found for DTC property 'Qualifier' in attr(s) 'DTC_SHORTNAME'
+- Set DTC-Prop 'Qualifier' to 'DTC_0x113997'
+- Set DTC-Prop 'DtcType' to default 'Fault'
+- Set DTC-Prop 'Priority' to '2'
+- Set DTC-Prop 'AgingCycle' to 'DEM_POWER'
+- Set DTC-Prop 'AgingCount' to '40'
+At DTC 0x113997
+- Set DTC-Prop 'AgingAllowed' to 'true'
+- Set DTC-Prop 'Severity' to '0'
+              [ERROR] At DTC 0x114097
+              [ERROR] - No value found for DTC property 'Qualifier' in attr(s) 'DTC_SHORTNAME'
+- Set DTC-Prop 'Qualifier' to 'DTC_0x114097'
+- Set DTC-Prop 'DtcType' to default 'Fault'
+- Set DTC-Prop 'Priority' to '2'
+- Set DTC-Prop 'AgingCycle' to 'DEM_POWER'
+- Set DTC-Prop 'AgingCount' to '40'
+At DTC 0x114097
+- Set DTC-Prop 'AgingAllowed' to 'true'
+- Set DTC-Prop 'Severity' to '0'
+              [ERROR] At DTC 0x114197
+              [ERROR] - No value found for DTC property 'Qualifier' in attr(s) 'DTC_SHORTNAME'
+- Set DTC-Prop 'Qualifier' to 'DTC_0x114197'
+- Set DTC-Prop 'DtcType' to default 'Fault'
+- Set DTC-Prop 'Priority' to '2'
+- Set DTC-Prop 'AgingCycle' to 'DEM_POWER'
+- Set DTC-Prop 'AgingCount' to '40'
+At DTC 0x114197
+- Set DTC-Prop 'AgingAllowed' to 'true'
+- Set DTC-Prop 'Severity' to '0'
+              [ERROR] At DTC 0x114297
+              [ERROR] - No value found for DTC property 'Qualifier' in attr(s) 'DTC_SHORTNAME'
+- Set DTC-Prop 'Qualifier' to 'DTC_0x114297'
+- Set DTC-Prop 'DtcType' to default 'Fault'
+- Set DTC-Prop 'Priority' to '2'
+- Set DTC-Prop 'AgingCycle' to 'DEM_POWER'
+- Set DTC-Prop 'AgingCount' to '40'
+At DTC 0x114297
+- Set DTC-Prop 'AgingAllowed' to 'true'
+- Set DTC-Prop 'Severity' to '0'
+              [ERROR] At DTC 0x114397
+              [ERROR] - No value found for DTC property 'Qualifier' in attr(s) 'DTC_SHORTNAME'
+- Set DTC-Prop 'Qualifier' to 'DTC_0x114397'
+- Set DTC-Prop 'DtcType' to default 'Fault'
+- Set DTC-Prop 'Priority' to '2'
+- Set DTC-Prop 'AgingCycle' to 'DEM_POWER'
+- Set DTC-Prop 'AgingCount' to '40'
+At DTC 0x114397
+- Set DTC-Prop 'AgingAllowed' to 'true'
+- Set DTC-Prop 'Severity' to '0'
+              [ERROR] At DTC 0x114497
+              [ERROR] - No value found for DTC property 'Qualifier' in attr(s) 'DTC_SHORTNAME'
+- Set DTC-Prop 'Qualifier' to 'DTC_0x114497'
+- Set DTC-Prop 'DtcType' to default 'Fault'
+- Set DTC-Prop 'Priority' to '2'
+- Set DTC-Prop 'AgingCycle' to 'DEM_POWER'
+- Set DTC-Prop 'AgingCount' to '40'
+At DTC 0x114497
+- Set DTC-Prop 'AgingAllowed' to 'true'
+- Set DTC-Prop 'Severity' to '0'
+              [ERROR] At DTC 0x114571
+              [ERROR] - No value found for DTC property 'Qualifier' in attr(s) 'DTC_SHORTNAME'
+- Set DTC-Prop 'Qualifier' to 'DTC_0x114571'
+- Set DTC-Prop 'DtcType' to default 'Fault'
+- Set DTC-Prop 'Priority' to '2'
+- Set DTC-Prop 'AgingCycle' to 'DEM_POWER'
+- Set DTC-Prop 'AgingCount' to '40'
+At DTC 0x114571
+- Set DTC-Prop 'AgingAllowed' to 'true'
+- Set DTC-Prop 'Severity' to '0'
+              [ERROR] At DTC 0x114697
+              [ERROR] - No value found for DTC property 'Qualifier' in attr(s) 'DTC_SHORTNAME'
+- Set DTC-Prop 'Qualifier' to 'DTC_0x114697'
+- Set DTC-Prop 'DtcType' to default 'Fault'
+- Set DTC-Prop 'Priority' to '2'
+- Set DTC-Prop 'AgingCycle' to 'DEM_POWER'
+- Set DTC-Prop 'AgingCount' to '40'
+At DTC 0x114697
+- Set DTC-Prop 'AgingAllowed' to 'true'
+- Set DTC-Prop 'Severity' to '0'
+              [ERROR] At DTC 0x114792
+              [ERROR] - No value found for DTC property 'Qualifier' in attr(s) 'DTC_SHORTNAME'
+- Set DTC-Prop 'Qualifier' to 'DTC_0x114792'
+- Set DTC-Prop 'DtcType' to default 'Fault'
+- Set DTC-Prop 'Priority' to '2'
+- Set DTC-Prop 'AgingCycle' to 'DEM_POWER'
+- Set DTC-Prop 'AgingCount' to '40'
+At DTC 0x114792
+- Set DTC-Prop 'AgingAllowed' to 'true'
+- Set DTC-Prop 'Severity' to '0'
+              [ERROR] At DTC 0x114892
+              [ERROR] - No value found for DTC property 'Qualifier' in attr(s) 'DTC_SHORTNAME'
+- Set DTC-Prop 'Qualifier' to 'DTC_0x114892'
+- Set DTC-Prop 'DtcType' to default 'Fault'
+- Set DTC-Prop 'Priority' to '2'
+- Set DTC-Prop 'AgingCycle' to 'DEM_POWER'
+- Set DTC-Prop 'AgingCount' to '40'
+At DTC 0x114892
+- Set DTC-Prop 'AgingAllowed' to 'true'
+- Set DTC-Prop 'Severity' to '0'
+              [ERROR] At DTC 0x114992
+              [ERROR] - No value found for DTC property 'Qualifier' in attr(s) 'DTC_SHORTNAME'
+- Set DTC-Prop 'Qualifier' to 'DTC_0x114992'
+- Set DTC-Prop 'DtcType' to default 'Fault'
+- Set DTC-Prop 'Priority' to '2'
+- Set DTC-Prop 'AgingCycle' to 'DEM_POWER'
+- Set DTC-Prop 'AgingCount' to '40'
+At DTC 0x114992
+- Set DTC-Prop 'AgingAllowed' to 'true'
+- Set DTC-Prop 'Severity' to '0'
+              [ERROR] At DTC 0x115092
+              [ERROR] - No value found for DTC property 'Qualifier' in attr(s) 'DTC_SHORTNAME'
+- Set DTC-Prop 'Qualifier' to 'DTC_0x115092'
+- Set DTC-Prop 'DtcType' to default 'Fault'
+- Set DTC-Prop 'Priority' to '2'
+- Set DTC-Prop 'AgingCycle' to 'DEM_POWER'
+- Set DTC-Prop 'AgingCount' to '40'
+At DTC 0x115092
+- Set DTC-Prop 'AgingAllowed' to 'true'
+- Set DTC-Prop 'Severity' to '0'
+              [ERROR] At DTC 0x115192
+              [ERROR] - No value found for DTC property 'Qualifier' in attr(s) 'DTC_SHORTNAME'
+- Set DTC-Prop 'Qualifier' to 'DTC_0x115192'
+- Set DTC-Prop 'DtcType' to default 'Fault'
+- Set DTC-Prop 'Priority' to '2'
+- Set DTC-Prop 'AgingCycle' to 'DEM_POWER'
+- Set DTC-Prop 'AgingCount' to '40'
+At DTC 0x115192
+- Set DTC-Prop 'AgingAllowed' to 'true'
+- Set DTC-Prop 'Severity' to '0'
+              [ERROR] At DTC 0x115292
+              [ERROR] - No value found for DTC property 'Qualifier' in attr(s) 'DTC_SHORTNAME'
+- Set DTC-Prop 'Qualifier' to 'DTC_0x115292'
+- Set DTC-Prop 'DtcType' to default 'Fault'
+- Set DTC-Prop 'Priority' to '2'
+- Set DTC-Prop 'AgingCycle' to 'DEM_POWER'
+- Set DTC-Prop 'AgingCount' to '40'
+At DTC 0x115292
+- Set DTC-Prop 'AgingAllowed' to 'true'
+- Set DTC-Prop 'Severity' to '0'
+              [ERROR] At DTC 0x115392
+              [ERROR] - No value found for DTC property 'Qualifier' in attr(s) 'DTC_SHORTNAME'
+- Set DTC-Prop 'Qualifier' to 'DTC_0x115392'
+- Set DTC-Prop 'DtcType' to default 'Fault'
+- Set DTC-Prop 'Priority' to '2'
+- Set DTC-Prop 'AgingCycle' to 'DEM_POWER'
+- Set DTC-Prop 'AgingCount' to '40'
+At DTC 0x115392
+- Set DTC-Prop 'AgingAllowed' to 'true'
+- Set DTC-Prop 'Severity' to '0'
+              [ERROR] At DTC 0x115492
+              [ERROR] - No value found for DTC property 'Qualifier' in attr(s) 'DTC_SHORTNAME'
+- Set DTC-Prop 'Qualifier' to 'DTC_0x115492'
+- Set DTC-Prop 'DtcType' to default 'Fault'
+- Set DTC-Prop 'Priority' to '2'
+- Set DTC-Prop 'AgingCycle' to 'DEM_POWER'
+- Set DTC-Prop 'AgingCount' to '40'
+At DTC 0x115492
+- Set DTC-Prop 'AgingAllowed' to 'true'
+- Set DTC-Prop 'Severity' to '0'
+              [ERROR] At DTC 0x115592
+              [ERROR] - No value found for DTC property 'Qualifier' in attr(s) 'DTC_SHORTNAME'
+- Set DTC-Prop 'Qualifier' to 'DTC_0x115592'
+- Set DTC-Prop 'DtcType' to default 'Fault'
+- Set DTC-Prop 'Priority' to '2'
+- Set DTC-Prop 'AgingCycle' to 'DEM_POWER'
+- Set DTC-Prop 'AgingCount' to '40'
+At DTC 0x115592
+- Set DTC-Prop 'AgingAllowed' to 'true'
+- Set DTC-Prop 'Severity' to '0'
+              [ERROR] At DTC 0x115692
+              [ERROR] - No value found for DTC property 'Qualifier' in attr(s) 'DTC_SHORTNAME'
+- Set DTC-Prop 'Qualifier' to 'DTC_0x115692'
+- Set DTC-Prop 'DtcType' to default 'Fault'
+- Set DTC-Prop 'Priority' to '2'
+- Set DTC-Prop 'AgingCycle' to 'DEM_POWER'
+- Set DTC-Prop 'AgingCount' to '40'
+At DTC 0x115692
+- Set DTC-Prop 'AgingAllowed' to 'true'
+- Set DTC-Prop 'Severity' to '0'
+              [ERROR] At DTC 0x11571e
+              [ERROR] - No value found for DTC property 'Qualifier' in attr(s) 'DTC_SHORTNAME'
+- Set DTC-Prop 'Qualifier' to 'DTC_0x11571e'
+- Set DTC-Prop 'DtcType' to default 'Fault'
+- Set DTC-Prop 'Priority' to '2'
+- Set DTC-Prop 'AgingCycle' to 'DEM_POWER'
+- Set DTC-Prop 'AgingCount' to '40'
+At DTC 0x11571e
+- Set DTC-Prop 'AgingAllowed' to 'true'
+- Set DTC-Prop 'Severity' to '0'
+              [ERROR] At DTC 0x115816
+              [ERROR] - No value found for DTC property 'Qualifier' in attr(s) 'DTC_SHORTNAME'
+- Set DTC-Prop 'Qualifier' to 'DTC_0x115816'
+- Set DTC-Prop 'DtcType' to default 'Fault'
+- Set DTC-Prop 'Priority' to '2'
+- Set DTC-Prop 'AgingCycle' to 'DEM_POWER'
+- Set DTC-Prop 'AgingCount' to '40'
+At DTC 0x115816
+- Set DTC-Prop 'AgingAllowed' to 'true'
+- Set DTC-Prop 'Severity' to '0'
+              [ERROR] At DTC 0x11591e
+              [ERROR] - No value found for DTC property 'Qualifier' in attr(s) 'DTC_SHORTNAME'
+- Set DTC-Prop 'Qualifier' to 'DTC_0x11591e'
+- Set DTC-Prop 'DtcType' to default 'Fault'
+- Set DTC-Prop 'Priority' to '2'
+- Set DTC-Prop 'AgingCycle' to 'DEM_POWER'
+- Set DTC-Prop 'AgingCount' to '40'
+At DTC 0x11591e
+- Set DTC-Prop 'AgingAllowed' to 'true'
+- Set DTC-Prop 'Severity' to '0'
+              [ERROR] At DTC 0x908017
+              [ERROR] - No value found for DTC property 'Qualifier' in attr(s) 'DTC_SHORTNAME'
+- Set DTC-Prop 'Qualifier' to 'DTC_0x908017'
+- Set DTC-Prop 'DtcType' to default 'Fault'
+- Set DTC-Prop 'Priority' to '2'
+- Set DTC-Prop 'AgingCycle' to 'DEM_POWER'
+- Set DTC-Prop 'AgingCount' to '40'
+At DTC 0x908017
+- Set DTC-Prop 'AgingAllowed' to 'true'
+- Set DTC-Prop 'Severity' to '0'
+              [ERROR] At DTC 0x908116
+              [ERROR] - No value found for DTC property 'Qualifier' in attr(s) 'DTC_SHORTNAME'
+- Set DTC-Prop 'Qualifier' to 'DTC_0x908116'
+- Set DTC-Prop 'DtcType' to default 'Fault'
+- Set DTC-Prop 'Priority' to '2'
+- Set DTC-Prop 'AgingCycle' to 'DEM_POWER'
+- Set DTC-Prop 'AgingCount' to '40'
+At DTC 0x908116
+- Set DTC-Prop 'AgingAllowed' to 'true'
+- Set DTC-Prop 'Severity' to '0'
+              [ERROR] At DTC 0xc07388
+              [ERROR] - No value found for DTC property 'Qualifier' in attr(s) 'DTC_SHORTNAME'
+- Set DTC-Prop 'Qualifier' to 'DTC_0xc07388'
+- Set DTC-Prop 'DtcType' to default 'Fault'
+- Set DTC-Prop 'Priority' to '2'
+- Set DTC-Prop 'AgingCycle' to 'DEM_POWER'
+- Set DTC-Prop 'AgingCount' to '40'
+At DTC 0xc07388
+- Set DTC-Prop 'AgingAllowed' to 'true'
+- Set DTC-Prop 'Severity' to '0'
+              [ERROR] At DTC 0xc07488
+              [ERROR] - No value found for DTC property 'Qualifier' in attr(s) 'DTC_SHORTNAME'
+- Set DTC-Prop 'Qualifier' to 'DTC_0xc07488'
+- Set DTC-Prop 'DtcType' to default 'Fault'
+- Set DTC-Prop 'Priority' to '2'
+- Set DTC-Prop 'AgingCycle' to 'DEM_POWER'
+- Set DTC-Prop 'AgingCount' to '40'
+At DTC 0xc07488
+- Set DTC-Prop 'AgingAllowed' to 'true'
+- Set DTC-Prop 'Severity' to '0'
+              [ERROR] At DTC 0xc10387
+              [ERROR] - No value found for DTC property 'Qualifier' in attr(s) 'DTC_SHORTNAME'
+- Set DTC-Prop 'Qualifier' to 'DTC_0xc10387'
+- Set DTC-Prop 'DtcType' to default 'Fault'
+- Set DTC-Prop 'Priority' to '2'
+- Set DTC-Prop 'AgingCycle' to 'DEM_POWER'
+- Set DTC-Prop 'AgingCount' to '40'
+At DTC 0xc10387
+- Set DTC-Prop 'AgingAllowed' to 'true'
+- Set DTC-Prop 'Severity' to '0'
+              [ERROR] At DTC 0xc11087
+              [ERROR] - No value found for DTC property 'Qualifier' in attr(s) 'DTC_SHORTNAME'
+- Set DTC-Prop 'Qualifier' to 'DTC_0xc11087'
+- Set DTC-Prop 'DtcType' to default 'Fault'
+- Set DTC-Prop 'Priority' to '2'
+- Set DTC-Prop 'AgingCycle' to 'DEM_POWER'
+- Set DTC-Prop 'AgingCount' to '40'
+At DTC 0xc11087
+- Set DTC-Prop 'AgingAllowed' to 'true'
+- Set DTC-Prop 'Severity' to '0'
+              [ERROR] At DTC 0xc11187
+              [ERROR] - No value found for DTC property 'Qualifier' in attr(s) 'DTC_SHORTNAME'
+- Set DTC-Prop 'Qualifier' to 'DTC_0xc11187'
+- Set DTC-Prop 'DtcType' to default 'Fault'
+- Set DTC-Prop 'Priority' to '2'
+- Set DTC-Prop 'AgingCycle' to 'DEM_POWER'
+- Set DTC-Prop 'AgingCount' to '40'
+At DTC 0xc11187
+- Set DTC-Prop 'AgingAllowed' to 'true'
+- Set DTC-Prop 'Severity' to '0'
+              [ERROR] At DTC 0xc11d87
+              [ERROR] - No value found for DTC property 'Qualifier' in attr(s) 'DTC_SHORTNAME'
+- Set DTC-Prop 'Qualifier' to 'DTC_0xc11d87'
+- Set DTC-Prop 'DtcType' to default 'Fault'
+- Set DTC-Prop 'Priority' to '2'
+- Set DTC-Prop 'AgingCycle' to 'DEM_POWER'
+- Set DTC-Prop 'AgingCount' to '40'
+At DTC 0xc11d87
+- Set DTC-Prop 'AgingAllowed' to 'true'
+- Set DTC-Prop 'Severity' to '0'
+              [ERROR] At DTC 0xc12187
+              [ERROR] - No value found for DTC property 'Qualifier' in attr(s) 'DTC_SHORTNAME'
+- Set DTC-Prop 'Qualifier' to 'DTC_0xc12187'
+- Set DTC-Prop 'DtcType' to default 'Fault'
+- Set DTC-Prop 'Priority' to '2'
+- Set DTC-Prop 'AgingCycle' to 'DEM_POWER'
+- Set DTC-Prop 'AgingCount' to '40'
+At DTC 0xc12187
+- Set DTC-Prop 'AgingAllowed' to 'true'
+- Set DTC-Prop 'Severity' to '0'
+              [ERROR] At DTC 0xc12387
+              [ERROR] - No value found for DTC property 'Qualifier' in attr(s) 'DTC_SHORTNAME'
+- Set DTC-Prop 'Qualifier' to 'DTC_0xc12387'
+- Set DTC-Prop 'DtcType' to default 'Fault'
+- Set DTC-Prop 'Priority' to '2'
+- Set DTC-Prop 'AgingCycle' to 'DEM_POWER'
+- Set DTC-Prop 'AgingCount' to '40'
+At DTC 0xc12387
+- Set DTC-Prop 'AgingAllowed' to 'true'
+- Set DTC-Prop 'Severity' to '0'
+              [ERROR] At DTC 0xc12987
+              [ERROR] - No value found for DTC property 'Qualifier' in attr(s) 'DTC_SHORTNAME'
+- Set DTC-Prop 'Qualifier' to 'DTC_0xc12987'
+- Set DTC-Prop 'DtcType' to default 'Fault'
+- Set DTC-Prop 'Priority' to '2'
+- Set DTC-Prop 'AgingCycle' to 'DEM_POWER'
+- Set DTC-Prop 'AgingCount' to '40'
+At DTC 0xc12987
+- Set DTC-Prop 'AgingAllowed' to 'true'
+- Set DTC-Prop 'Severity' to '0'
+              [ERROR] At DTC 0xc14087
+              [ERROR] - No value found for DTC property 'Qualifier' in attr(s) 'DTC_SHORTNAME'
+- Set DTC-Prop 'Qualifier' to 'DTC_0xc14087'
+- Set DTC-Prop 'DtcType' to default 'Fault'
+- Set DTC-Prop 'Priority' to '2'
+- Set DTC-Prop 'AgingCycle' to 'DEM_POWER'
+- Set DTC-Prop 'AgingCount' to '40'
+At DTC 0xc14087
+- Set DTC-Prop 'AgingAllowed' to 'true'
+- Set DTC-Prop 'Severity' to '0'
+              [ERROR] At DTC 0xc14787
+              [ERROR] - No value found for DTC property 'Qualifier' in attr(s) 'DTC_SHORTNAME'
+- Set DTC-Prop 'Qualifier' to 'DTC_0xc14787'
+- Set DTC-Prop 'DtcType' to default 'Fault'
+- Set DTC-Prop 'Priority' to '2'
+- Set DTC-Prop 'AgingCycle' to 'DEM_POWER'
+- Set DTC-Prop 'AgingCount' to '40'
+At DTC 0xc14787
+- Set DTC-Prop 'AgingAllowed' to 'true'
+- Set DTC-Prop 'Severity' to '0'
+              [ERROR] At DTC 0xc16687
+              [ERROR] - No value found for DTC property 'Qualifier' in attr(s) 'DTC_SHORTNAME'
+- Set DTC-Prop 'Qualifier' to 'DTC_0xc16687'
+- Set DTC-Prop 'DtcType' to default 'Fault'
+- Set DTC-Prop 'Priority' to '2'
+- Set DTC-Prop 'AgingCycle' to 'DEM_POWER'
+- Set DTC-Prop 'AgingCount' to '40'
+At DTC 0xc16687
+- Set DTC-Prop 'AgingAllowed' to 'true'
+- Set DTC-Prop 'Severity' to '0'
+              [ERROR] At DTC 0xc19687
+              [ERROR] - No value found for DTC property 'Qualifier' in attr(s) 'DTC_SHORTNAME'
+- Set DTC-Prop 'Qualifier' to 'DTC_0xc19687'
+- Set DTC-Prop 'DtcType' to default 'Fault'
+- Set DTC-Prop 'Priority' to '2'
+- Set DTC-Prop 'AgingCycle' to 'DEM_POWER'
+- Set DTC-Prop 'AgingCount' to '40'
+At DTC 0xc19687
+- Set DTC-Prop 'AgingAllowed' to 'true'
+- Set DTC-Prop 'Severity' to '0'
+              [ERROR] At DTC 0xc19987
+              [ERROR] - No value found for DTC property 'Qualifier' in attr(s) 'DTC_SHORTNAME'
+- Set DTC-Prop 'Qualifier' to 'DTC_0xc19987'
+- Set DTC-Prop 'DtcType' to default 'Fault'
+- Set DTC-Prop 'Priority' to '2'
+- Set DTC-Prop 'AgingCycle' to 'DEM_POWER'
+- Set DTC-Prop 'AgingCount' to '40'
+At DTC 0xc19987
+- Set DTC-Prop 'AgingAllowed' to 'true'
+- Set DTC-Prop 'Severity' to '0'
+              [ERROR] At DTC 0xc19b87
+              [ERROR] - No value found for DTC property 'Qualifier' in attr(s) 'DTC_SHORTNAME'
+- Set DTC-Prop 'Qualifier' to 'DTC_0xc19b87'
+- Set DTC-Prop 'DtcType' to default 'Fault'
+- Set DTC-Prop 'Priority' to '2'
+- Set DTC-Prop 'AgingCycle' to 'DEM_POWER'
+- Set DTC-Prop 'AgingCount' to '40'
+At DTC 0xc19b87
+- Set DTC-Prop 'AgingAllowed' to 'true'
+- Set DTC-Prop 'Severity' to '0'
+              [ERROR] At DTC 0xc29887
+              [ERROR] - No value found for DTC property 'Qualifier' in attr(s) 'DTC_SHORTNAME'
+- Set DTC-Prop 'Qualifier' to 'DTC_0xc29887'
+- Set DTC-Prop 'DtcType' to default 'Fault'
+- Set DTC-Prop 'Priority' to '2'
+- Set DTC-Prop 'AgingCycle' to 'DEM_POWER'
+- Set DTC-Prop 'AgingCount' to '40'
+At DTC 0xc29887
+- Set DTC-Prop 'AgingAllowed' to 'true'
+- Set DTC-Prop 'Severity' to '0'
+              [ERROR] At DTC 0xd10587
+              [ERROR] - No value found for DTC property 'Qualifier' in attr(s) 'DTC_SHORTNAME'
+- Set DTC-Prop 'Qualifier' to 'DTC_0xd10587'
+- Set DTC-Prop 'DtcType' to default 'Fault'
+- Set DTC-Prop 'Priority' to '2'
+- Set DTC-Prop 'AgingCycle' to 'DEM_POWER'
+- Set DTC-Prop 'AgingCount' to '40'
+At DTC 0xd10587
+- Set DTC-Prop 'AgingAllowed' to 'true'
+- Set DTC-Prop 'Severity' to '0'
+At Faultmemory
+- Set fault memory property 'ecgNaming' to 'singleElem'
+At Service 0x19 SubService 0x2
+- Set primary memory property 'StatAvailMask' to '9'
+At Service 0x19 SubService 0x4
+- Set primary memory property 'SsrNumeration' to 'Configured'
+At Event-Memory
+- Set primary memory property 'ssrUpdatable' to 'true'
+<<<<<<<<<<<<< ShapingStep FaultMemory( completed in 0.141s (141ms) <<<<<<<<<<<<<
+>>>>>>>>>>>>> ShapingStep FaultMemory2 >>>>>>>>>>>>>
+At Ecu 'VCU'
+- Building DidSets
+At Ecu 'VCU' EventImport: false
+- Building Events
+At Snapshot 0x01 - 'First time Snapshot Record' Trigger is Null Update is Null
+- Set Record-Prop 'NameValueMap' to '#DemFreezeFrameRecordTrigger=testFailed#DemFreezeFrameRecordUpdate=true#'
+- Set Record-Prop 'trigger' to 'testFailed'
+- Set Record-Prop 'update' to 'true'
+At Snapshot 0x02 - 'Latest time Snapshot Record' Trigger is Null Update is Null
+- Set Record-Prop 'NameValueMap' to '#DemFreezeFrameRecordTrigger=testFailed#DemFreezeFrameRecordUpdate=true#'
+- Set Record-Prop 'trigger' to 'testFailed'
+- Set Record-Prop 'update' to 'true'
+At ExtDataRec 0x1 Trigger is Null Update is Null
+- Set Record-Prop 'NameValueMap' to '#DemExtendedDataRecordTrigger=testFailed#DemExtendedDataRecordUpdate=true#'
+- Set Record-Prop 'trigger' to 'testFailed'
+- Set Record-Prop 'update' to 'true'
+At Event 'DTC_0x110012_Event' EventKind is Null
+- Set Event-Prop 'EventKind' to 'SWC' using 'updatable'
+At Event 'DTC_0x110012_Event' EventImport: false
+- Set Event-Prop 'OpCycle' to 'DEM_POWER'
+- Set Event-Prop 'EventFailureCount' to '0'
+At Event 'DTC_0x110112_Event' EventKind is Null
+- Set Event-Prop 'EventKind' to 'SWC' using 'updatable'
+At Event 'DTC_0x110112_Event' EventImport: false
+- Set Event-Prop 'OpCycle' to 'DEM_POWER'
+- Set Event-Prop 'EventFailureCount' to '0'
+At Event 'DTC_0x110211_Event' EventKind is Null
+- Set Event-Prop 'EventKind' to 'SWC' using 'updatable'
+At Event 'DTC_0x110211_Event' EventImport: false
+- Set Event-Prop 'OpCycle' to 'DEM_POWER'
+- Set Event-Prop 'EventFailureCount' to '0'
+At Event 'DTC_0x110311_Event' EventKind is Null
+- Set Event-Prop 'EventKind' to 'SWC' using 'updatable'
+At Event 'DTC_0x110311_Event' EventImport: false
+- Set Event-Prop 'OpCycle' to 'DEM_POWER'
+- Set Event-Prop 'EventFailureCount' to '0'
+At Event 'DTC_0x11041e_Event' EventKind is Null
+- Set Event-Prop 'EventKind' to 'SWC' using 'updatable'
+At Event 'DTC_0x11041e_Event' EventImport: false
+- Set Event-Prop 'OpCycle' to 'DEM_POWER'
+- Set Event-Prop 'EventFailureCount' to '0'
+At Event 'DTC_0x110a1e_Event' EventKind is Null
+- Set Event-Prop 'EventKind' to 'SWC' using 'updatable'
+At Event 'DTC_0x110a1e_Event' EventImport: false
+- Set Event-Prop 'OpCycle' to 'DEM_POWER'
+- Set Event-Prop 'EventFailureCount' to '0'
+At Event 'DTC_0x110b1e_Event' EventKind is Null
+- Set Event-Prop 'EventKind' to 'SWC' using 'updatable'
+At Event 'DTC_0x110b1e_Event' EventImport: false
+- Set Event-Prop 'OpCycle' to 'DEM_POWER'
+- Set Event-Prop 'EventFailureCount' to '0'
+At Event 'DTC_0x111152_Event' EventKind is Null
+- Set Event-Prop 'EventKind' to 'SWC' using 'updatable'
+At Event 'DTC_0x111152_Event' EventImport: false
+- Set Event-Prop 'OpCycle' to 'DEM_POWER'
+- Set Event-Prop 'EventFailureCount' to '0'
+At Event 'DTC_0x111252_Event' EventKind is Null
+- Set Event-Prop 'EventKind' to 'SWC' using 'updatable'
+At Event 'DTC_0x111252_Event' EventImport: false
+- Set Event-Prop 'OpCycle' to 'DEM_POWER'
+- Set Event-Prop 'EventFailureCount' to '0'
+At Event 'DTC_0x111352_Event' EventKind is Null
+- Set Event-Prop 'EventKind' to 'SWC' using 'updatable'
+At Event 'DTC_0x111352_Event' EventImport: false
+- Set Event-Prop 'OpCycle' to 'DEM_POWER'
+- Set Event-Prop 'EventFailureCount' to '0'
+At Event 'DTC_0x111e71_Event' EventKind is Null
+- Set Event-Prop 'EventKind' to 'SWC' using 'updatable'
+At Event 'DTC_0x111e71_Event' EventImport: false
+- Set Event-Prop 'OpCycle' to 'DEM_POWER'
+- Set Event-Prop 'EventFailureCount' to '0'
+At Event 'DTC_0x111f16_Event' EventKind is Null
+- Set Event-Prop 'EventKind' to 'SWC' using 'updatable'
+At Event 'DTC_0x111f16_Event' EventImport: false
+- Set Event-Prop 'OpCycle' to 'DEM_POWER'
+- Set Event-Prop 'EventFailureCount' to '0'
+At Event 'DTC_0x11281e_Event' EventKind is Null
+- Set Event-Prop 'EventKind' to 'SWC' using 'updatable'
+At Event 'DTC_0x11281e_Event' EventImport: false
+- Set Event-Prop 'OpCycle' to 'DEM_POWER'
+- Set Event-Prop 'EventFailureCount' to '0'
+At Event 'DTC_0x11291c_Event' EventKind is Null
+- Set Event-Prop 'EventKind' to 'SWC' using 'updatable'
+At Event 'DTC_0x11291c_Event' EventImport: false
+- Set Event-Prop 'OpCycle' to 'DEM_POWER'
+- Set Event-Prop 'EventFailureCount' to '0'
+At Event 'DTC_0x11309a_Event' EventKind is Null
+- Set Event-Prop 'EventKind' to 'SWC' using 'updatable'
+At Event 'DTC_0x11309a_Event' EventImport: false
+- Set Event-Prop 'OpCycle' to 'DEM_POWER'
+- Set Event-Prop 'EventFailureCount' to '0'
+At Event 'DTC_0x113197_Event' EventKind is Null
+- Set Event-Prop 'EventKind' to 'SWC' using 'updatable'
+At Event 'DTC_0x113197_Event' EventImport: false
+- Set Event-Prop 'OpCycle' to 'DEM_POWER'
+- Set Event-Prop 'EventFailureCount' to '0'
+At Event 'DTC_0x113297_Event' EventKind is Null
+- Set Event-Prop 'EventKind' to 'SWC' using 'updatable'
+At Event 'DTC_0x113297_Event' EventImport: false
+- Set Event-Prop 'OpCycle' to 'DEM_POWER'
+- Set Event-Prop 'EventFailureCount' to '0'
+At Event 'DTC_0x113397_Event' EventKind is Null
+- Set Event-Prop 'EventKind' to 'SWC' using 'updatable'
+At Event 'DTC_0x113397_Event' EventImport: false
+- Set Event-Prop 'OpCycle' to 'DEM_POWER'
+- Set Event-Prop 'EventFailureCount' to '0'
+At Event 'DTC_0x113497_Event' EventKind is Null
+- Set Event-Prop 'EventKind' to 'SWC' using 'updatable'
+At Event 'DTC_0x113497_Event' EventImport: false
+- Set Event-Prop 'OpCycle' to 'DEM_POWER'
+- Set Event-Prop 'EventFailureCount' to '0'
+At Event 'DTC_0x113597_Event' EventKind is Null
+- Set Event-Prop 'EventKind' to 'SWC' using 'updatable'
+At Event 'DTC_0x113597_Event' EventImport: false
+- Set Event-Prop 'OpCycle' to 'DEM_POWER'
+- Set Event-Prop 'EventFailureCount' to '0'
+At Event 'DTC_0x113697_Event' EventKind is Null
+- Set Event-Prop 'EventKind' to 'SWC' using 'updatable'
+At Event 'DTC_0x113697_Event' EventImport: false
+- Set Event-Prop 'OpCycle' to 'DEM_POWER'
+- Set Event-Prop 'EventFailureCount' to '0'
+At Event 'DTC_0x113797_Event' EventKind is Null
+- Set Event-Prop 'EventKind' to 'SWC' using 'updatable'
+At Event 'DTC_0x113797_Event' EventImport: false
+- Set Event-Prop 'OpCycle' to 'DEM_POWER'
+- Set Event-Prop 'EventFailureCount' to '0'
+At Event 'DTC_0x113897_Event' EventKind is Null
+- Set Event-Prop 'EventKind' to 'SWC' using 'updatable'
+At Event 'DTC_0x113897_Event' EventImport: false
+- Set Event-Prop 'OpCycle' to 'DEM_POWER'
+- Set Event-Prop 'EventFailureCount' to '0'
+At Event 'DTC_0x113997_Event' EventKind is Null
+- Set Event-Prop 'EventKind' to 'SWC' using 'updatable'
+At Event 'DTC_0x113997_Event' EventImport: false
+- Set Event-Prop 'OpCycle' to 'DEM_POWER'
+- Set Event-Prop 'EventFailureCount' to '0'
+At Event 'DTC_0x114097_Event' EventKind is Null
+- Set Event-Prop 'EventKind' to 'SWC' using 'updatable'
+At Event 'DTC_0x114097_Event' EventImport: false
+- Set Event-Prop 'OpCycle' to 'DEM_POWER'
+- Set Event-Prop 'EventFailureCount' to '0'
+At Event 'DTC_0x114197_Event' EventKind is Null
+- Set Event-Prop 'EventKind' to 'SWC' using 'updatable'
+At Event 'DTC_0x114197_Event' EventImport: false
+- Set Event-Prop 'OpCycle' to 'DEM_POWER'
+- Set Event-Prop 'EventFailureCount' to '0'
+At Event 'DTC_0x114297_Event' EventKind is Null
+- Set Event-Prop 'EventKind' to 'SWC' using 'updatable'
+At Event 'DTC_0x114297_Event' EventImport: false
+- Set Event-Prop 'OpCycle' to 'DEM_POWER'
+- Set Event-Prop 'EventFailureCount' to '0'
+At Event 'DTC_0x114397_Event' EventKind is Null
+- Set Event-Prop 'EventKind' to 'SWC' using 'updatable'
+At Event 'DTC_0x114397_Event' EventImport: false
+- Set Event-Prop 'OpCycle' to 'DEM_POWER'
+- Set Event-Prop 'EventFailureCount' to '0'
+At Event 'DTC_0x114497_Event' EventKind is Null
+- Set Event-Prop 'EventKind' to 'SWC' using 'updatable'
+At Event 'DTC_0x114497_Event' EventImport: false
+- Set Event-Prop 'OpCycle' to 'DEM_POWER'
+- Set Event-Prop 'EventFailureCount' to '0'
+At Event 'DTC_0x114571_Event' EventKind is Null
+- Set Event-Prop 'EventKind' to 'SWC' using 'updatable'
+At Event 'DTC_0x114571_Event' EventImport: false
+- Set Event-Prop 'OpCycle' to 'DEM_POWER'
+- Set Event-Prop 'EventFailureCount' to '0'
+At Event 'DTC_0x114697_Event' EventKind is Null
+- Set Event-Prop 'EventKind' to 'SWC' using 'updatable'
+At Event 'DTC_0x114697_Event' EventImport: false
+- Set Event-Prop 'OpCycle' to 'DEM_POWER'
+- Set Event-Prop 'EventFailureCount' to '0'
+At Event 'DTC_0x114792_Event' EventKind is Null
+- Set Event-Prop 'EventKind' to 'SWC' using 'updatable'
+At Event 'DTC_0x114792_Event' EventImport: false
+- Set Event-Prop 'OpCycle' to 'DEM_POWER'
+- Set Event-Prop 'EventFailureCount' to '0'
+At Event 'DTC_0x114892_Event' EventKind is Null
+- Set Event-Prop 'EventKind' to 'SWC' using 'updatable'
+At Event 'DTC_0x114892_Event' EventImport: false
+- Set Event-Prop 'OpCycle' to 'DEM_POWER'
+- Set Event-Prop 'EventFailureCount' to '0'
+At Event 'DTC_0x114992_Event' EventKind is Null
+- Set Event-Prop 'EventKind' to 'SWC' using 'updatable'
+At Event 'DTC_0x114992_Event' EventImport: false
+- Set Event-Prop 'OpCycle' to 'DEM_POWER'
+- Set Event-Prop 'EventFailureCount' to '0'
+At Event 'DTC_0x115092_Event' EventKind is Null
+- Set Event-Prop 'EventKind' to 'SWC' using 'updatable'
+At Event 'DTC_0x115092_Event' EventImport: false
+- Set Event-Prop 'OpCycle' to 'DEM_POWER'
+- Set Event-Prop 'EventFailureCount' to '0'
+At Event 'DTC_0x115192_Event' EventKind is Null
+- Set Event-Prop 'EventKind' to 'SWC' using 'updatable'
+At Event 'DTC_0x115192_Event' EventImport: false
+- Set Event-Prop 'OpCycle' to 'DEM_POWER'
+- Set Event-Prop 'EventFailureCount' to '0'
+At Event 'DTC_0x115292_Event' EventKind is Null
+- Set Event-Prop 'EventKind' to 'SWC' using 'updatable'
+At Event 'DTC_0x115292_Event' EventImport: false
+- Set Event-Prop 'OpCycle' to 'DEM_POWER'
+- Set Event-Prop 'EventFailureCount' to '0'
+At Event 'DTC_0x115392_Event' EventKind is Null
+- Set Event-Prop 'EventKind' to 'SWC' using 'updatable'
+At Event 'DTC_0x115392_Event' EventImport: false
+- Set Event-Prop 'OpCycle' to 'DEM_POWER'
+- Set Event-Prop 'EventFailureCount' to '0'
+At Event 'DTC_0x115492_Event' EventKind is Null
+- Set Event-Prop 'EventKind' to 'SWC' using 'updatable'
+At Event 'DTC_0x115492_Event' EventImport: false
+- Set Event-Prop 'OpCycle' to 'DEM_POWER'
+- Set Event-Prop 'EventFailureCount' to '0'
+At Event 'DTC_0x115592_Event' EventKind is Null
+- Set Event-Prop 'EventKind' to 'SWC' using 'updatable'
+At Event 'DTC_0x115592_Event' EventImport: false
+- Set Event-Prop 'OpCycle' to 'DEM_POWER'
+- Set Event-Prop 'EventFailureCount' to '0'
+At Event 'DTC_0x115692_Event' EventKind is Null
+- Set Event-Prop 'EventKind' to 'SWC' using 'updatable'
+At Event 'DTC_0x115692_Event' EventImport: false
+- Set Event-Prop 'OpCycle' to 'DEM_POWER'
+- Set Event-Prop 'EventFailureCount' to '0'
+At Event 'DTC_0x11571e_Event' EventKind is Null
+- Set Event-Prop 'EventKind' to 'SWC' using 'updatable'
+At Event 'DTC_0x11571e_Event' EventImport: false
+- Set Event-Prop 'OpCycle' to 'DEM_POWER'
+- Set Event-Prop 'EventFailureCount' to '0'
+At Event 'DTC_0x115816_Event' EventKind is Null
+- Set Event-Prop 'EventKind' to 'SWC' using 'updatable'
+At Event 'DTC_0x115816_Event' EventImport: false
+- Set Event-Prop 'OpCycle' to 'DEM_POWER'
+- Set Event-Prop 'EventFailureCount' to '0'
+At Event 'DTC_0x11591e_Event' EventKind is Null
+- Set Event-Prop 'EventKind' to 'SWC' using 'updatable'
+At Event 'DTC_0x11591e_Event' EventImport: false
+- Set Event-Prop 'OpCycle' to 'DEM_POWER'
+- Set Event-Prop 'EventFailureCount' to '0'
+At Event 'DTC_0x908017_Event' EventKind is Null
+- Set Event-Prop 'EventKind' to 'SWC' using 'updatable'
+At Event 'DTC_0x908017_Event' EventImport: false
+- Set Event-Prop 'OpCycle' to 'DEM_POWER'
+- Set Event-Prop 'EventFailureCount' to '0'
+At Event 'DTC_0x908116_Event' EventKind is Null
+- Set Event-Prop 'EventKind' to 'SWC' using 'updatable'
+At Event 'DTC_0x908116_Event' EventImport: false
+- Set Event-Prop 'OpCycle' to 'DEM_POWER'
+- Set Event-Prop 'EventFailureCount' to '0'
+At Event 'DTC_0xc07388_Event' EventKind is Null
+- Set Event-Prop 'EventKind' to 'SWC' using 'updatable'
+At Event 'DTC_0xc07388_Event' EventImport: false
+- Set Event-Prop 'OpCycle' to 'DEM_POWER'
+- Set Event-Prop 'EventFailureCount' to '0'
+At Event 'DTC_0xc07488_Event' EventKind is Null
+- Set Event-Prop 'EventKind' to 'SWC' using 'updatable'
+At Event 'DTC_0xc07488_Event' EventImport: false
+- Set Event-Prop 'OpCycle' to 'DEM_POWER'
+- Set Event-Prop 'EventFailureCount' to '0'
+At Event 'DTC_0xc10387_Event' EventKind is Null
+- Set Event-Prop 'EventKind' to 'SWC' using 'updatable'
+At Event 'DTC_0xc10387_Event' EventImport: false
+- Set Event-Prop 'OpCycle' to 'DEM_POWER'
+- Set Event-Prop 'EventFailureCount' to '0'
+At Event 'DTC_0xc11087_Event' EventKind is Null
+- Set Event-Prop 'EventKind' to 'SWC' using 'updatable'
+At Event 'DTC_0xc11087_Event' EventImport: false
+- Set Event-Prop 'OpCycle' to 'DEM_POWER'
+- Set Event-Prop 'EventFailureCount' to '0'
+At Event 'DTC_0xc11187_Event' EventKind is Null
+- Set Event-Prop 'EventKind' to 'SWC' using 'updatable'
+At Event 'DTC_0xc11187_Event' EventImport: false
+- Set Event-Prop 'OpCycle' to 'DEM_POWER'
+- Set Event-Prop 'EventFailureCount' to '0'
+At Event 'DTC_0xc11d87_Event' EventKind is Null
+- Set Event-Prop 'EventKind' to 'SWC' using 'updatable'
+At Event 'DTC_0xc11d87_Event' EventImport: false
+- Set Event-Prop 'OpCycle' to 'DEM_POWER'
+- Set Event-Prop 'EventFailureCount' to '0'
+At Event 'DTC_0xc12187_Event' EventKind is Null
+- Set Event-Prop 'EventKind' to 'SWC' using 'updatable'
+At Event 'DTC_0xc12187_Event' EventImport: false
+- Set Event-Prop 'OpCycle' to 'DEM_POWER'
+- Set Event-Prop 'EventFailureCount' to '0'
+At Event 'DTC_0xc12387_Event' EventKind is Null
+- Set Event-Prop 'EventKind' to 'SWC' using 'updatable'
+At Event 'DTC_0xc12387_Event' EventImport: false
+- Set Event-Prop 'OpCycle' to 'DEM_POWER'
+- Set Event-Prop 'EventFailureCount' to '0'
+At Event 'DTC_0xc12987_Event' EventKind is Null
+- Set Event-Prop 'EventKind' to 'SWC' using 'updatable'
+At Event 'DTC_0xc12987_Event' EventImport: false
+- Set Event-Prop 'OpCycle' to 'DEM_POWER'
+- Set Event-Prop 'EventFailureCount' to '0'
+At Event 'DTC_0xc14087_Event' EventKind is Null
+- Set Event-Prop 'EventKind' to 'SWC' using 'updatable'
+At Event 'DTC_0xc14087_Event' EventImport: false
+- Set Event-Prop 'OpCycle' to 'DEM_POWER'
+- Set Event-Prop 'EventFailureCount' to '0'
+At Event 'DTC_0xc14787_Event' EventKind is Null
+- Set Event-Prop 'EventKind' to 'SWC' using 'updatable'
+At Event 'DTC_0xc14787_Event' EventImport: false
+- Set Event-Prop 'OpCycle' to 'DEM_POWER'
+- Set Event-Prop 'EventFailureCount' to '0'
+At Event 'DTC_0xc16687_Event' EventKind is Null
+- Set Event-Prop 'EventKind' to 'SWC' using 'updatable'
+At Event 'DTC_0xc16687_Event' EventImport: false
+- Set Event-Prop 'OpCycle' to 'DEM_POWER'
+- Set Event-Prop 'EventFailureCount' to '0'
+At Event 'DTC_0xc19687_Event' EventKind is Null
+- Set Event-Prop 'EventKind' to 'SWC' using 'updatable'
+At Event 'DTC_0xc19687_Event' EventImport: false
+- Set Event-Prop 'OpCycle' to 'DEM_POWER'
+- Set Event-Prop 'EventFailureCount' to '0'
+At Event 'DTC_0xc19987_Event' EventKind is Null
+- Set Event-Prop 'EventKind' to 'SWC' using 'updatable'
+At Event 'DTC_0xc19987_Event' EventImport: false
+- Set Event-Prop 'OpCycle' to 'DEM_POWER'
+- Set Event-Prop 'EventFailureCount' to '0'
+At Event 'DTC_0xc19b87_Event' EventKind is Null
+- Set Event-Prop 'EventKind' to 'SWC' using 'updatable'
+At Event 'DTC_0xc19b87_Event' EventImport: false
+- Set Event-Prop 'OpCycle' to 'DEM_POWER'
+- Set Event-Prop 'EventFailureCount' to '0'
+At Event 'DTC_0xc29887_Event' EventKind is Null
+- Set Event-Prop 'EventKind' to 'SWC' using 'updatable'
+At Event 'DTC_0xc29887_Event' EventImport: false
+- Set Event-Prop 'OpCycle' to 'DEM_POWER'
+- Set Event-Prop 'EventFailureCount' to '0'
+At Event 'DTC_0xd10587_Event' EventKind is Null
+- Set Event-Prop 'EventKind' to 'SWC' using 'updatable'
+At Event 'DTC_0xd10587_Event' EventImport: false
+- Set Event-Prop 'OpCycle' to 'DEM_POWER'
+- Set Event-Prop 'EventFailureCount' to '0'
+At DTC 0x110012
+- Set Event-Prop 'InitMonitor' to 'false'
+At DTC 0x110012 IS_ANYOBD: FALSE EventImport: false
+- Warning Indicator 'WarningIndicator' with type 'Warning' created
+- Set Event-Prop 'WarnIndicator' to 'WarningIndicator' using 'Warning'
+At DTC 0x110012 EventImport: false
+- Set Event-Prop 'EnableCond' to '1.1500ms after being waked up
+At DTC 0x110112
+- Set Event-Prop 'InitMonitor' to 'false'
+At DTC 0x110112 IS_ANYOBD: FALSE EventImport: false
+- Set Event-Prop 'WarnIndicator' to 'WarningIndicator' using 'Warning'
+At DTC 0x110112 EventImport: false
+- Set Event-Prop 'EnableCond' to '1.1500ms after being waked up
+At DTC 0x110211
+- Set Event-Prop 'InitMonitor' to 'false'
+At DTC 0x110211 IS_ANYOBD: FALSE EventImport: false
+- Set Event-Prop 'WarnIndicator' to 'WarningIndicator' using 'Warning'
+At DTC 0x110211 EventImport: false
+- Set Event-Prop 'EnableCond' to '1.1500ms after being waked up
+At DTC 0x110311
+- Set Event-Prop 'InitMonitor' to 'false'
+At DTC 0x110311 IS_ANYOBD: FALSE EventImport: false
+- Set Event-Prop 'WarnIndicator' to 'WarningIndicator' using 'Warning'
+At DTC 0x110311 EventImport: false
+- Set Event-Prop 'EnableCond' to '1.1500ms after being waked up
+At DTC 0x11041e
+- Set Event-Prop 'InitMonitor' to 'false'
+At DTC 0x11041e IS_ANYOBD: FALSE EventImport: false
+- Set Event-Prop 'WarnIndicator' to 'WarningIndicator' using 'Warning'
+At DTC 0x11041e EventImport: false
+- Set Event-Prop 'EnableCond' to '1.1500ms after being waked up
+At DTC 0x110a1e
+- Set Event-Prop 'InitMonitor' to 'false'
+At DTC 0x110a1e IS_ANYOBD: FALSE EventImport: false
+- Set Event-Prop 'WarnIndicator' to 'WarningIndicator' using 'Warning'
+At DTC 0x110a1e EventImport: false
+- Set Event-Prop 'EnableCond' to '1.1500ms after being waked up
+At DTC 0x110b1e
+- Set Event-Prop 'InitMonitor' to 'false'
+At DTC 0x110b1e IS_ANYOBD: FALSE EventImport: false
+- Set Event-Prop 'WarnIndicator' to 'WarningIndicator' using 'Warning'
+At DTC 0x110b1e EventImport: false
+- Set Event-Prop 'EnableCond' to '1.1500ms after being waked up
+At DTC 0x111152
+- Set Event-Prop 'InitMonitor' to 'false'
+At DTC 0x111152 IS_ANYOBD: FALSE EventImport: false
+- Set Event-Prop 'WarnIndicator' to 'WarningIndicator' using 'Warning'
+At DTC 0x111152 EventImport: false
+- Set Event-Prop 'EnableCond' to '1.1500ms after being waked up
+At DTC 0x111252
+- Set Event-Prop 'InitMonitor' to 'false'
+At DTC 0x111252 IS_ANYOBD: FALSE EventImport: false
+- Set Event-Prop 'WarnIndicator' to 'WarningIndicator' using 'Warning'
+At DTC 0x111252 EventImport: false
+- Set Event-Prop 'EnableCond' to '1.1500ms after being waked up
+At DTC 0x111352
+- Set Event-Prop 'InitMonitor' to 'false'
+At DTC 0x111352 IS_ANYOBD: FALSE EventImport: false
+- Set Event-Prop 'WarnIndicator' to 'WarningIndicator' using 'Warning'
+At DTC 0x111352 EventImport: false
+- Set Event-Prop 'EnableCond' to '1.1500ms after being waked up
+At DTC 0x111e71
+- Set Event-Prop 'InitMonitor' to 'false'
+At DTC 0x111e71 IS_ANYOBD: FALSE EventImport: false
+- Set Event-Prop 'WarnIndicator' to 'WarningIndicator' using 'Warning'
+At DTC 0x111e71 EventImport: false
+- Set Event-Prop 'EnableCond' to '1.The battery voltage is normal (9V to 16V) or recovers from the abnormal voltage for 1000ms
+At DTC 0x111f16
+- Set Event-Prop 'InitMonitor' to 'false'
+At DTC 0x111f16 IS_ANYOBD: FALSE EventImport: false
+- Set Event-Prop 'WarnIndicator' to 'WarningIndicator' using 'Warning'
+At DTC 0x111f16 EventImport: false
+- Set Event-Prop 'EnableCond' to '1.The battery voltage is normal (9V to 16V) or recovers from the abnormal voltage for 1000ms
+At DTC 0x11281e
+- Set Event-Prop 'InitMonitor' to 'false'
+At DTC 0x11281e IS_ANYOBD: FALSE EventImport: false
+- Set Event-Prop 'WarnIndicator' to 'WarningIndicator' using 'Warning'
+At DTC 0x11281e EventImport: false
+- Set Event-Prop 'EnableCond' to '1.1500ms after being waked up
+At DTC 0x11291c
+- Set Event-Prop 'InitMonitor' to 'false'
+At DTC 0x11291c IS_ANYOBD: FALSE EventImport: false
+- Set Event-Prop 'WarnIndicator' to 'WarningIndicator' using 'Warning'
+At DTC 0x11291c EventImport: false
+- Set Event-Prop 'EnableCond' to '1.1500ms after being waked up
+At DTC 0x11309a
+- Set Event-Prop 'InitMonitor' to 'false'
+At DTC 0x11309a IS_ANYOBD: FALSE EventImport: false
+- Set Event-Prop 'WarnIndicator' to 'WarningIndicator' using 'Warning'
+At DTC 0x11309a EventImport: false
+- Set Event-Prop 'EnableCond' to '1.1500ms after being waked up
+At DTC 0x113197
+- Set Event-Prop 'InitMonitor' to 'false'
+At DTC 0x113197 IS_ANYOBD: FALSE EventImport: false
+- Set Event-Prop 'WarnIndicator' to 'WarningIndicator' using 'Warning'
+At DTC 0x113197 EventImport: false
+- Set Event-Prop 'EnableCond' to '1.The battery voltage is normal (9V to 16V) or recovers from the abnormal voltage for 1000ms
+At DTC 0x113297
+- Set Event-Prop 'InitMonitor' to 'false'
+At DTC 0x113297 IS_ANYOBD: FALSE EventImport: false
+- Set Event-Prop 'WarnIndicator' to 'WarningIndicator' using 'Warning'
+At DTC 0x113297 EventImport: false
+- Set Event-Prop 'EnableCond' to '1.The battery voltage is normal (9V to 16V) or recovers from the abnormal voltage for 1000ms
+At DTC 0x113397
+- Set Event-Prop 'InitMonitor' to 'false'
+At DTC 0x113397 IS_ANYOBD: FALSE EventImport: false
+- Set Event-Prop 'WarnIndicator' to 'WarningIndicator' using 'Warning'
+At DTC 0x113397 EventImport: false
+- Set Event-Prop 'EnableCond' to '1.The battery voltage is normal (9V to 16V) or recovers from the abnormal voltage for 1000ms
+At DTC 0x113497
+- Set Event-Prop 'InitMonitor' to 'false'
+At DTC 0x113497 IS_ANYOBD: FALSE EventImport: false
+- Set Event-Prop 'WarnIndicator' to 'WarningIndicator' using 'Warning'
+At DTC 0x113497 EventImport: false
+- Set Event-Prop 'EnableCond' to '1.The battery voltage is normal (9V to 16V) or recovers from the abnormal voltage for 1000ms
+At DTC 0x113597
+- Set Event-Prop 'InitMonitor' to 'false'
+At DTC 0x113597 IS_ANYOBD: FALSE EventImport: false
+- Set Event-Prop 'WarnIndicator' to 'WarningIndicator' using 'Warning'
+At DTC 0x113597 EventImport: false
+- Set Event-Prop 'EnableCond' to '1.The battery voltage is normal (9V to 16V) or recovers from the abnormal voltage for 1000ms
+At DTC 0x113697
+- Set Event-Prop 'InitMonitor' to 'false'
+At DTC 0x113697 IS_ANYOBD: FALSE EventImport: false
+- Set Event-Prop 'WarnIndicator' to 'WarningIndicator' using 'Warning'
+At DTC 0x113697 EventImport: false
+- Set Event-Prop 'EnableCond' to '1.The battery voltage is normal (9V to 16V) or recovers from the abnormal voltage for 1000ms
+At DTC 0x113797
+- Set Event-Prop 'InitMonitor' to 'false'
+At DTC 0x113797 IS_ANYOBD: FALSE EventImport: false
+- Set Event-Prop 'WarnIndicator' to 'WarningIndicator' using 'Warning'
+At DTC 0x113797 EventImport: false
+- Set Event-Prop 'EnableCond' to '1.DC Plug is detected (VCU-Chargestatus==0x3:DC Plug Detected)
+At DTC 0x113897
+- Set Event-Prop 'InitMonitor' to 'false'
+At DTC 0x113897 IS_ANYOBD: FALSE EventImport: false
+- Set Event-Prop 'WarnIndicator' to 'WarningIndicator' using 'Warning'
+At DTC 0x113897 EventImport: false
+- Set Event-Prop 'EnableCond' to '1.The battery voltage is normal (9V to 16V) or recovers from the abnormal voltage for 1000ms
+At DTC 0x113997
+- Set Event-Prop 'InitMonitor' to 'false'
+At DTC 0x113997 IS_ANYOBD: FALSE EventImport: false
+- Set Event-Prop 'WarnIndicator' to 'WarningIndicator' using 'Warning'
+At DTC 0x113997 EventImport: false
+- Set Event-Prop 'EnableCond' to '1.The battery voltage is normal (9V to 16V) or recovers from the abnormal voltage for 1000ms
+At DTC 0x114097
+- Set Event-Prop 'InitMonitor' to 'false'
+At DTC 0x114097 IS_ANYOBD: FALSE EventImport: false
+- Set Event-Prop 'WarnIndicator' to 'WarningIndicator' using 'Warning'
+At DTC 0x114097 EventImport: false
+- Set Event-Prop 'EnableCond' to '1.The battery voltage is normal (9V to 16V) or recovers from the abnormal voltage for 1000ms
+At DTC 0x114197
+- Set Event-Prop 'InitMonitor' to 'false'
+At DTC 0x114197 IS_ANYOBD: FALSE EventImport: false
+- Set Event-Prop 'WarnIndicator' to 'WarningIndicator' using 'Warning'
+At DTC 0x114197 EventImport: false
+- Set Event-Prop 'EnableCond' to '1.The battery voltage is normal (9V to 16V) or recovers from the abnormal voltage for 1000ms
+At DTC 0x114297
+- Set Event-Prop 'InitMonitor' to 'false'
+At DTC 0x114297 IS_ANYOBD: FALSE EventImport: false
+- Set Event-Prop 'WarnIndicator' to 'WarningIndicator' using 'Warning'
+At DTC 0x114297 EventImport: false
+- Set Event-Prop 'EnableCond' to '1.The battery voltage is normal (9V to 16V) or recovers from the abnormal voltage for 1000ms
+At DTC 0x114397
+- Set Event-Prop 'InitMonitor' to 'false'
+At DTC 0x114397 IS_ANYOBD: FALSE EventImport: false
+- Set Event-Prop 'WarnIndicator' to 'WarningIndicator' using 'Warning'
+At DTC 0x114397 EventImport: false
+- Set Event-Prop 'EnableCond' to '1.The battery voltage is normal (9V to 16V) or recovers from the abnormal voltage for 1000ms
+At DTC 0x114497
+- Set Event-Prop 'InitMonitor' to 'false'
+At DTC 0x114497 IS_ANYOBD: FALSE EventImport: false
+- Set Event-Prop 'WarnIndicator' to 'WarningIndicator' using 'Warning'
+At DTC 0x114497 EventImport: false
+- Set Event-Prop 'EnableCond' to '1.The battery voltage is normal (9V to 16V) or recovers from the abnormal voltage for 1000ms
+At DTC 0x114571
+- Set Event-Prop 'InitMonitor' to 'false'
+At DTC 0x114571 IS_ANYOBD: FALSE EventImport: false
+- Set Event-Prop 'WarnIndicator' to 'WarningIndicator' using 'Warning'
+At DTC 0x114571 EventImport: false
+- Set Event-Prop 'EnableCond' to '1.The battery voltage is normal (9V to 16V) or recovers from the abnormal voltage for 1000ms
+At DTC 0x114697
+- Set Event-Prop 'InitMonitor' to 'false'
+At DTC 0x114697 IS_ANYOBD: FALSE EventImport: false
+- Set Event-Prop 'WarnIndicator' to 'WarningIndicator' using 'Warning'
+At DTC 0x114697 EventImport: false
+- Set Event-Prop 'EnableCond' to '1.1500ms after being waked up
+At DTC 0x114792
+- Set Event-Prop 'InitMonitor' to 'false'
+At DTC 0x114792 IS_ANYOBD: FALSE EventImport: false
+- Set Event-Prop 'WarnIndicator' to 'WarningIndicator' using 'Warning'
+At DTC 0x114792 EventImport: false
+- Set Event-Prop 'EnableCond' to '1.1500ms after being waked up
+At DTC 0x114892
+- Set Event-Prop 'InitMonitor' to 'false'
+At DTC 0x114892 IS_ANYOBD: FALSE EventImport: false
+- Set Event-Prop 'WarnIndicator' to 'WarningIndicator' using 'Warning'
+At DTC 0x114892 EventImport: false
+- Set Event-Prop 'EnableCond' to '1.1500ms after being waked up
+At DTC 0x114992
+- Set Event-Prop 'InitMonitor' to 'false'
+At DTC 0x114992 IS_ANYOBD: FALSE EventImport: false
+- Set Event-Prop 'WarnIndicator' to 'WarningIndicator' using 'Warning'
+At DTC 0x114992 EventImport: false
+- Set Event-Prop 'EnableCond' to '1.1500ms after being waked up
+At DTC 0x115092
+- Set Event-Prop 'InitMonitor' to 'false'
+At DTC 0x115092 IS_ANYOBD: FALSE EventImport: false
+- Set Event-Prop 'WarnIndicator' to 'WarningIndicator' using 'Warning'
+At DTC 0x115092 EventImport: false
+- Set Event-Prop 'EnableCond' to '1.1500ms after being waked up
+At DTC 0x115192
+- Set Event-Prop 'InitMonitor' to 'false'
+At DTC 0x115192 IS_ANYOBD: FALSE EventImport: false
+- Set Event-Prop 'WarnIndicator' to 'WarningIndicator' using 'Warning'
+At DTC 0x115192 EventImport: false
+- Set Event-Prop 'EnableCond' to '1.1500ms after being waked up
+At DTC 0x115292
+- Set Event-Prop 'InitMonitor' to 'false'
+At DTC 0x115292 IS_ANYOBD: FALSE EventImport: false
+- Set Event-Prop 'WarnIndicator' to 'WarningIndicator' using 'Warning'
+At DTC 0x115292 EventImport: false
+- Set Event-Prop 'EnableCond' to '1.1500ms after being waked up
+At DTC 0x115392
+- Set Event-Prop 'InitMonitor' to 'false'
+At DTC 0x115392 IS_ANYOBD: FALSE EventImport: false
+- Set Event-Prop 'WarnIndicator' to 'WarningIndicator' using 'Warning'
+At DTC 0x115392 EventImport: false
+- Set Event-Prop 'EnableCond' to '1.1500ms after being waked up
+At DTC 0x115492
+- Set Event-Prop 'InitMonitor' to 'false'
+At DTC 0x115492 IS_ANYOBD: FALSE EventImport: false
+- Set Event-Prop 'WarnIndicator' to 'WarningIndicator' using 'Warning'
+At DTC 0x115492 EventImport: false
+- Set Event-Prop 'EnableCond' to '1.1500ms after being waked up
+At DTC 0x115592
+- Set Event-Prop 'InitMonitor' to 'false'
+At DTC 0x115592 IS_ANYOBD: FALSE EventImport: false
+- Set Event-Prop 'WarnIndicator' to 'WarningIndicator' using 'Warning'
+At DTC 0x115592 EventImport: false
+- Set Event-Prop 'EnableCond' to '1.1500ms after being waked up
+At DTC 0x115692
+- Set Event-Prop 'InitMonitor' to 'false'
+At DTC 0x115692 IS_ANYOBD: FALSE EventImport: false
+- Set Event-Prop 'WarnIndicator' to 'WarningIndicator' using 'Warning'
+At DTC 0x115692 EventImport: false
+- Set Event-Prop 'EnableCond' to '1.1500ms after being waked up
+At DTC 0x11571e
+- Set Event-Prop 'InitMonitor' to 'false'
+At DTC 0x11571e IS_ANYOBD: FALSE EventImport: false
+- Set Event-Prop 'WarnIndicator' to 'WarningIndicator' using 'Warning'
+At DTC 0x11571e EventImport: false
+- Set Event-Prop 'EnableCond' to '1.1500ms after being waked up
+At DTC 0x115816
+- Set Event-Prop 'InitMonitor' to 'false'
+At DTC 0x115816 IS_ANYOBD: FALSE EventImport: false
+- Set Event-Prop 'WarnIndicator' to 'WarningIndicator' using 'Warning'
+At DTC 0x115816 EventImport: false
+- Set Event-Prop 'EnableCond' to '1.The battery voltage is normal (9V to 16V) or recovers from the abnormal voltage for 1000ms
+At DTC 0x11591e
+- Set Event-Prop 'InitMonitor' to 'false'
+At DTC 0x11591e IS_ANYOBD: FALSE EventImport: false
+- Set Event-Prop 'WarnIndicator' to 'WarningIndicator' using 'Warning'
+At DTC 0x11591e EventImport: false
+- Set Event-Prop 'EnableCond' to '1.1500ms after being waked up
+At DTC 0x908017
+- Set Event-Prop 'InitMonitor' to 'false'
+At DTC 0x908017 IS_ANYOBD: FALSE EventImport: false
+- Set Event-Prop 'WarnIndicator' to 'WarningIndicator' using 'Warning'
+At DTC 0x908017 EventImport: false
+- Set Event-Prop 'EnableCond' to '1.1500ms after being waked up
+At DTC 0x908116
+- Set Event-Prop 'InitMonitor' to 'false'
+At DTC 0x908116 IS_ANYOBD: FALSE EventImport: false
+- Set Event-Prop 'WarnIndicator' to 'WarningIndicator' using 'Warning'
+At DTC 0x908116 EventImport: false
+- Set Event-Prop 'EnableCond' to '1.1500ms after being waked up
+At DTC 0xc07388
+- Set Event-Prop 'InitMonitor' to 'false'
+At DTC 0xc07388 IS_ANYOBD: FALSE EventImport: false
+- Set Event-Prop 'WarnIndicator' to 'WarningIndicator' using 'Warning'
+At DTC 0xc07388 EventImport: false
+- Set Event-Prop 'EnableCond' to 'All of the following conditions are met simultaneously and last for T_Delay=3000ms：
+At DTC 0xc07488
+- Set Event-Prop 'InitMonitor' to 'false'
+At DTC 0xc07488 IS_ANYOBD: FALSE EventImport: false
+- Set Event-Prop 'WarnIndicator' to 'WarningIndicator' using 'Warning'
+At DTC 0xc07488 EventImport: false
+- Set Event-Prop 'EnableCond' to 'All of the following conditions are met simultaneously and last for T_Delay=3000ms：
+At DTC 0xc10387
+- Set Event-Prop 'InitMonitor' to 'false'
+At DTC 0xc10387 IS_ANYOBD: FALSE EventImport: false
+- Set Event-Prop 'WarnIndicator' to 'WarningIndicator' using 'Warning'
+At DTC 0xc10387 EventImport: false
+- Set Event-Prop 'EnableCond' to 'All of the following conditions are met simultaneously and last for T_Delay=3000ms：
+At DTC 0xc11087
+- Set Event-Prop 'InitMonitor' to 'false'
+At DTC 0xc11087 IS_ANYOBD: FALSE EventImport: false
+- Set Event-Prop 'WarnIndicator' to 'WarningIndicator' using 'Warning'
+At DTC 0xc11087 EventImport: false
+- Set Event-Prop 'EnableCond' to 'All of the following conditions are met simultaneously and last for T_Delay=3000ms：
+At DTC 0xc11187
+- Set Event-Prop 'InitMonitor' to 'false'
+At DTC 0xc11187 IS_ANYOBD: FALSE EventImport: false
+- Set Event-Prop 'WarnIndicator' to 'WarningIndicator' using 'Warning'
+At DTC 0xc11187 EventImport: false
+- Set Event-Prop 'EnableCond' to 'All of the following conditions are met simultaneously and last for T_Delay=3000ms：
+At DTC 0xc11d87
+- Set Event-Prop 'InitMonitor' to 'false'
+At DTC 0xc11d87 IS_ANYOBD: FALSE EventImport: false
+- Set Event-Prop 'WarnIndicator' to 'WarningIndicator' using 'Warning'
+At DTC 0xc11d87 EventImport: false
+- Set Event-Prop 'EnableCond' to 'All of the following conditions are met simultaneously and last for T_Delay=3000ms：
+At DTC 0xc12187
+- Set Event-Prop 'InitMonitor' to 'false'
+At DTC 0xc12187 IS_ANYOBD: FALSE EventImport: false
+- Set Event-Prop 'WarnIndicator' to 'WarningIndicator' using 'Warning'
+At DTC 0xc12187 EventImport: false
+- Set Event-Prop 'EnableCond' to 'All of the following conditions are met simultaneously and last for T_Delay=3000ms：
+At DTC 0xc12387
+- Set Event-Prop 'InitMonitor' to 'false'
+At DTC 0xc12387 IS_ANYOBD: FALSE EventImport: false
+- Set Event-Prop 'WarnIndicator' to 'WarningIndicator' using 'Warning'
+At DTC 0xc12387 EventImport: false
+- Set Event-Prop 'EnableCond' to 'All of the following conditions are met simultaneously and last for T_Delay=3000ms：
+At DTC 0xc12987
+- Set Event-Prop 'InitMonitor' to 'false'
+At DTC 0xc12987 IS_ANYOBD: FALSE EventImport: false
+- Set Event-Prop 'WarnIndicator' to 'WarningIndicator' using 'Warning'
+At DTC 0xc12987 EventImport: false
+- Set Event-Prop 'EnableCond' to 'All of the following conditions are met simultaneously and last for T_Delay=3000ms：
+At DTC 0xc14087
+- Set Event-Prop 'InitMonitor' to 'false'
+At DTC 0xc14087 IS_ANYOBD: FALSE EventImport: false
+- Set Event-Prop 'WarnIndicator' to 'WarningIndicator' using 'Warning'
+At DTC 0xc14087 EventImport: false
+- Set Event-Prop 'EnableCond' to 'All of the following conditions are met simultaneously and last for T_Delay=3000ms：
+At DTC 0xc14787
+- Set Event-Prop 'InitMonitor' to 'false'
+At DTC 0xc14787 IS_ANYOBD: FALSE EventImport: false
+- Set Event-Prop 'WarnIndicator' to 'WarningIndicator' using 'Warning'
+At DTC 0xc14787 EventImport: false
+- Set Event-Prop 'EnableCond' to 'All of the following conditions are met simultaneously and last for T_Delay=3000ms：
+At DTC 0xc16687
+- Set Event-Prop 'InitMonitor' to 'false'
+At DTC 0xc16687 IS_ANYOBD: FALSE EventImport: false
+- Set Event-Prop 'WarnIndicator' to 'WarningIndicator' using 'Warning'
+At DTC 0xc16687 EventImport: false
+- Set Event-Prop 'EnableCond' to 'All of the following conditions are met simultaneously and last for T_Delay=3000ms：
+At DTC 0xc19687
+- Set Event-Prop 'InitMonitor' to 'false'
+At DTC 0xc19687 IS_ANYOBD: FALSE EventImport: false
+- Set Event-Prop 'WarnIndicator' to 'WarningIndicator' using 'Warning'
+At DTC 0xc19687 EventImport: false
+- Set Event-Prop 'EnableCond' to 'All of the following conditions are met simultaneously and last for T_Delay=3000ms：
+At DTC 0xc19987
+- Set Event-Prop 'InitMonitor' to 'false'
+At DTC 0xc19987 IS_ANYOBD: FALSE EventImport: false
+- Set Event-Prop 'WarnIndicator' to 'WarningIndicator' using 'Warning'
+At DTC 0xc19987 EventImport: false
+- Set Event-Prop 'EnableCond' to 'All of the following conditions are met simultaneously and last for T_Delay=3000ms：
+At DTC 0xc19b87
+- Set Event-Prop 'InitMonitor' to 'false'
+At DTC 0xc19b87 IS_ANYOBD: FALSE EventImport: false
+- Set Event-Prop 'WarnIndicator' to 'WarningIndicator' using 'Warning'
+At DTC 0xc19b87 EventImport: false
+- Set Event-Prop 'EnableCond' to 'All of the following conditions are met simultaneously and last for T_Delay=3000ms：
+At DTC 0xc29887
+- Set Event-Prop 'InitMonitor' to 'false'
+At DTC 0xc29887 IS_ANYOBD: FALSE EventImport: false
+- Set Event-Prop 'WarnIndicator' to 'WarningIndicator' using 'Warning'
+At DTC 0xc29887 EventImport: false
+- Set Event-Prop 'EnableCond' to 'All of the following conditions are met simultaneously and last for T_Delay=3000ms：
+At DTC 0xd10587
+- Set Event-Prop 'InitMonitor' to 'false'
+At DTC 0xd10587 IS_ANYOBD: FALSE EventImport: false
+- Set Event-Prop 'WarnIndicator' to 'WarningIndicator' using 'Warning'
+At DTC 0xd10587 EventImport: false
+- Set Event-Prop 'EnableCond' to 'All of the following conditions are met simultaneously and last for T_Delay=3000ms：
+<<<<<<<<<<<<< ShapingStep FaultMemory2( completed in 0.156s (156ms) <<<<<<<<<<<<<
+>>>>>>>>>>>>> ShapingStep FaultMemory3 >>>>>>>>>>>>>
+At DTC 0x110012 EventImport: false
+- Set Event-Prop 'DebounceType' to 'Counter'
+At DTC 0x110112 EventImport: false
+- Set Event-Prop 'DebounceType' to 'Counter'
+At DTC 0x110211 EventImport: false
+- Set Event-Prop 'DebounceType' to 'Counter'
+At DTC 0x110311 EventImport: false
+- Set Event-Prop 'DebounceType' to 'Counter'
+At DTC 0x11041e EventImport: false
+- Set Event-Prop 'DebounceType' to 'Counter'
+At DTC 0x110a1e EventImport: false
+- Set Event-Prop 'DebounceType' to 'Counter'
+At DTC 0x110b1e EventImport: false
+- Set Event-Prop 'DebounceType' to 'Counter'
+At DTC 0x111152 EventImport: false
+- Set Event-Prop 'DebounceType' to 'Counter'
+At DTC 0x111252 EventImport: false
+- Set Event-Prop 'DebounceType' to 'Counter'
+At DTC 0x111352 EventImport: false
+- Set Event-Prop 'DebounceType' to 'Counter'
+At DTC 0x111e71 EventImport: false
+- Set Event-Prop 'DebounceType' to 'Counter'
+At DTC 0x111f16 EventImport: false
+- Set Event-Prop 'DebounceType' to 'Counter'
+At DTC 0x11281e EventImport: false
+- Set Event-Prop 'DebounceType' to 'Counter'
+At DTC 0x11291c EventImport: false
+- Set Event-Prop 'DebounceType' to 'Counter'
+At DTC 0x11309a EventImport: false
+- Set Event-Prop 'DebounceType' to 'Counter'
+At DTC 0x113197 EventImport: false
+- Set Event-Prop 'DebounceType' to 'Counter'
+At DTC 0x113297 EventImport: false
+- Set Event-Prop 'DebounceType' to 'Counter'
+At DTC 0x113397 EventImport: false
+- Set Event-Prop 'DebounceType' to 'Counter'
+At DTC 0x113497 EventImport: false
+- Set Event-Prop 'DebounceType' to 'Counter'
+At DTC 0x113597 EventImport: false
+- Set Event-Prop 'DebounceType' to 'Counter'
+At DTC 0x113697 EventImport: false
+- Set Event-Prop 'DebounceType' to 'Counter'
+At DTC 0x113797 EventImport: false
+- Set Event-Prop 'DebounceType' to 'Counter'
+At DTC 0x113897 EventImport: false
+- Set Event-Prop 'DebounceType' to 'Counter'
+At DTC 0x113997 EventImport: false
+- Set Event-Prop 'DebounceType' to 'Counter'
+At DTC 0x114097 EventImport: false
+- Set Event-Prop 'DebounceType' to 'Counter'
+At DTC 0x114197 EventImport: false
+- Set Event-Prop 'DebounceType' to 'Counter'
+At DTC 0x114297 EventImport: false
+- Set Event-Prop 'DebounceType' to 'Counter'
+At DTC 0x114397 EventImport: false
+- Set Event-Prop 'DebounceType' to 'Counter'
+At DTC 0x114497 EventImport: false
+- Set Event-Prop 'DebounceType' to 'Counter'
+At DTC 0x114571 EventImport: false
+- Set Event-Prop 'DebounceType' to 'Counter'
+At DTC 0x114697 EventImport: false
+- Set Event-Prop 'DebounceType' to 'Counter'
+At DTC 0x114792 EventImport: false
+- Set Event-Prop 'DebounceType' to 'Counter'
+At DTC 0x114892 EventImport: false
+- Set Event-Prop 'DebounceType' to 'Counter'
+At DTC 0x114992 EventImport: false
+- Set Event-Prop 'DebounceType' to 'Counter'
+At DTC 0x115092 EventImport: false
+- Set Event-Prop 'DebounceType' to 'Counter'
+At DTC 0x115192 EventImport: false
+- Set Event-Prop 'DebounceType' to 'Counter'
+At DTC 0x115292 EventImport: false
+- Set Event-Prop 'DebounceType' to 'Counter'
+At DTC 0x115392 EventImport: false
+- Set Event-Prop 'DebounceType' to 'Counter'
+At DTC 0x115492 EventImport: false
+- Set Event-Prop 'DebounceType' to 'Counter'
+At DTC 0x115592 EventImport: false
+- Set Event-Prop 'DebounceType' to 'Counter'
+At DTC 0x115692 EventImport: false
+- Set Event-Prop 'DebounceType' to 'Counter'
+At DTC 0x11571e EventImport: false
+- Set Event-Prop 'DebounceType' to 'Counter'
+At DTC 0x115816 EventImport: false
+- Set Event-Prop 'DebounceType' to 'Counter'
+At DTC 0x11591e EventImport: false
+- Set Event-Prop 'DebounceType' to 'Counter'
+At DTC 0x908017 EventImport: false
+- Set Event-Prop 'DebounceType' to 'Counter'
+At DTC 0x908116 EventImport: false
+- Set Event-Prop 'DebounceType' to 'Counter'
+At DTC 0xc07388 EventImport: false
+- Set Event-Prop 'DebounceType' to 'Counter'
+At DTC 0xc07488 EventImport: false
+- Set Event-Prop 'DebounceType' to 'Counter'
+At DTC 0xc10387 EventImport: false
+- Set Event-Prop 'DebounceType' to 'Counter'
+At DTC 0xc11087 EventImport: false
+- Set Event-Prop 'DebounceType' to 'Counter'
+At DTC 0xc11187 EventImport: false
+- Set Event-Prop 'DebounceType' to 'Counter'
+At DTC 0xc11d87 EventImport: false
+- Set Event-Prop 'DebounceType' to 'Counter'
+At DTC 0xc12187 EventImport: false
+- Set Event-Prop 'DebounceType' to 'Counter'
+At DTC 0xc12387 EventImport: false
+- Set Event-Prop 'DebounceType' to 'Counter'
+At DTC 0xc12987 EventImport: false
+- Set Event-Prop 'DebounceType' to 'Counter'
+At DTC 0xc14087 EventImport: false
+- Set Event-Prop 'DebounceType' to 'Counter'
+At DTC 0xc14787 EventImport: false
+- Set Event-Prop 'DebounceType' to 'Counter'
+At DTC 0xc16687 EventImport: false
+- Set Event-Prop 'DebounceType' to 'Counter'
+At DTC 0xc19687 EventImport: false
+- Set Event-Prop 'DebounceType' to 'Counter'
+At DTC 0xc19987 EventImport: false
+- Set Event-Prop 'DebounceType' to 'Counter'
+At DTC 0xc19b87 EventImport: false
+- Set Event-Prop 'DebounceType' to 'Counter'
+At DTC 0xc29887 EventImport: false
+- Set Event-Prop 'DebounceType' to 'Counter'
+At DTC 0xd10587 EventImport: false
+- Set Event-Prop 'DebounceType' to 'Counter'
+At Event 'DTC_0x110012_Event' EventImport: false DebounceType == Counter
+- Set Event-Prop 'JumpUp' to 'Yes'
+- Set Event-Prop 'JumpDown' to 'No'
+- Set Event-Prop 'IncStepSize' to '1'
+- Set Event-Prop 'DecStepSize' to '1'
+- Set Event-Prop 'Register' to default 'NULL'
+At Event 'DTC_0x110112_Event' EventImport: false DebounceType == Counter
+- Set Event-Prop 'JumpUp' to 'Yes'
+- Set Event-Prop 'JumpDown' to 'No'
+- Set Event-Prop 'IncStepSize' to '1'
+- Set Event-Prop 'DecStepSize' to '1'
+- Set Event-Prop 'Register' to default 'NULL'
+At Event 'DTC_0x110211_Event' EventImport: false DebounceType == Counter
+- Set Event-Prop 'JumpUp' to 'Yes'
+- Set Event-Prop 'JumpDown' to 'No'
+- Set Event-Prop 'IncStepSize' to '1'
+- Set Event-Prop 'DecStepSize' to '1'
+- Set Event-Prop 'Register' to default 'NULL'
+At Event 'DTC_0x110311_Event' EventImport: false DebounceType == Counter
+- Set Event-Prop 'JumpUp' to 'Yes'
+- Set Event-Prop 'JumpDown' to 'No'
+- Set Event-Prop 'IncStepSize' to '1'
+- Set Event-Prop 'DecStepSize' to '1'
+- Set Event-Prop 'Register' to default 'NULL'
+At Event 'DTC_0x11041e_Event' EventImport: false DebounceType == Counter
+- Set Event-Prop 'JumpUp' to 'Yes'
+- Set Event-Prop 'JumpDown' to 'No'
+- Set Event-Prop 'IncStepSize' to '1'
+- Set Event-Prop 'DecStepSize' to '1'
+- Set Event-Prop 'Register' to default 'NULL'
+At Event 'DTC_0x110a1e_Event' EventImport: false DebounceType == Counter
+- Set Event-Prop 'JumpUp' to 'Yes'
+- Set Event-Prop 'JumpDown' to 'No'
+- Set Event-Prop 'IncStepSize' to '1'
+- Set Event-Prop 'DecStepSize' to '1'
+- Set Event-Prop 'Register' to default 'NULL'
+At Event 'DTC_0x110b1e_Event' EventImport: false DebounceType == Counter
+- Set Event-Prop 'JumpUp' to 'Yes'
+- Set Event-Prop 'JumpDown' to 'No'
+- Set Event-Prop 'IncStepSize' to '1'
+- Set Event-Prop 'DecStepSize' to '1'
+- Set Event-Prop 'Register' to default 'NULL'
+At Event 'DTC_0x111152_Event' EventImport: false DebounceType == Counter
+- Set Event-Prop 'JumpUp' to 'Yes'
+- Set Event-Prop 'JumpDown' to 'No'
+- Set Event-Prop 'IncStepSize' to '1'
+- Set Event-Prop 'DecStepSize' to '1'
+- Set Event-Prop 'Register' to default 'NULL'
+At Event 'DTC_0x111252_Event' EventImport: false DebounceType == Counter
+- Set Event-Prop 'JumpUp' to 'Yes'
+- Set Event-Prop 'JumpDown' to 'No'
+- Set Event-Prop 'IncStepSize' to '1'
+- Set Event-Prop 'DecStepSize' to '1'
+- Set Event-Prop 'Register' to default 'NULL'
+At Event 'DTC_0x111352_Event' EventImport: false DebounceType == Counter
+- Set Event-Prop 'JumpUp' to 'Yes'
+- Set Event-Prop 'JumpDown' to 'No'
+- Set Event-Prop 'IncStepSize' to '1'
+- Set Event-Prop 'DecStepSize' to '1'
+- Set Event-Prop 'Register' to default 'NULL'
+At Event 'DTC_0x111e71_Event' EventImport: false DebounceType == Counter
+- Set Event-Prop 'JumpUp' to 'Yes'
+- Set Event-Prop 'JumpDown' to 'No'
+- Set Event-Prop 'IncStepSize' to '1'
+- Set Event-Prop 'DecStepSize' to '1'
+- Set Event-Prop 'Register' to default 'NULL'
+At Event 'DTC_0x111f16_Event' EventImport: false DebounceType == Counter
+- Set Event-Prop 'JumpUp' to 'Yes'
+- Set Event-Prop 'JumpDown' to 'No'
+- Set Event-Prop 'IncStepSize' to '1'
+- Set Event-Prop 'DecStepSize' to '1'
+- Set Event-Prop 'Register' to default 'NULL'
+At Event 'DTC_0x11281e_Event' EventImport: false DebounceType == Counter
+- Set Event-Prop 'JumpUp' to 'Yes'
+- Set Event-Prop 'JumpDown' to 'No'
+- Set Event-Prop 'IncStepSize' to '1'
+- Set Event-Prop 'DecStepSize' to '1'
+- Set Event-Prop 'Register' to default 'NULL'
+At Event 'DTC_0x11291c_Event' EventImport: false DebounceType == Counter
+- Set Event-Prop 'JumpUp' to 'Yes'
+- Set Event-Prop 'JumpDown' to 'No'
+- Set Event-Prop 'IncStepSize' to '1'
+- Set Event-Prop 'DecStepSize' to '1'
+- Set Event-Prop 'Register' to default 'NULL'
+At Event 'DTC_0x11309a_Event' EventImport: false DebounceType == Counter
+- Set Event-Prop 'JumpUp' to 'Yes'
+- Set Event-Prop 'JumpDown' to 'No'
+- Set Event-Prop 'IncStepSize' to '1'
+- Set Event-Prop 'DecStepSize' to '1'
+- Set Event-Prop 'Register' to default 'NULL'
+At Event 'DTC_0x113197_Event' EventImport: false DebounceType == Counter
+- Set Event-Prop 'JumpUp' to 'Yes'
+- Set Event-Prop 'JumpDown' to 'No'
+- Set Event-Prop 'IncStepSize' to '1'
+- Set Event-Prop 'DecStepSize' to '1'
+- Set Event-Prop 'Register' to default 'NULL'
+At Event 'DTC_0x113297_Event' EventImport: false DebounceType == Counter
+- Set Event-Prop 'JumpUp' to 'Yes'
+- Set Event-Prop 'JumpDown' to 'No'
+- Set Event-Prop 'IncStepSize' to '1'
+- Set Event-Prop 'DecStepSize' to '1'
+- Set Event-Prop 'Register' to default 'NULL'
+At Event 'DTC_0x113397_Event' EventImport: false DebounceType == Counter
+- Set Event-Prop 'JumpUp' to 'Yes'
+- Set Event-Prop 'JumpDown' to 'No'
+- Set Event-Prop 'IncStepSize' to '1'
+- Set Event-Prop 'DecStepSize' to '1'
+- Set Event-Prop 'Register' to default 'NULL'
+At Event 'DTC_0x113497_Event' EventImport: false DebounceType == Counter
+- Set Event-Prop 'JumpUp' to 'Yes'
+- Set Event-Prop 'JumpDown' to 'No'
+- Set Event-Prop 'IncStepSize' to '1'
+- Set Event-Prop 'DecStepSize' to '1'
+- Set Event-Prop 'Register' to default 'NULL'
+At Event 'DTC_0x113597_Event' EventImport: false DebounceType == Counter
+- Set Event-Prop 'JumpUp' to 'Yes'
+- Set Event-Prop 'JumpDown' to 'No'
+- Set Event-Prop 'IncStepSize' to '1'
+- Set Event-Prop 'DecStepSize' to '1'
+- Set Event-Prop 'Register' to default 'NULL'
+At Event 'DTC_0x113697_Event' EventImport: false DebounceType == Counter
+- Set Event-Prop 'JumpUp' to 'Yes'
+- Set Event-Prop 'JumpDown' to 'No'
+- Set Event-Prop 'IncStepSize' to '1'
+- Set Event-Prop 'DecStepSize' to '1'
+- Set Event-Prop 'Register' to default 'NULL'
+At Event 'DTC_0x113797_Event' EventImport: false DebounceType == Counter
+- Set Event-Prop 'JumpUp' to 'Yes'
+- Set Event-Prop 'JumpDown' to 'No'
+- Set Event-Prop 'IncStepSize' to '1'
+- Set Event-Prop 'DecStepSize' to '1'
+- Set Event-Prop 'Register' to default 'NULL'
+At Event 'DTC_0x113897_Event' EventImport: false DebounceType == Counter
+- Set Event-Prop 'JumpUp' to 'Yes'
+- Set Event-Prop 'JumpDown' to 'No'
+- Set Event-Prop 'IncStepSize' to '1'
+- Set Event-Prop 'DecStepSize' to '1'
+- Set Event-Prop 'Register' to default 'NULL'
+At Event 'DTC_0x113997_Event' EventImport: false DebounceType == Counter
+- Set Event-Prop 'JumpUp' to 'Yes'
+- Set Event-Prop 'JumpDown' to 'No'
+- Set Event-Prop 'IncStepSize' to '1'
+- Set Event-Prop 'DecStepSize' to '1'
+- Set Event-Prop 'Register' to default 'NULL'
+At Event 'DTC_0x114097_Event' EventImport: false DebounceType == Counter
+- Set Event-Prop 'JumpUp' to 'Yes'
+- Set Event-Prop 'JumpDown' to 'No'
+- Set Event-Prop 'IncStepSize' to '1'
+- Set Event-Prop 'DecStepSize' to '1'
+- Set Event-Prop 'Register' to default 'NULL'
+At Event 'DTC_0x114197_Event' EventImport: false DebounceType == Counter
+- Set Event-Prop 'JumpUp' to 'Yes'
+- Set Event-Prop 'JumpDown' to 'No'
+- Set Event-Prop 'IncStepSize' to '1'
+- Set Event-Prop 'DecStepSize' to '1'
+- Set Event-Prop 'Register' to default 'NULL'
+At Event 'DTC_0x114297_Event' EventImport: false DebounceType == Counter
+- Set Event-Prop 'JumpUp' to 'Yes'
+- Set Event-Prop 'JumpDown' to 'No'
+- Set Event-Prop 'IncStepSize' to '1'
+- Set Event-Prop 'DecStepSize' to '1'
+- Set Event-Prop 'Register' to default 'NULL'
+At Event 'DTC_0x114397_Event' EventImport: false DebounceType == Counter
+- Set Event-Prop 'JumpUp' to 'Yes'
+- Set Event-Prop 'JumpDown' to 'No'
+- Set Event-Prop 'IncStepSize' to '1'
+- Set Event-Prop 'DecStepSize' to '1'
+- Set Event-Prop 'Register' to default 'NULL'
+At Event 'DTC_0x114497_Event' EventImport: false DebounceType == Counter
+- Set Event-Prop 'JumpUp' to 'Yes'
+- Set Event-Prop 'JumpDown' to 'No'
+- Set Event-Prop 'IncStepSize' to '1'
+- Set Event-Prop 'DecStepSize' to '1'
+- Set Event-Prop 'Register' to default 'NULL'
+At Event 'DTC_0x114571_Event' EventImport: false DebounceType == Counter
+- Set Event-Prop 'JumpUp' to 'Yes'
+- Set Event-Prop 'JumpDown' to 'No'
+- Set Event-Prop 'IncStepSize' to '1'
+- Set Event-Prop 'DecStepSize' to '1'
+- Set Event-Prop 'Register' to default 'NULL'
+At Event 'DTC_0x114697_Event' EventImport: false DebounceType == Counter
+- Set Event-Prop 'JumpUp' to 'Yes'
+- Set Event-Prop 'JumpDown' to 'No'
+- Set Event-Prop 'IncStepSize' to '1'
+- Set Event-Prop 'DecStepSize' to '1'
+- Set Event-Prop 'Register' to default 'NULL'
+At Event 'DTC_0x114792_Event' EventImport: false DebounceType == Counter
+- Set Event-Prop 'JumpUp' to 'Yes'
+- Set Event-Prop 'JumpDown' to 'No'
+- Set Event-Prop 'IncStepSize' to '1'
+- Set Event-Prop 'DecStepSize' to '1'
+- Set Event-Prop 'Register' to default 'NULL'
+At Event 'DTC_0x114892_Event' EventImport: false DebounceType == Counter
+- Set Event-Prop 'JumpUp' to 'Yes'
+- Set Event-Prop 'JumpDown' to 'No'
+- Set Event-Prop 'IncStepSize' to '1'
+- Set Event-Prop 'DecStepSize' to '1'
+- Set Event-Prop 'Register' to default 'NULL'
+At Event 'DTC_0x114992_Event' EventImport: false DebounceType == Counter
+- Set Event-Prop 'JumpUp' to 'Yes'
+- Set Event-Prop 'JumpDown' to 'No'
+- Set Event-Prop 'IncStepSize' to '1'
+- Set Event-Prop 'DecStepSize' to '1'
+- Set Event-Prop 'Register' to default 'NULL'
+At Event 'DTC_0x115092_Event' EventImport: false DebounceType == Counter
+- Set Event-Prop 'JumpUp' to 'Yes'
+- Set Event-Prop 'JumpDown' to 'No'
+- Set Event-Prop 'IncStepSize' to '1'
+- Set Event-Prop 'DecStepSize' to '1'
+- Set Event-Prop 'Register' to default 'NULL'
+At Event 'DTC_0x115192_Event' EventImport: false DebounceType == Counter
+- Set Event-Prop 'JumpUp' to 'Yes'
+- Set Event-Prop 'JumpDown' to 'No'
+- Set Event-Prop 'IncStepSize' to '1'
+- Set Event-Prop 'DecStepSize' to '1'
+- Set Event-Prop 'Register' to default 'NULL'
+At Event 'DTC_0x115292_Event' EventImport: false DebounceType == Counter
+- Set Event-Prop 'JumpUp' to 'Yes'
+- Set Event-Prop 'JumpDown' to 'No'
+- Set Event-Prop 'IncStepSize' to '1'
+- Set Event-Prop 'DecStepSize' to '1'
+- Set Event-Prop 'Register' to default 'NULL'
+At Event 'DTC_0x115392_Event' EventImport: false DebounceType == Counter
+- Set Event-Prop 'JumpUp' to 'Yes'
+- Set Event-Prop 'JumpDown' to 'No'
+- Set Event-Prop 'IncStepSize' to '1'
+- Set Event-Prop 'DecStepSize' to '1'
+- Set Event-Prop 'Register' to default 'NULL'
+At Event 'DTC_0x115492_Event' EventImport: false DebounceType == Counter
+- Set Event-Prop 'JumpUp' to 'Yes'
+- Set Event-Prop 'JumpDown' to 'No'
+- Set Event-Prop 'IncStepSize' to '1'
+- Set Event-Prop 'DecStepSize' to '1'
+- Set Event-Prop 'Register' to default 'NULL'
+At Event 'DTC_0x115592_Event' EventImport: false DebounceType == Counter
+- Set Event-Prop 'JumpUp' to 'Yes'
+- Set Event-Prop 'JumpDown' to 'No'
+- Set Event-Prop 'IncStepSize' to '1'
+- Set Event-Prop 'DecStepSize' to '1'
+- Set Event-Prop 'Register' to default 'NULL'
+At Event 'DTC_0x115692_Event' EventImport: false DebounceType == Counter
+- Set Event-Prop 'JumpUp' to 'Yes'
+- Set Event-Prop 'JumpDown' to 'No'
+- Set Event-Prop 'IncStepSize' to '1'
+- Set Event-Prop 'DecStepSize' to '1'
+- Set Event-Prop 'Register' to default 'NULL'
+At Event 'DTC_0x11571e_Event' EventImport: false DebounceType == Counter
+- Set Event-Prop 'JumpUp' to 'Yes'
+- Set Event-Prop 'JumpDown' to 'No'
+- Set Event-Prop 'IncStepSize' to '1'
+- Set Event-Prop 'DecStepSize' to '1'
+- Set Event-Prop 'Register' to default 'NULL'
+At Event 'DTC_0x115816_Event' EventImport: false DebounceType == Counter
+- Set Event-Prop 'JumpUp' to 'Yes'
+- Set Event-Prop 'JumpDown' to 'No'
+- Set Event-Prop 'IncStepSize' to '1'
+- Set Event-Prop 'DecStepSize' to '1'
+- Set Event-Prop 'Register' to default 'NULL'
+At Event 'DTC_0x11591e_Event' EventImport: false DebounceType == Counter
+- Set Event-Prop 'JumpUp' to 'Yes'
+- Set Event-Prop 'JumpDown' to 'No'
+- Set Event-Prop 'IncStepSize' to '1'
+- Set Event-Prop 'DecStepSize' to '1'
+- Set Event-Prop 'Register' to default 'NULL'
+At Event 'DTC_0x908017_Event' EventImport: false DebounceType == Counter
+- Set Event-Prop 'JumpUp' to 'Yes'
+- Set Event-Prop 'JumpDown' to 'No'
+- Set Event-Prop 'IncStepSize' to '1'
+- Set Event-Prop 'DecStepSize' to '1'
+- Set Event-Prop 'Register' to default 'NULL'
+At Event 'DTC_0x908116_Event' EventImport: false DebounceType == Counter
+- Set Event-Prop 'JumpUp' to 'Yes'
+- Set Event-Prop 'JumpDown' to 'No'
+- Set Event-Prop 'IncStepSize' to '1'
+- Set Event-Prop 'DecStepSize' to '1'
+- Set Event-Prop 'Register' to default 'NULL'
+At Event 'DTC_0xc07388_Event' EventImport: false DebounceType == Counter
+- Set Event-Prop 'JumpUp' to 'Yes'
+- Set Event-Prop 'JumpDown' to 'No'
+- Set Event-Prop 'IncStepSize' to '1'
+- Set Event-Prop 'DecStepSize' to '1'
+- Set Event-Prop 'Register' to default 'NULL'
+At Event 'DTC_0xc07488_Event' EventImport: false DebounceType == Counter
+- Set Event-Prop 'JumpUp' to 'Yes'
+- Set Event-Prop 'JumpDown' to 'No'
+- Set Event-Prop 'IncStepSize' to '1'
+- Set Event-Prop 'DecStepSize' to '1'
+- Set Event-Prop 'Register' to default 'NULL'
+At Event 'DTC_0xc10387_Event' EventImport: false DebounceType == Counter
+- Set Event-Prop 'JumpUp' to 'Yes'
+- Set Event-Prop 'JumpDown' to 'No'
+- Set Event-Prop 'IncStepSize' to '1'
+- Set Event-Prop 'DecStepSize' to '1'
+- Set Event-Prop 'Register' to default 'NULL'
+At Event 'DTC_0xc11087_Event' EventImport: false DebounceType == Counter
+- Set Event-Prop 'JumpUp' to 'Yes'
+- Set Event-Prop 'JumpDown' to 'No'
+- Set Event-Prop 'IncStepSize' to '1'
+- Set Event-Prop 'DecStepSize' to '1'
+- Set Event-Prop 'Register' to default 'NULL'
+At Event 'DTC_0xc11187_Event' EventImport: false DebounceType == Counter
+- Set Event-Prop 'JumpUp' to 'Yes'
+- Set Event-Prop 'JumpDown' to 'No'
+- Set Event-Prop 'IncStepSize' to '1'
+- Set Event-Prop 'DecStepSize' to '1'
+- Set Event-Prop 'Register' to default 'NULL'
+At Event 'DTC_0xc11d87_Event' EventImport: false DebounceType == Counter
+- Set Event-Prop 'JumpUp' to 'Yes'
+- Set Event-Prop 'JumpDown' to 'No'
+- Set Event-Prop 'IncStepSize' to '1'
+- Set Event-Prop 'DecStepSize' to '1'
+- Set Event-Prop 'Register' to default 'NULL'
+At Event 'DTC_0xc12187_Event' EventImport: false DebounceType == Counter
+- Set Event-Prop 'JumpUp' to 'Yes'
+- Set Event-Prop 'JumpDown' to 'No'
+- Set Event-Prop 'IncStepSize' to '1'
+- Set Event-Prop 'DecStepSize' to '1'
+- Set Event-Prop 'Register' to default 'NULL'
+At Event 'DTC_0xc12387_Event' EventImport: false DebounceType == Counter
+- Set Event-Prop 'JumpUp' to 'Yes'
+- Set Event-Prop 'JumpDown' to 'No'
+- Set Event-Prop 'IncStepSize' to '1'
+- Set Event-Prop 'DecStepSize' to '1'
+- Set Event-Prop 'Register' to default 'NULL'
+At Event 'DTC_0xc12987_Event' EventImport: false DebounceType == Counter
+- Set Event-Prop 'JumpUp' to 'Yes'
+- Set Event-Prop 'JumpDown' to 'No'
+- Set Event-Prop 'IncStepSize' to '1'
+- Set Event-Prop 'DecStepSize' to '1'
+- Set Event-Prop 'Register' to default 'NULL'
+At Event 'DTC_0xc14087_Event' EventImport: false DebounceType == Counter
+- Set Event-Prop 'JumpUp' to 'Yes'
+- Set Event-Prop 'JumpDown' to 'No'
+- Set Event-Prop 'IncStepSize' to '1'
+- Set Event-Prop 'DecStepSize' to '1'
+- Set Event-Prop 'Register' to default 'NULL'
+At Event 'DTC_0xc14787_Event' EventImport: false DebounceType == Counter
+- Set Event-Prop 'JumpUp' to 'Yes'
+- Set Event-Prop 'JumpDown' to 'No'
+- Set Event-Prop 'IncStepSize' to '1'
+- Set Event-Prop 'DecStepSize' to '1'
+- Set Event-Prop 'Register' to default 'NULL'
+At Event 'DTC_0xc16687_Event' EventImport: false DebounceType == Counter
+- Set Event-Prop 'JumpUp' to 'Yes'
+- Set Event-Prop 'JumpDown' to 'No'
+- Set Event-Prop 'IncStepSize' to '1'
+- Set Event-Prop 'DecStepSize' to '1'
+- Set Event-Prop 'Register' to default 'NULL'
+At Event 'DTC_0xc19687_Event' EventImport: false DebounceType == Counter
+- Set Event-Prop 'JumpUp' to 'Yes'
+- Set Event-Prop 'JumpDown' to 'No'
+- Set Event-Prop 'IncStepSize' to '1'
+- Set Event-Prop 'DecStepSize' to '1'
+- Set Event-Prop 'Register' to default 'NULL'
+At Event 'DTC_0xc19987_Event' EventImport: false DebounceType == Counter
+- Set Event-Prop 'JumpUp' to 'Yes'
+- Set Event-Prop 'JumpDown' to 'No'
+- Set Event-Prop 'IncStepSize' to '1'
+- Set Event-Prop 'DecStepSize' to '1'
+- Set Event-Prop 'Register' to default 'NULL'
+At Event 'DTC_0xc19b87_Event' EventImport: false DebounceType == Counter
+- Set Event-Prop 'JumpUp' to 'Yes'
+- Set Event-Prop 'JumpDown' to 'No'
+- Set Event-Prop 'IncStepSize' to '1'
+- Set Event-Prop 'DecStepSize' to '1'
+- Set Event-Prop 'Register' to default 'NULL'
+At Event 'DTC_0xc29887_Event' EventImport: false DebounceType == Counter
+- Set Event-Prop 'JumpUp' to 'Yes'
+- Set Event-Prop 'JumpDown' to 'No'
+- Set Event-Prop 'IncStepSize' to '1'
+- Set Event-Prop 'DecStepSize' to '1'
+- Set Event-Prop 'Register' to default 'NULL'
+At Event 'DTC_0xd10587_Event' EventImport: false DebounceType == Counter
+- Set Event-Prop 'JumpUp' to 'Yes'
+- Set Event-Prop 'JumpDown' to 'No'
+- Set Event-Prop 'IncStepSize' to '1'
+- Set Event-Prop 'DecStepSize' to '1'
+- Set Event-Prop 'Register' to default 'NULL'
+<<<<<<<<<<<<< ShapingStep FaultMemory3( completed in 0.078s (78ms) <<<<<<<<<<<<<
+>>>>>>>>>>>>> ShapingStep FaultMemory4 >>>>>>>>>>>>>
+At Event 'DTC_0x110012_Event' Microsar: true
+- Set Event-Prop 'HealingCycle' to 'DEM_POWER' using 'Power'
+At Event 'DTC_0x110112_Event' Microsar: true
+- Set Event-Prop 'HealingCycle' to 'DEM_POWER' using 'Power'
+At Event 'DTC_0x110211_Event' Microsar: true
+- Set Event-Prop 'HealingCycle' to 'DEM_POWER' using 'Power'
+At Event 'DTC_0x110311_Event' Microsar: true
+- Set Event-Prop 'HealingCycle' to 'DEM_POWER' using 'Power'
+At Event 'DTC_0x11041e_Event' Microsar: true
+- Set Event-Prop 'HealingCycle' to 'DEM_POWER' using 'Power'
+At Event 'DTC_0x110a1e_Event' Microsar: true
+- Set Event-Prop 'HealingCycle' to 'DEM_POWER' using 'Power'
+At Event 'DTC_0x110b1e_Event' Microsar: true
+- Set Event-Prop 'HealingCycle' to 'DEM_POWER' using 'Power'
+At Event 'DTC_0x111152_Event' Microsar: true
+- Set Event-Prop 'HealingCycle' to 'DEM_POWER' using 'Power'
+At Event 'DTC_0x111252_Event' Microsar: true
+- Set Event-Prop 'HealingCycle' to 'DEM_POWER' using 'Power'
+At Event 'DTC_0x111352_Event' Microsar: true
+- Set Event-Prop 'HealingCycle' to 'DEM_POWER' using 'Power'
+At Event 'DTC_0x111e71_Event' Microsar: true
+- Set Event-Prop 'HealingCycle' to 'DEM_POWER' using 'Power'
+At Event 'DTC_0x111f16_Event' Microsar: true
+- Set Event-Prop 'HealingCycle' to 'DEM_POWER' using 'Power'
+At Event 'DTC_0x11281e_Event' Microsar: true
+- Set Event-Prop 'HealingCycle' to 'DEM_POWER' using 'Power'
+At Event 'DTC_0x11291c_Event' Microsar: true
+- Set Event-Prop 'HealingCycle' to 'DEM_POWER' using 'Power'
+At Event 'DTC_0x11309a_Event' Microsar: true
+- Set Event-Prop 'HealingCycle' to 'DEM_POWER' using 'Power'
+At Event 'DTC_0x113197_Event' Microsar: true
+- Set Event-Prop 'HealingCycle' to 'DEM_POWER' using 'Power'
+At Event 'DTC_0x113297_Event' Microsar: true
+- Set Event-Prop 'HealingCycle' to 'DEM_POWER' using 'Power'
+At Event 'DTC_0x113397_Event' Microsar: true
+- Set Event-Prop 'HealingCycle' to 'DEM_POWER' using 'Power'
+At Event 'DTC_0x113497_Event' Microsar: true
+- Set Event-Prop 'HealingCycle' to 'DEM_POWER' using 'Power'
+At Event 'DTC_0x113597_Event' Microsar: true
+- Set Event-Prop 'HealingCycle' to 'DEM_POWER' using 'Power'
+At Event 'DTC_0x113697_Event' Microsar: true
+- Set Event-Prop 'HealingCycle' to 'DEM_POWER' using 'Power'
+At Event 'DTC_0x113797_Event' Microsar: true
+- Set Event-Prop 'HealingCycle' to 'DEM_POWER' using 'Power'
+At Event 'DTC_0x113897_Event' Microsar: true
+- Set Event-Prop 'HealingCycle' to 'DEM_POWER' using 'Power'
+At Event 'DTC_0x113997_Event' Microsar: true
+- Set Event-Prop 'HealingCycle' to 'DEM_POWER' using 'Power'
+At Event 'DTC_0x114097_Event' Microsar: true
+- Set Event-Prop 'HealingCycle' to 'DEM_POWER' using 'Power'
+At Event 'DTC_0x114197_Event' Microsar: true
+- Set Event-Prop 'HealingCycle' to 'DEM_POWER' using 'Power'
+At Event 'DTC_0x114297_Event' Microsar: true
+- Set Event-Prop 'HealingCycle' to 'DEM_POWER' using 'Power'
+At Event 'DTC_0x114397_Event' Microsar: true
+- Set Event-Prop 'HealingCycle' to 'DEM_POWER' using 'Power'
+At Event 'DTC_0x114497_Event' Microsar: true
+- Set Event-Prop 'HealingCycle' to 'DEM_POWER' using 'Power'
+At Event 'DTC_0x114571_Event' Microsar: true
+- Set Event-Prop 'HealingCycle' to 'DEM_POWER' using 'Power'
+At Event 'DTC_0x114697_Event' Microsar: true
+- Set Event-Prop 'HealingCycle' to 'DEM_POWER' using 'Power'
+At Event 'DTC_0x114792_Event' Microsar: true
+- Set Event-Prop 'HealingCycle' to 'DEM_POWER' using 'Power'
+At Event 'DTC_0x114892_Event' Microsar: true
+- Set Event-Prop 'HealingCycle' to 'DEM_POWER' using 'Power'
+At Event 'DTC_0x114992_Event' Microsar: true
+- Set Event-Prop 'HealingCycle' to 'DEM_POWER' using 'Power'
+At Event 'DTC_0x115092_Event' Microsar: true
+- Set Event-Prop 'HealingCycle' to 'DEM_POWER' using 'Power'
+At Event 'DTC_0x115192_Event' Microsar: true
+- Set Event-Prop 'HealingCycle' to 'DEM_POWER' using 'Power'
+At Event 'DTC_0x115292_Event' Microsar: true
+- Set Event-Prop 'HealingCycle' to 'DEM_POWER' using 'Power'
+At Event 'DTC_0x115392_Event' Microsar: true
+- Set Event-Prop 'HealingCycle' to 'DEM_POWER' using 'Power'
+At Event 'DTC_0x115492_Event' Microsar: true
+- Set Event-Prop 'HealingCycle' to 'DEM_POWER' using 'Power'
+At Event 'DTC_0x115592_Event' Microsar: true
+- Set Event-Prop 'HealingCycle' to 'DEM_POWER' using 'Power'
+At Event 'DTC_0x115692_Event' Microsar: true
+- Set Event-Prop 'HealingCycle' to 'DEM_POWER' using 'Power'
+At Event 'DTC_0x11571e_Event' Microsar: true
+- Set Event-Prop 'HealingCycle' to 'DEM_POWER' using 'Power'
+At Event 'DTC_0x115816_Event' Microsar: true
+- Set Event-Prop 'HealingCycle' to 'DEM_POWER' using 'Power'
+At Event 'DTC_0x11591e_Event' Microsar: true
+- Set Event-Prop 'HealingCycle' to 'DEM_POWER' using 'Power'
+At Event 'DTC_0x908017_Event' Microsar: true
+- Set Event-Prop 'HealingCycle' to 'DEM_POWER' using 'Power'
+At Event 'DTC_0x908116_Event' Microsar: true
+- Set Event-Prop 'HealingCycle' to 'DEM_POWER' using 'Power'
+At Event 'DTC_0xc07388_Event' Microsar: true
+- Set Event-Prop 'HealingCycle' to 'DEM_POWER' using 'Power'
+At Event 'DTC_0xc07488_Event' Microsar: true
+- Set Event-Prop 'HealingCycle' to 'DEM_POWER' using 'Power'
+At Event 'DTC_0xc10387_Event' Microsar: true
+- Set Event-Prop 'HealingCycle' to 'DEM_POWER' using 'Power'
+At Event 'DTC_0xc11087_Event' Microsar: true
+- Set Event-Prop 'HealingCycle' to 'DEM_POWER' using 'Power'
+At Event 'DTC_0xc11187_Event' Microsar: true
+- Set Event-Prop 'HealingCycle' to 'DEM_POWER' using 'Power'
+At Event 'DTC_0xc11d87_Event' Microsar: true
+- Set Event-Prop 'HealingCycle' to 'DEM_POWER' using 'Power'
+At Event 'DTC_0xc12187_Event' Microsar: true
+- Set Event-Prop 'HealingCycle' to 'DEM_POWER' using 'Power'
+At Event 'DTC_0xc12387_Event' Microsar: true
+- Set Event-Prop 'HealingCycle' to 'DEM_POWER' using 'Power'
+At Event 'DTC_0xc12987_Event' Microsar: true
+- Set Event-Prop 'HealingCycle' to 'DEM_POWER' using 'Power'
+At Event 'DTC_0xc14087_Event' Microsar: true
+- Set Event-Prop 'HealingCycle' to 'DEM_POWER' using 'Power'
+At Event 'DTC_0xc14787_Event' Microsar: true
+- Set Event-Prop 'HealingCycle' to 'DEM_POWER' using 'Power'
+At Event 'DTC_0xc16687_Event' Microsar: true
+- Set Event-Prop 'HealingCycle' to 'DEM_POWER' using 'Power'
+At Event 'DTC_0xc19687_Event' Microsar: true
+- Set Event-Prop 'HealingCycle' to 'DEM_POWER' using 'Power'
+At Event 'DTC_0xc19987_Event' Microsar: true
+- Set Event-Prop 'HealingCycle' to 'DEM_POWER' using 'Power'
+At Event 'DTC_0xc19b87_Event' Microsar: true
+- Set Event-Prop 'HealingCycle' to 'DEM_POWER' using 'Power'
+At Event 'DTC_0xc29887_Event' Microsar: true
+- Set Event-Prop 'HealingCycle' to 'DEM_POWER' using 'Power'
+At Event 'DTC_0xd10587_Event' Microsar: true
+- Set Event-Prop 'HealingCycle' to 'DEM_POWER' using 'Power'
+<<<<<<<<<<<<< ShapingStep FaultMemory4( completed in 0.016s (16ms) <<<<<<<<<<<<<
+>>>>>>>>>>>>> ShapingStep FaultMemory5 >>>>>>>>>>>>>
+At Ecu 'VCU'
+- Merging Debounce Algorithms
+- Algorithm 'DTC_0x110012_DebounceAlgorithmProperties' has 62 dublicate(s)
+- Merging Operation Cycles
+- Merging Warning Indicators
+- Merging Enable/Storage/Clear Conditions
+<<<<<<<<<<<<< ShapingStep FaultMemory5( completed in 0.015s (15ms) <<<<<<<<<<<<<
+>>>>>>>>>>>>> ShapingStep Obd >>>>>>>>>>>>>
+At Ecu 'VCU'
+- Deleting OBD Sub-Services for Pids
+- Deleting OBD Sub-Services for Vehicle Info
+<<<<<<<<<<<<< ShapingStep Obd( completed in 0s (0ms) <<<<<<<<<<<<<
+>>>>>>>>>>>>> ShapingStep CleanUp >>>>>>>>>>>>>
+At Ecu
+- Inactive sub-service 'Vehicle_Identification_Number_Read_InfoType_Data_OBD' deleted
+- Inactive sub-service 'SupportedInfoTypes_Read_supported_InfoTypes_OBD' deleted
+- Inactive sub-service 'Query_supported_PID_0x01_0x20_Read_Supported_PID_OBD' deleted
+- Finding duplicated sub-services in clean-up...
+<<<<<<<<<<<<< ShapingStep CleanUp( completed in 0s (0ms) <<<<<<<<<<<<<
+<<<<<<<<<<<<< SHAPING finished after 0.625s (625ms) <<<<<<<<<<<<<
+              [WARNING] Calling obsolete AR-Shaper
+Exporting ECUC module configurations to file: C:\Users\54072\AppData\Local\Temp\DaVinci\Cfg-8547968\DiagnosticsImportService\1714098702926-0\DiagnosticsDescriptionData6686733698255657529.xml
+----> Create ECUC from imported diagnostic data.
+Using EcucEx-Parameter 'DemDidQualifierMode' = 'R19' (default)
+Using EcucEx-Parameter 'DcmQualifierMode' = 'R19' (default)
+----> STEP 1: Create ECUC model.
+Creating Dcm module configuration...
+Creating Dem module configuration...
+<---- STEP 1: Finished.
+----> STEP 2: Postprocess created ECUC model.
+----> Decorate imported object qualifiers/shortnames
+<---- Finished decorating qualifiers/shortnames
+----> Transform imported object qualifiers/shortnames to match AUTOSAR IDENTIFIER pattern restriction (except length limit)
+<---- Finished transforming shortnames
+----> Ensure uniqueness of container shortnames within their scope
+[/MICROSAR/Dem/DemGeneral/DemEnableCondition] accelerator => accelerator_001
+[/MICROSAR/Dem/DemGeneral/DemEnableCondition] All => All_001
+[/MICROSAR/Dem/DemGeneral/DemEnableCondition] Being => Being_001
+[/MICROSAR/Dem/DemGeneral/DemEnableCondition] Charging => Charging_001
+[/MICROSAR/Dem/DemGeneral/DemEnableCondition] close => close_001
+[/MICROSAR/Dem/DemGeneral/DemEnableCondition] Conditions => Conditions_001
+[/MICROSAR/Dem/DemGeneral/DemEnableCondition] detected => detected_001
+[/MICROSAR/Dem/DemGeneral/DemEnableCondition] Enable => Enable_001
+[/MICROSAR/Dem/DemGeneral/DemEnableCondition] if => if_001
+[/MICROSAR/Dem/DemGeneral/DemEnableCondition] In => In_001
+[/MICROSAR/Dem/DemGeneral/DemEnableCondition] KL15E => KL15E_001
+[/MICROSAR/Dem/DemGeneral/DemEnableCondition] LAN => LAN_001
+[/MICROSAR/Dem/DemGeneral/DemEnableCondition] ON => ON_001
+[/MICROSAR/Dem/DemGeneral/DemEnableCondition] Request => Request_001
+[/MICROSAR/Dem/DemGeneral/DemEnableCondition] Reset => Reset_001
+[/MICROSAR/Dem/DemGeneral/DemEnableCondition] the => the_001
+[/MICROSAR/Dem/DemGeneral/DemEnableCondition] v => v_001
+[/MICROSAR/Dem/DemGeneral/DemEnableCondition] VCU_Hvstatus => VCU_Hvstatus_001
+<---- Finished ensuring uniqueness of container shortnames
+----> Truncate shortnames whose length exceeds the 128 character limit for AUTOSAR shortnames
+<---- Finished truncating shortnames
+----> Resolve reference parameters
+<---- Finished resolving reference parameters
+<---- STEP 2: Finished.
+----> STEP 3: Serialize ECUC model to XML.
+<---- STEP 3: Finished.
+<---- Finished creation of ECUC from imported diagnostic data.
+<<<<<<<<<<<<< Meta-EcuC Export finished after 0.079
+<---- Process of diagnostic specification.
+10:31:45 - Workflow Step 'Converting legacy diagnostics file(s) to AUTOSAR files' finished.
+Checking if the file preprocessing result is a valid ECU extract...
+Input File Pre-Processing finished with error(s).
+10:31:45 - Workflow Step 'Input File Pre-Processing' finished.
+10:31:46 - Workflow Step 'Create copy of the Project' started.
+Copy project 'C:\Onedrive\OneDrive - VTG Software LLC\WorkSpace\11_VCU-B\15_SW\65_Tool_Saved_Config\00_AUTOSAR' to 'C:\Users\54072\AppData\Local\Temp\DaVinci\Cfg-8547968\Workflow\1714098706001-0'...
+Adjusting DPA file of copied project...
+10:31:46 - Workflow Step 'Create copy of the Project' finished.
+10:31:46 - Workflow Step 'Analyse Bswmd's of the current project' started.
+10:31:46 - Workflow Step 'Analyse Bswmd's of the current project' finished.
+10:31:46 - Workflow Step 'Close Project' started.
+10:31:46 - Workflow Step 'Close Project' finished.
+10:31:50 - Workflow Step 'Prepare DaVinci Developer update data' started.
+10:31:50 - Workflow Step 'Prepare DaVinci Developer update data' finished.
+10:31:50 - Workflow Step 'Prepare System Extract' started.
+10:31:51 - Workflow Step 'Preprocessing System Extract' started.
+10:31:51 - Workflow Step 'Preprocessing System Extract' finished.
+10:31:51 - Workflow Step 'Create OEM Communication Extract' started.
+10:31:51 - Workflow Step 'Create OEM Communication Extract' finished.
+10:31:51 - Workflow Step 'Prepare System Extract' finished.
+10:31:51 - Workflow Step 'Updating the project' started.
+10:31:53 - Workflow Step 'Create ECU configuration' started.
+10:32:03 - Workflow Step 'Create ECU configuration' finished.
+10:32:03 - Workflow Step 'Update ECU configuration' started.
+No Package path available for module configuration: com.vector.cfg.workflow.ecucupdater.model.internal.ModuleKey@fc91f9ff. Default /ActiveEcuC is used instead.
+No Package path available for module configuration: com.vector.cfg.workflow.ecucupdater.model.internal.ModuleKey@fc91fa3d. Default /ActiveEcuC is used instead.
+No Package path available for module configuration: com.vector.cfg.workflow.ecucupdater.model.internal.ModuleKey@1fec101d. Default /ActiveEcuC is used instead.
+10:32:12 - Workflow Step 'Update ECU configuration' finished.
+10:32:12 - Workflow Step 'Updating the project' finished.
+10:32:12 - Workflow Step 'Generate update report' started.
+10:32:22 - Workflow Step 'Generate update report' finished.
+10:32:22 - Workflow Step 'Execute Solving Actions' started.
+Executing Auto-Solving-Actions...
+Auto-Solving-Actions done.
+Executing update specific Preferred-Solving-Actions...
+Update specific Preferred-Solving-Actions done.
+10:32:36 - Workflow Step 'Execute Solving Actions' finished.
+10:32:36 - Workflow Step 'Update DaVinci Developer Workspace' started.
+Opening workspace 'C:\Users\54072\AppData\Local\Temp\DaVinci\Cfg-8547968\Workflow\1714098706001-0\Config\Developer\ATOM_VCU.dcf'...
+Loading file PlatformTypes_AR4.arxml (C:\Users\54072\AppData\Local\Temp\DaVinci\Cfg-8547968\Workflow\1714098706001-0\Config\AUTOSAR\PlatformTypes_AR4.arxml)
+Loading file ComM_swc.arxml (C:\Users\54072\AppData\Local\Temp\DaVinci\Cfg-8547968\Workflow\1714098706001-0\Config\ServiceComponents\ComM_swc.arxml)
+Loading file Dem_swc.arxml (C:\Users\54072\AppData\Local\Temp\DaVinci\Cfg-8547968\Workflow\1714098706001-0\Config\ServiceComponents\Dem_swc.arxml)
+Loading file Det_swc.arxml (C:\Users\54072\AppData\Local\Temp\DaVinci\Cfg-8547968\Workflow\1714098706001-0\Config\ServiceComponents\Det_swc.arxml)
+Loading file EcuM_swc.arxml (C:\Users\54072\AppData\Local\Temp\DaVinci\Cfg-8547968\Workflow\1714098706001-0\Config\ServiceComponents\EcuM_swc.arxml)
+Loading file Os_swc.arxml (C:\Users\54072\AppData\Local\Temp\DaVinci\Cfg-8547968\Workflow\1714098706001-0\Config\ServiceComponents\Os_swc.arxml)
+Loading file Communication.arxml (C:\Users\54072\AppData\Local\Temp\DaVinci\Cfg-8547968\Workflow\1714098706001-0\Update\DevData\Communication.arxml)
+Loading file ATOM_VCU.arxml (C:\Users\54072\AppData\Local\Temp\DaVinci\Cfg-8547968\Workflow\1714098706001-0\Config\Developer\ATOM_VCU.arxml)
+Loading file DataTypes.arxml (C:\Users\54072\AppData\Local\Temp\DaVinci\Cfg-8547968\Workflow\1714098706001-0\Config\Developer\DataTypes.arxml)
+Loading file Packages.arxml (C:\Users\54072\AppData\Local\Temp\DaVinci\Cfg-8547968\Workflow\1714098706001-0\Config\Developer\Packages.arxml)
+Loading file PortInterfaces.arxml (C:\Users\54072\AppData\Local\Temp\DaVinci\Cfg-8547968\Workflow\1714098706001-0\Config\Developer\PortInterfaces.arxml)
+Opened workspace 'C:\Users\54072\AppData\Local\Temp\DaVinci\Cfg-8547968\Workflow\1714098706001-0\Config\Developer\ATOM_VCU.dcf' successfully.
+Start import
+Importing file (C:\Users\54072\AppData\Local\Temp\DaVinci\Cfg-8547968\Workflow\1714098706001-0\Config\System\SystemExtract.arxml).
+Merging imported data
+ShortName of item '/DataType/Unit/U_Km' is invalid or exists already, it will be replaced with 'U_Km'.
+ShortName of item '/DataType/Unit/U_kW' is invalid or exists already, it will be replaced with 'U_kW'.
+ShortName of item '/DataType/Unit/U_kWh' is invalid or exists already, it will be replaced with 'U_kWh'.
+ShortName of item '/DataType/Unit/U_NM' is invalid or exists already, it will be replaced with 'U_NM'.
+ShortName of item '/DataType/Constraint/DC_TCU_ambientTemperature' is invalid or exists already, it will be replaced with 'DC_TCU_ambientTemperature'.
+ShortName of item '/DataType/Semantics/CM_TCU_ambientTemperature' is invalid or exists already, it will be replaced with 'CM_TCU_ambientTemperature'.
+Finished import
+Saving workspace 'C:\Users\54072\AppData\Local\Temp\DaVinci\Cfg-8547968\Workflow\1714098706001-0\Config\Developer\ATOM_VCU.dcf'...
+Saving file DataTypes.arxml (C:\Users\54072\AppData\Local\Temp\DaVinci\Cfg-8547968\Workflow\1714098706001-0\Config\Developer\DataTypes.arxml)
+Saved workspace 'C:\Users\54072\AppData\Local\Temp\DaVinci\Cfg-8547968\Workflow\1714098706001-0\Config\Developer\ATOM_VCU.dcf' successfully.
+Closing workspace 'C:\Users\54072\AppData\Local\Temp\DaVinci\Cfg-8547968\Workflow\1714098706001-0\Config\Developer\ATOM_VCU.dcf'...
+Closed workspace 'C:\Users\54072\AppData\Local\Temp\DaVinci\Cfg-8547968\Workflow\1714098706001-0\Config\Developer\ATOM_VCU.dcf' successfully.
+Result of DaVinci Developer workspace update.
+              OK
+10:32:55 - Workflow Step 'Update DaVinci Developer Workspace' finished.
+10:32:55 - Workflow Step 'Update RTE configuration' started.
+10:32:59 - Workflow Step 'Update RTE configuration' finished.
+10:32:59 - Workflow Step 'Align differences after successful update' started.
+10:32:59 - Workflow Step 'Align differences after successful update' finished.
+10:32:59 - Workflow Step 'Clean up update data' started.
+10:32:59 - Workflow Step 'Clean up update data' finished.
+Update workflow finished with error(s).
+10:33:05 - Workflow Step 'Update workflow' finished.

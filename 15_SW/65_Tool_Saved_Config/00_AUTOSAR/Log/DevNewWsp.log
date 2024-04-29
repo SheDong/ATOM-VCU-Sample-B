@@ -1,0 +1,15 @@
+﻿28 Mar 2024 17:29:37 - Saving file AdminDataTemplates.xml (C:\Onedrive\OneDrive - VTG Software LLC\WorkSpace\11_VCU-B\15_SW\65_Tool_Saved_Config\00_AUTOSAR\Config\Developer\AdminDataTemplates.xml)
+28 Mar 2024 17:29:37 - Saving file ATOM_VCU.dcf (C:\Onedrive\OneDrive - VTG Software LLC\WorkSpace\11_VCU-B\15_SW\65_Tool_Saved_Config\00_AUTOSAR\Config\Developer\ATOM_VCU.dcf)
+28 Mar 2024 17:29:37 - Start import
+28 Mar 2024 17:29:37 - Importing file (C:\Program Files (x86)\Vector DaVinci Developer 4.6\Bin\Predefines\StandardPackages_AR4.arxml).
+28 Mar 2024 17:29:38 - Importing file (C:\Program Files (x86)\Vector DaVinci Developer 4.6\Bin\Predefines\ServicePortInterfaces_4.5.0.arxml).
+28 Mar 2024 17:29:38 - Importing file (C:\Program Files (x86)\Vector DaVinci Developer 4.6\Bin\Predefines\ApplicationPortInterfaces_4.5.0.arxml).
+28 Mar 2024 17:29:38 - Importing file (C:\Onedrive\OneDrive - VTG Software LLC\WorkSpace\11_VCU-B\15_SW\65_Tool_Saved_Config\00_AUTOSAR\Config\AUTOSAR\PlatformTypes_AR4.arxml).
+28 Mar 2024 17:29:38 - Merging imported data
+28 Mar 2024 17:29:40 - Finished import
+28 Mar 2024 17:29:40 - Saving file ProfileSettings.xml (C:\Onedrive\OneDrive - VTG Software LLC\WorkSpace\11_VCU-B\15_SW\65_Tool_Saved_Config\00_AUTOSAR\Config\Developer\ProfileSettings.xml)
+28 Mar 2024 17:29:41 - Saving file Packages.arxml (C:\Onedrive\OneDrive - VTG Software LLC\WorkSpace\11_VCU-B\15_SW\65_Tool_Saved_Config\00_AUTOSAR\Config\Developer\Packages.arxml)
+28 Mar 2024 17:29:41 - Saving file DataTypes.arxml (C:\Onedrive\OneDrive - VTG Software LLC\WorkSpace\11_VCU-B\15_SW\65_Tool_Saved_Config\00_AUTOSAR\Config\Developer\DataTypes.arxml)
+28 Mar 2024 17:29:41 - Saving file PortInterfaces.arxml (C:\Onedrive\OneDrive - VTG Software LLC\WorkSpace\11_VCU-B\15_SW\65_Tool_Saved_Config\00_AUTOSAR\Config\Developer\PortInterfaces.arxml)
+28 Mar 2024 17:29:41 - Saving file ATOM_VCU.arxml (C:\Onedrive\OneDrive - VTG Software LLC\WorkSpace\11_VCU-B\15_SW\65_Tool_Saved_Config\00_AUTOSAR\Config\Developer\ECUProjects\ATOM_VCU.arxml)
+28 Mar 2024 17:29:41 - Saving file ATOM_VCU.dcf (C:\Onedrive\OneDrive - VTG Software LLC\WorkSpace\11_VCU-B\15_SW\65_Tool_Saved_Config\00_AUTOSAR\Config\Developer\ATOM_VCU.dcf)
